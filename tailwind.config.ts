@@ -18,7 +18,9 @@ export default {
       fontFamily: {
         alfa: ['Alfa Slab One', 'cursive'],
         ultra: ['Ultra', 'cursive'],
-        funnel: ['Funnel Display', 'cursive']
+        funnel: ['Funnel Display', 'cursive'],
+        roboto: ['Roboto', 'serif'],
+        anta: ['Anta', 'serif'],
       },
     },
   },

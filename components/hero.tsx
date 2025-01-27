@@ -19,7 +19,7 @@ export default function Hero({
     <div className="relative h-[400px]" style={{ height: height }}>
       {/* Background image with brightness adjustment */}
       <div
-        className="absolute inset-0 bg-cover bg-center brightness-50 shadow-gray-700 shadow-md"
+        className="absolute inset-0 bg-cover bg-center brightness-50 "
         style={{
           backgroundImage: `url('/${image}')`,
           backgroundColor: bgColor,

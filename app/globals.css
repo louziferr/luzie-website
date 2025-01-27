@@ -43,7 +43,7 @@
     }
 
     .nav-link {
-        @apply font-funnel;
+        @apply font-alfa;
         @apply text-primary;
         @apply no-underline;
         @apply text-base;
