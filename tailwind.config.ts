@@ -11,6 +11,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darkBlue: '#27384E',
+        lightBlue: '#99BDEC'
+      },
+
+      fontFamily: {
+        alfa: ['Alfa Slab One', 'cursive'],
+        ultra: ['Ultra', 'cursive'],
+        funnel: ['Funnel Display', 'cursive']
       },
     },
   },
