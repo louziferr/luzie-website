@@ -18,6 +18,7 @@ export default function Header({
   const headerHeight = 90;
   const headerItems: string[][] = [
     ["Startseite", "/"],
+    ["Web-Entwicklung", "/webentwicklung"],
     ["Über mich", "/ueber_uns"],
     ["Kontakt", "/kontakt"],
   ];
@@ -80,13 +81,13 @@ export default function Header({
       style={{ top: topShiftString }}
     >
       <div
-        className={`bg-secondary flex justify-between items-center px-5 py-2.5 max-h-[90px] ${
+        className={`bg-white flex justify-between items-center px-5 py-2.5 max-h-[90px] ${
           sideBarVisible ? "brightness-50" : "brightness-100"
         }`}
       >
-        <div className="p-2 text-white">
+        <div className="p-2">
           <Link href="/">
-            <h1 className="p-0 text-white">LA</h1>
+            <h1 className="p-0 text-darkBlue">LA</h1>
           </Link>
         </div>
 
@@ -99,7 +100,7 @@ export default function Header({
         </nav>
 
         <button
-          className="block md:hidden text-white focus:outline-none"
+          className="block md:hidden focus:outline-none"
           id="menu-button"
           onClick={handleClick}
         >
@@ -108,7 +109,7 @@ export default function Header({
             className="h-6 w-6"
             fill="#ffffff"
             viewBox="0 0 24 24"
-            stroke="white"
+            stroke="darkBlue"
           >
             <path
               strokeLinecap="round"
@@ -122,7 +123,7 @@ export default function Header({
 
       {sideBarVisible && (
         <div
-          className="bg-secondary text-primary space-y-5 px-4 py-2 
+          className="bg-white text-primary space-y-5 px-4 py-2 
         fixed top-0 right-0 w-2/3 h-full z-50 flex flex-col border-darkBrown"
           id="burger-menu"
         >

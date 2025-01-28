@@ -6,6 +6,12 @@ import Footer from "@/components/footer";
 import { useState } from "react";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
+import "@fontsource/alfa-slab-one";
+import "@fontsource/ultra";
+import "@fontsource/roboto";
+import "@fontsource/saira";
+import "@fontsource/anta";
+import "@fontsource/jockey-one";
 
 export default function RootLayout({
   children,

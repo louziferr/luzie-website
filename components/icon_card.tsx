@@ -8,14 +8,14 @@ export default function IconCard({ image, headline, text }: CardProps) {
   return (
     <>
       <div className="text-center p-4">
-        <div className="max-w-[150px] mx-auto">
+        <div className="w-[150px] h-[150px] mx-auto">
           <img
             className="w-full h-full object-scale-down"
             src={`${image}`}
             alt="iconImage"
           />
         </div>
-        <h2 className="mt-4 text-[120%] leading-relaxed text-darkBlue">
+        <h2 className="mt-4 text-3xl leading-relaxed text-green font-jockey">
           {headline}
         </h2>
         <div className="p-4">

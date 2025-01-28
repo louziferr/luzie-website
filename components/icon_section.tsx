@@ -19,13 +19,13 @@ export default function IconSection() {
     ],
     [
       "svg/pricetag2.svg",
-      "Klares Budget",
+      "Fixes Budget",
       "Sobald abzusehen ist, welche Arbeitsschritte für die Umsetzung notwendig sind und wie komplex deine Website sein wird, kann ein maximales Budget festgelegt werden.",
     ],
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 auto-rows-auto gap-4 bg-white place-items-center">
+    <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 auto-rows-auto gap-4 bg-white">
       {cards.map((item, itemIndex) => (
         <IconCard
           key={itemIndex}

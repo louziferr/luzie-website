@@ -41,7 +41,7 @@
     }
 
     .text-secondary {
-        @apply text-white;
+        @apply text-sWhite;
     }
 
     .font-primary {
@@ -50,7 +50,7 @@
 
     .nav-link {
         @apply font-saira;
-        @apply text-secondary;
+        @apply text-primary;
         @apply no-underline;
         @apply text-base;
         @apply px-2.5;
