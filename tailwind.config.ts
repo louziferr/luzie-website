@@ -21,6 +21,7 @@ export default {
         funnel: ['Funnel Display', 'cursive'],
         roboto: ['Roboto', 'serif'],
         anta: ['Anta', 'serif'],
+        saira: ['Saira', 'serif'],
       },
     },
   },

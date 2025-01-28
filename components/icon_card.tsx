@@ -19,7 +19,7 @@ export default function IconCard({ image, headline, text }: CardProps) {
           {headline}
         </h2>
         <div className="p-4">
-          <p className="p-3 text-black font-libre">{text}</p>
+          <p className="p-3 text-black font-saira">{text}</p>
         </div>
       </div>
     </>
