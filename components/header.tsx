@@ -46,7 +46,7 @@ export default function Header({
 
       if (atTop) {
         setTopShift(-headerHeight);
-        setTopShiftString(`-${topShift}px`);
+        setTopShiftString(`-0px`);
         return;
       }
       if (atBottom) {
@@ -84,8 +84,10 @@ export default function Header({
           sideBarVisible ? "brightness-50" : "brightness-100"
         }`}
       >
-        <div className="w-[350px] p-2">
-          <Link href="/">Luzie Ahrens</Link>
+        <div className="p-2 text-white">
+          <Link href="/">
+            <h1 className="p-0 text-white">LA</h1>
+          </Link>
         </div>
 
         <nav className="hidden md:flex items-center gap-1">
@@ -104,9 +106,9 @@ export default function Header({
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
-            fill="none"
+            fill="#ffffff"
             viewBox="0 0 24 24"
-            stroke="black"
+            stroke="white"
           >
             <path
               strokeLinecap="round"

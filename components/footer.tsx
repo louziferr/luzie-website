@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="border-t-2 border-secondary">
-      <div className="bg-primary flex justify-between items-center px-5 py-2.5 max-h-[90px]">
+      <div className="bg-secondary flex justify-between items-center px-5 py-2.5 max-h-[90px]">
         <div>
-          <h2>Luzie Ahrens</h2>
+          <h2>LA</h2>
         </div>
 
         <nav className="flex items-center gap-1">

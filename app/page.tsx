@@ -1,55 +1,64 @@
-import Hero from "@/components/hero";
 import "@fontsource/alfa-slab-one";
 import "@fontsource/ultra";
 import "@fontsource/roboto";
 import "@fontsource/saira";
-import IconSection from "@/components/icon_section";
 import "@fontsource/anta";
 
 export default function Home() {
   return (
     <>
-      <div className="grid h-screen grid-cols-1 md:grid-cols-3 divide-x-2 divide-lightBlue">
-        <div
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='391' height='46.9' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23110404' stroke-width='6.9' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E")`,
-          }}
-        >
-          <div className="mt-[200px] text-center">
-            <h1>Web-Entwicklung</h1>
+      <div className="h-screen bg-darkBlue flex flex-col items-start justify-center p-8">
+        <h1 className="text-white text-4xl">Luzie Ahrens</h1>
+        <div className="w-full h-[10px] bg-white"></div>
+      </div>
+
+      <div className="grid w-full md:h-screen grid-cols-1 md:grid-cols-3 divide-x-4 divide-darkBlue">
+        <div className="bg-black pb-8">
+          <div className="mt-[100px] text-center flex flex-col items-center">
+            <h1 className="text-white mb-8 text-2xl lg:text-4xl">
+              Web-Entwicklung
+            </h1>
             <img src="svg/imac.svg" alt="image" width="200" />
+            <p className="text-xl mt-10 text-white font-alfa">Ihre Website</p>
+            <p className="text-xl mt-8 text-white">Individuell.</p>
+            <p className="text-xl mt-4 text-white">Stilvoll.</p>
+            <p className="text-xl mt-4 text-white">Responsiv.</p>
+            <button className="mt-8 px-4 py-2 rounded bg-darkBlue text-white text-xl">
+              Mehr
+            </button>
           </div>
         </div>
-        <div
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='391' height='46.9' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23110404' stroke-width='6.9' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E")`,
-            backgroundColor: "#1F242D",
-          }}
-        >
-          <div className="mt-[200px]">
-            <h1>Programmierung</h1>
-            <img
-              src="svg/chart-pie.svg"
-              alt="image"
-              width="200"
-              className="text-center"
-            />
-          </div>
-        </div>
-        <div
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='391' height='46.9' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23110404' stroke-width='6.9' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E")`,
-          }}
-        >
-          <div className="mt-[200px]">
-            <h1>Lehre</h1>
+        <div className="bg-black">
+          <div className="mt-[100px] flex flex-col items-center">
+            <h1 className="text-white mb-8 text-2xl lg:text-4xl">Lehre</h1>
             <img src="svg/pencil.svg" alt="image" width="200" />
+            <p className="text-xl mt-10 text-white font-alfa">Unterricht</p>
+            <p className="text-xl mt-8 text-white">Informatik.</p>
+            <p className="text-xl mt-4 text-white">Technik.</p>
+            <p className="text-xl mt-4 text-white">Medien.</p>
+            <button className="mt-8 px-4 py-2 rounded bg-darkBlue text-white text-xl">
+              Mehr
+            </button>
+          </div>
+        </div>
+        <div className="bg-black pb-8 md:pb-0">
+          <div className="mt-[100px] flex flex-col items-center">
+            <h1 className="text-white mb-8 text-2xl lg:text-4xl">
+              Programmierung
+            </h1>
+            <img src="svg/chart-pie.svg" alt="image" width="200" />
+            <p className="text-xl mt-10 text-white font-alfa">
+              Software-Lösungen
+            </p>
+            <p className="text-xl mt-8 text-white">Datenverarbeitung.</p>
+            <p className="text-xl mt-4 text-white">Machine Learning.</p>
+            <p className="text-xl mt-4 text-white">Grafiken.</p>
+            <button className="mt-8 px-4 py-2 rounded bg-darkBlue text-white text-xl">
+              Mehr
+            </button>
           </div>
         </div>
       </div>
-      <Hero text={"Deine Website.\nWie du willst."} height="100vh" />
-      <img src="svg/arc-divider.svg" alt="intersecting wave" />
-      <IconSection />
     </>
   );
 }

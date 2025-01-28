@@ -29,7 +29,7 @@ export default function RootLayout({
   }, [location]);
 
   return (
-    <html lang="en">
+    <html lang="de">
       <body className="bg-primary">
         <Header
           sideBarVisible={sideBarVisible}

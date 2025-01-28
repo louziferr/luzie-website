@@ -5,8 +5,9 @@
 @layer base {
     h1 {
         @apply font-primary;
-        @apply text-white;
-        @apply text-5xl;
+        @apply text-black;
+        @apply text-2xl;
+        @apply lg:text-4xl;
         @apply text-center;
         @apply whitespace-pre-wrap;
     }
@@ -17,25 +18,30 @@
     }
 
     p {
-        @apply text-secondary;
+        @apply text-primary;
+        @apply font-saira;
     }
+
+    .font-outline-1 {
+        -webkit-text-stroke: 1px black;
+      }
 }
 
 @layer components {
     .bg-primary {
-        @apply bg-darkBlue;
+        @apply bg-white;
     }
 
     .bg-secondary {
-        @apply bg-lightBlue;
+        @apply bg-black;
     }
 
     .text-primary {
-        @apply text-darkBlue;
+        @apply text-black;
     }
 
     .text-secondary {
-        @apply text-lightBlue;
+        @apply text-white;
     }
 
     .font-primary {
@@ -43,11 +49,12 @@
     }
 
     .nav-link {
-        @apply font-alfa;
-        @apply text-primary;
+        @apply font-saira;
+        @apply text-secondary;
         @apply no-underline;
         @apply text-base;
         @apply px-2.5;
+        @apply text-[20px];
     }
 
 }
