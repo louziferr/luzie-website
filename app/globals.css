@@ -72,10 +72,20 @@
 @keyframes growLittle {
   0%,
   100% {
-    transform: scale(1);
+    width: 10%;
   }
   50% {
-    transform: scale(0.8);
+    width: 50%;
+  }
+}
+
+@keyframes moveX {
+  0%,
+  100% {
+    transform-origin: 100% 100%;
+  }
+  50% {
+    transform-origin: 50% 100%;
   }
 }
 
@@ -99,4 +109,16 @@
 
 .animate-wiggle {
   animation: wiggle 3s infinite;
+}
+
+.animate-grow {
+  animation: grow 3s infinite;
+}
+
+.animate-growlittle {
+  animation: growLittle 3s infinite;
+}
+
+.animate-moveX {
+  animation: moveX 3s infinite;
 }

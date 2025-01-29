@@ -36,7 +36,7 @@ export default function SkillsCard({
             </p>
           ))}
           <Link href={link}>
-            <button className="mt-8 px-4 py-2 rounded bg-darkBlue text-white text-xl transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500">
+            <button className="mt-8 px-4 py-2 rounded bg-darkBlue text-white text-xl transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue">
               Mehr
             </button>
           </Link>
