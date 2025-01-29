@@ -15,7 +15,7 @@ export default function IconCard({ image, headline, text }: CardProps) {
             alt="iconImage"
           />
         </div>
-        <h2 className="mt-4 text-3xl leading-relaxed text-green font-jockey">
+        <h2 className="mt-4 text-3xl leading-relaxed text-darkBlue font-jockey">
           {headline}
         </h2>
         <div className="p-4">

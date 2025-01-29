@@ -14,7 +14,8 @@
 
   h2 {
     @apply text-secondary;
-    @apply font-primary;
+    @apply font-saira;
+    @apply text-3xl;
   }
 
   p {
@@ -41,7 +42,7 @@
   }
 
   .text-secondary {
-    @apply text-sWhite;
+    @apply text-black;
   }
 
   .font-primary {
@@ -66,4 +67,36 @@
   50% {
     width: 10%;
   }
+}
+
+@keyframes growLittle {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+}
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 10s linear infinite;
+}
+
+.animate-bounce {
+  animation: bounce 3s infinite;
+}
+
+.animate-wiggle {
+  animation: wiggle 3s infinite;
 }
