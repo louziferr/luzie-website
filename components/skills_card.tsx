@@ -20,21 +20,23 @@ export default function SkillsCard({
   return (
     <>
       <div className="bg-white pb-8">
-        <div className="mt-[100px] text-center flex flex-col items-center">
+        <div className="mt-[100px] py-4 m-4 text-center flex flex-col items-center rounded-lg border-2">
           <h1 className="mb-8 text-4xl font-jockey">{headline}</h1>
           <div
-            className={`m-2 p-5 rounded-lg shadow-lg shadow-black bg-${color}`}
+            className="m-2 p-5 rounded-lg shadow-lg shadow-black"
+            style={{ backgroundColor: color }}
           >
             <img src={image} alt="image" width="200" />
           </div>
           <p className="text-3xl mt-10 font-jockey">{subheadline}</p>
+          <div className="bg-darkBlue h-[5px] rounded animate-[grow_5s_ease-in-out_infinite]"></div>
           {keywords.map((item, itemIndex) => (
             <p key={itemIndex} className="text-xl mt-4">
               {item}
             </p>
           ))}
           <Link href={link}>
-            <button className="mt-8 px-4 py-2 rounded bg-darkBlue text-white text-xl">
+            <button className="mt-8 px-4 py-2 rounded bg-darkBlue text-white text-xl transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500">
               Mehr
             </button>
           </Link>
