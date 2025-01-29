@@ -16,7 +16,7 @@ export default {
         parsian: '#1B998B',
         blue: '#4281A4',
         red: '#C1666B',
-        green: '#48A9A6',
+        green: '#3B8986',
         teal: '#218380',
         pink: '#EF626C',
         yellow: '#D4B483',

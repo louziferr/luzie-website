@@ -19,6 +19,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const [sideBarVisible, setsideBarVisible] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  function toggleDropdown() {
+    setShowDropdown(!showDropdown);
+  }
 
   function showSideBar() {
     setsideBarVisible(true);
@@ -26,12 +31,15 @@ export default function RootLayout({
 
   function hideSideBar() {
     setsideBarVisible(false);
+    setShowDropdown(false);
+    console.log("HIDING");
   }
 
   const location = usePathname();
 
   useEffect(() => {
     setsideBarVisible(false);
+    setShowDropdown(false);
   }, [location]);
 
   return (
@@ -40,6 +48,8 @@ export default function RootLayout({
         <Header
           sideBarVisible={sideBarVisible}
           handleBurgerClick={showSideBar}
+          showDropdown={showDropdown}
+          toggleDropdown={toggleDropdown}
         />
 
         <div

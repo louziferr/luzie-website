@@ -1,15 +1,20 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { SingleLevelDropdownMenu } from "./dropdown";
 
 interface HeaderProps {
   sideBarVisible: boolean;
   handleBurgerClick: () => void;
+  showDropdown: boolean;
+  toggleDropdown: () => void;
 }
 
 export default function Header({
   sideBarVisible,
   handleBurgerClick,
+  showDropdown,
+  toggleDropdown,
 }: HeaderProps) {
   function handleClick() {
     handleBurgerClick();
@@ -17,9 +22,7 @@ export default function Header({
 
   const headerHeight = 90;
   const headerItems: string[][] = [
-    ["Startseite", "/"],
-    ["Web-Entwicklung", "/webentwicklung"],
-    ["Über mich", "/ueber_uns"],
+    ["Über mich", "/ueber_mich"],
     ["Kontakt", "/kontakt"],
   ];
 
@@ -33,8 +36,8 @@ export default function Header({
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      const windowHeight = window.innerHeight; // Viewport height
-      const fullHeight = document.documentElement.scrollHeight; // Full page height
+      const windowHeight = window.innerHeight;
+      const fullHeight = document.documentElement.scrollHeight;
 
       // Check if at the top
       setAtTop(currentScrollY <= 0);
@@ -61,6 +64,9 @@ export default function Header({
       } else {
         if (topShift <= headerHeight) {
           setTopShift(topShift + 10);
+          if (showDropdown) {
+            toggleDropdown();
+          }
         }
       }
 
@@ -92,6 +98,19 @@ export default function Header({
         </div>
 
         <nav className="hidden md:flex items-center gap-1">
+          <div className="border-r-2 border-gray-400">
+            <SingleLevelDropdownMenu
+              buttonLabel="Leistungen"
+              showDropdown={showDropdown}
+              toggleDropdown={toggleDropdown}
+              items={[
+                { title: "Web-Entwicklung", url: "/webentwicklung" },
+                { title: "Lehre", url: "/lehre" },
+                { title: "Programmierung", url: "/programmierung" },
+              ]}
+            />
+          </div>
+
           {headerItems.map((item, itemIndex) => (
             <Link key={itemIndex} href={item[1]} className="nav-link">
               {item[0]}
