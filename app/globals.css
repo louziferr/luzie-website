@@ -3,58 +3,67 @@
 @tailwind utilities;
 
 @layer base {
-    h1 {
-        @apply font-primary;
-        @apply text-black;
-        @apply text-2xl;
-        @apply lg:text-4xl;
-        @apply text-center;
-        @apply whitespace-pre-wrap;
-    }
+  h1 {
+    @apply font-primary;
+    @apply text-black;
+    @apply text-2xl;
+    @apply lg:text-4xl;
+    @apply text-center;
+    @apply whitespace-pre-wrap;
+  }
 
-    h2 {
-        @apply text-secondary;
-        @apply font-primary;
-    }
+  h2 {
+    @apply text-secondary;
+    @apply font-primary;
+  }
 
-    p {
-        @apply text-primary;
-        @apply font-saira;
-    }
+  p {
+    @apply text-primary;
+    @apply font-saira;
+  }
 
-    .font-outline-1 {
-        -webkit-text-stroke: 1px black;
-      }
+  .font-outline-1 {
+    -webkit-text-stroke: 1px black;
+  }
 }
 
 @layer components {
-    .bg-primary {
-        @apply bg-white;
-    }
+  .bg-primary {
+    @apply bg-white;
+  }
 
-    .bg-secondary {
-        @apply bg-black;
-    }
+  .bg-secondary {
+    @apply bg-black;
+  }
 
-    .text-primary {
-        @apply text-black;
-    }
+  .text-primary {
+    @apply text-black;
+  }
 
-    .text-secondary {
-        @apply text-sWhite;
-    }
+  .text-secondary {
+    @apply text-sWhite;
+  }
 
-    .font-primary {
-        @apply font-alfa;
-    }
+  .font-primary {
+    @apply font-alfa;
+  }
 
-    .nav-link {
-        @apply font-saira;
-        @apply text-primary;
-        @apply no-underline;
-        @apply text-base;
-        @apply px-2.5;
-        @apply text-[20px];
-    }
+  .nav-link {
+    @apply font-saira;
+    @apply text-primary;
+    @apply no-underline;
+    @apply text-base;
+    @apply px-2.5;
+    @apply text-[20px];
+  }
+}
 
+@keyframes grow {
+  0%,
+  100% {
+    width: 100%;
+  }
+  50% {
+    width: 50%;
+  }
 }
