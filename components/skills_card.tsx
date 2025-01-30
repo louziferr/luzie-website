@@ -29,7 +29,7 @@ export default function SkillsCard({
             <img src={image} alt="image" width="200" />
           </div>
           <p className="text-3xl mt-10 font-jockey text-white">{subheadline}</p>
-          <div className="bg-darkBlue h-[5px] rounded animate-[grow_5s_ease-in-out_infinite]"></div>
+          <div className="bg-white mt-2 h-[5px] rounded animate-[grow_5s_ease-in-out_infinite]"></div>
           {keywords.map((item, itemIndex) => (
             <p key={itemIndex} className="text-xl mt-4 text-white">
               {item}
