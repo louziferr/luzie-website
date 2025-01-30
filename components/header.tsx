@@ -146,6 +146,19 @@ export default function Header({
         fixed top-0 right-0 w-2/3 h-full z-50 flex flex-col border-darkBrown"
           id="burger-menu"
         >
+          <p className="text-4xl ml-4 mt-4 text-darkBlue font-alfa">LA</p>
+          <p className="nav-link text-[30px] mt-4">Leistungen</p>
+          <div className="ml-4 pb-4 border-l-4 border-gray-500 grid grid-cols-1 gap-2">
+            <Link href="/webentwicklung" className="nav-link text-[30px] mt-4">
+              Webentwicklung
+            </Link>
+            <Link href="/lehre" className="nav-link text-[30px] mt-4">
+              Lehre
+            </Link>
+            <Link href="/programmierung" className="nav-link text-[30px] mt-4">
+              Programmierung
+            </Link>
+          </div>
           {headerItems.map((item, itemIndex) => (
             <Link
               key={itemIndex}

@@ -27,7 +27,9 @@ export default function Home() {
           repeat={Infinity}
         />
       </div>
-      <h1 className="m-8 p-8 text-5xl md:text-8xl text-darkBlue">Leistungen</h1>
+      <h1 className="m-8 pt-8 text-5xl md:text-8xl text-darkBlue">
+        Leistungen
+      </h1>
 
       <div className="grid w-full md:h-screen grid-cols-1 md:grid-cols-3">
         <SkillsCard
