@@ -43,7 +43,7 @@ export default function Webentwicklung() {
                 So entstehen Websites, die nicht nur funktionieren, sondern auch
                 begeistern.
               </p>
-              <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center pt-[70px] md:pt-0">
                 <div>
                   <TypeAnimation
                     sequence={[
@@ -71,7 +71,7 @@ export default function Webentwicklung() {
             </div>
           </div>
 
-          <div className="mt-8 h-[5px] bg-green mb-4"></div>
+          <div className="mt-[70px] mb-[70px]  h-[5px] bg-green"></div>
 
           <div className="flex items-center justify-center">
             <p className="text-3xl text-center leading-relaxed w-full font-saira">
@@ -84,97 +84,112 @@ export default function Webentwicklung() {
 
       <h1 className="pt-8 text-5xl md:text-8xl text-green">Mein Angebot</h1>
 
-      <div className="flex flex-col mt-[100px]">
-        <div className="grid grid-cols-1 md:grid-cols-2 m-8">
-          <div className="m-8">
-            <h1 className="text-green text-left mb-8 text-3xl">
-              Individuelle Lösung
-            </h1>
-            <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-            <h2 className="text-center text-[20px] md:text-3xl">
-              Jedes Projekt hat andere Anforderungen. Je nach Wunsch können das
-              Aussehen und die Funktionsweise deiner Website angepasst werden.
-            </h2>
-          </div>
-          <div className="h-[400px] animate-spin m-4 md:m-8">
-            <img
-              className="w-full h-full object-scale-down"
-              src="svg/settings.svg"
-              alt="iconImage"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-col mt-[100px]">
-        <div className="grid grid-cols-1 md:grid-cols-2 m-8">
-          <div className="m-8 order-1 md:order-2">
-            <h1 className="text-green text-right mb-8 text-3xl">
-              Klare Kommunikation
-            </h1>
-            <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-            <h2 className="text-center text-[20px] md:text-3xl">
-              Das Treffen von klaren Absprachen und regelmäßiger Austausch sind
-              die wichtigsten Aspekte für eine erfolgreiche Zusammenarbeit.
-            </h2>
-          </div>
-          <div className="relative h-[400px] m-4 md:m-8 order-2 md:order-1">
-            <img
-              className="w-full h-full object-scale-down"
-              src="svg/bubble.svg"
-              alt="iconImage"
-            />
-            <div className="absolute top-1/2 left-1/2 transform translate-x-[20%] -translate-y-[30%] bg-green w-[100px] h-[40px]"></div>
-            <div className="absolute bg-darkBlue top-1/2 left-1/2 transform -translate-x-[150%] -translate-y-[300%] w-[100px] h-[40px]"></div>
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-col mt-[100px]">
-        <div className="grid grid-cols-1 md:grid-cols-2 m-8">
-          <div className="m-8 pb-20 md:pb-0">
-            <h1 className="text-green text-left mb-8 text-3xl">
-              Fester Zeitplan
-            </h1>
-            <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-            <h2 className="text-center text-[20px] md:text-3xl">
-              Es muss schnell gehen? Kein Problem - Wir können uns gerne auf ein
-              festes Datum zur Veröffentlichung deiner Website einigen.
-            </h2>
+      <section className="flex items-center justify-center">
+        <div className="max-w-[2200px]">
+          <div className="flex flex-col mt-[100px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 m-8">
+              <div className="m-8">
+                <h1 className="text-green text-left mb-8 text-3xl">
+                  Individuelle Lösung
+                </h1>
+                <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
+                <h2 className="text-center text-[20px] md:text-3xl">
+                  Jedes Projekt hat andere Anforderungen. Je nach Wunsch können
+                  das Aussehen und die Funktionsweise deiner Website angepasst
+                  werden.
+                </h2>
+              </div>
+              <div className="h-[400px] animate-spin m-4 md:m-8">
+                <img
+                  className="w-full h-full object-scale-down"
+                  src="svg/settings.svg"
+                  alt="iconImage"
+                />
+              </div>
+            </div>
           </div>
 
-          <div className="h-[400px]">
-            <img
-              className="w-full h-full object-scale-down"
-              src="svg/calendar.svg"
-              alt="iconImage"
-            />
+          <div className="flex flex-col mt-[100px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 m-8">
+              <div className="m-8 order-1 md:order-2">
+                <h1 className="text-green text-right mb-8 text-3xl">
+                  Klare Kommunikation
+                </h1>
+                <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
+                <h2 className="text-center text-[20px] md:text-3xl">
+                  Das Treffen von klaren Absprachen und regelmäßiger Austausch
+                  sind die wichtigsten Aspekte für eine erfolgreiche
+                  Zusammenarbeit.
+                </h2>
+              </div>
+              <div className="relative h-[400px] m-4 md:m-8 order-2 md:order-1">
+                <img
+                  className="w-full h-full object-scale-down"
+                  src="svg/bubble.svg"
+                  alt="iconImage"
+                />
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[150%]">
+                  <TypeAnimation
+                    sequence={[1000, "Nein", 1000, "Doch", 1000, "Oh"]}
+                    wrapper="span"
+                    speed={5}
+                    className="font-noto text-[50px]"
+                    repeat={Infinity}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div className="flex flex-col mt-[100px]">
-        <div className="grid grid-cols-1 md:grid-cols-2 m-8">
-          <div className="m-8 order-1 md:order-2">
-            <h1 className="text-green text-right mb-8 text-3xl">
-              Fixes Budget
-            </h1>
-            <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-            <h2 className="text-center text-[20px] md:text-3xl">
-              Sobald abzusehen ist, welche Arbeitsschritte für die Umsetzung
-              notwendig sind und wie komplex deine Website sein wird, kann ein
-              maximales Budget festgelegt werden.
-            </h2>
+          <div className="flex flex-col mt-[100px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 m-8">
+              <div className="m-8 pb-20 md:pb-0">
+                <h1 className="text-green text-left mb-8 text-3xl">
+                  Fester Zeitplan
+                </h1>
+                <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
+                <h2 className="text-center text-[20px] md:text-3xl">
+                  Es muss schnell gehen? Kein Problem - Wir können uns gerne auf
+                  ein festes Datum zur Veröffentlichung deiner Website einigen.
+                </h2>
+              </div>
+
+              <div className="h-[400px]">
+                <img
+                  className="w-full h-full object-scale-down"
+                  src="svg/calendar.svg"
+                  alt="iconImage"
+                />
+              </div>
+            </div>
           </div>
-          <div className="h-[400px] animate-wiggle m-4 md:m-8 order-2 md:order-1">
-            <img
-              className="w-full h-full object-scale-down"
-              src="svg/pricetag2.svg"
-              alt="iconImage"
-            />
+
+          <div className="flex flex-col mt-[100px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 m-8">
+              <div className="m-8 order-1 md:order-2">
+                <h1 className="text-green text-right mb-8 text-3xl">
+                  Fixes Budget
+                </h1>
+                <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
+                <h2 className="text-center text-[20px] md:text-3xl">
+                  Sobald abzusehen ist, welche Arbeitsschritte für die Umsetzung
+                  notwendig sind und wie komplex deine Website sein wird, kann
+                  ein maximales Budget festgelegt werden.
+                </h2>
+              </div>
+              <div className="h-[400px] animate-wiggle m-4 md:m-8 order-2 md:order-1">
+                <img
+                  className="w-full h-full object-scale-down"
+                  src="svg/pricetag2.svg"
+                  alt="iconImage"
+                />
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <h1 className="pt-8 text-5xl md:text-8xl text-green">Deine Website</h1>
     </>
   );
 }

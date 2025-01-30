@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+import tailwindanimation from 'tailwindcss-animated';
+
 export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -36,8 +38,9 @@ export default {
         anta: ['Anta', 'serif'],
         saira: ['Saira', 'serif'],
         jockey: ['Jockey One', 'serif'],
+        noto: ['Noto Sans JP', 'serif'],
       },
     },
   },
-  plugins: [],
+  plugins: [tailwindanimation],
 } satisfies Config;
