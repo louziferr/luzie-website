@@ -20,14 +20,14 @@ export default function Webentwicklung() {
       </div>
 
       <div className="m-8 p-8">
-        <h1 className="m-8 p-8 text-5xl md:text-8xl text-green">
+        <h1 className="py-8 text-5xl md:text-8xl text-green">
           Moderne Web-Entwicklung
         </h1>
 
         <section className="flex flex-col">
           <div className="flex">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className=" text-3xl text-center md:text-justify leading-relaxed font-saira">
+              <p className="text-[20px] md:text-3xl text-center md:text-justify leading-relaxed font-saira">
                 Die digitale Welt entwickelt sich rasant – und ich bin vorne mit
                 dabei. Als junge <b>Webentwicklerin</b> setze ich auf modernste
                 Technologien, innovative <b>Frameworks</b> und skalierbare
@@ -74,7 +74,7 @@ export default function Webentwicklung() {
           <div className="mt-[70px] mb-[70px]  h-[5px] bg-green"></div>
 
           <div className="flex items-center justify-center">
-            <p className="text-3xl text-center leading-relaxed w-full font-saira">
+            <p className="text-[20px] md:text-3xl text-center leading-relaxed w-full font-saira">
               Bereit für Webentwicklung auf höchstem Niveau? Lass uns deine
               Vision realisieren.
             </p>
