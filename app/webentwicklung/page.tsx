@@ -20,21 +20,21 @@ export default function Webentwicklung() {
         <section className="flex flex-col">
           <div className="flex">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className="text-[15px] text-justify md:text-3xl md:text-center md:text-justify leading-relaxed font-saira">
-                Die digitale Welt entwickelt sich rasant – und ich bin vorne mit
-                dabei. Als <b>Webentwicklerin</b> setze ich auf modernste
-                Technologien, innovative <b>Frameworks</b> und skalierbare
-                Lösungen, die nicht nur heute überzeugen, sondern auch morgen
-                noch <b>State of the Art</b> sind.
+              <p className="text-[18px] text-center md:text-3xl md:text-justify leading-relaxed font-saira">
+                Die digitale Welt entwickelt sich rasant – und Websites werden
+                stets gebraucht.
                 <br />
                 <br />
-                Ob Cutting-Edge Typescript-Frameworks, performante
-                Headless-Systeme oder maßgeschneiderte UX/UI-Konzepte – ich
-                kombiniere technisches Know-how mit einem Gespür für Trends.
+                Meine Webentwicklung richtet sich an Selbstständige, kreative
+                Köpfe und kleine Unternehmen, die eine moderne, funktionale und
+                individuelle Website brauchen – ohne komplizierte Prozesse.
+                <br /> <br />
+                Bei der Umsetzung setze ich auf aktuelle Technologien,
+                ansprechende Designs und skalierbare Lösungen. Gleichzeitig
+                garantiere ich eine schnelle und unkomplizierte Zusammenarbeit
+                mit klarer Kommunikation.
                 <br />
                 <br />
-                So entstehen Websites, die nicht nur funktionieren, sondern auch
-                begeistern.
               </p>
               <div className="flex items-center justify-center pt-[30px] md:pt-0">
                 <div>
@@ -65,18 +65,20 @@ export default function Webentwicklung() {
           </div>
 
           <div className="flex items-center justify-center">
-            <p className="text-[20px] mt-8 md:text-3xl text-center leading-relaxed w-full font-saira">
-              Bereit für Webentwicklung auf höchstem Niveau? Lass uns deine
-              Vision realisieren.
+            <p className="text-[18px] mt-8 md:text-3xl text-center leading-relaxed w-full font-saira">
+              Bereit für <b>Webentwicklung</b> auf höchstem Niveau? Lass uns
+              deine Vision realisieren.
             </p>
           </div>
           <div className="mt-[70px] h-[5px] bg-green"></div>
         </section>
       </div>
 
-      <h1 className="pt-8 text-3xl md:text-8xl text-darkBlue">Mein Angebot</h1>
+      <h1 className="pt-8 text-2xl md:text-8xl text-darkBlue underline underline-offset-4">
+        Meine Standards
+      </h1>
       <section className="flex items-center justify-center">
-        <div className="max-w-[2200px]">
+        <div className="max-w-[1500px]">
           <div className="flex flex-col md:mt-[100px]">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8">
@@ -84,13 +86,14 @@ export default function Webentwicklung() {
                   Individuelle Lösung
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center text-[18px] md:text-3xl">
+                <h2 className="text-left text-[18px] md:text-3xl">
                   Jedes Projekt hat andere Anforderungen. Je nach Wunsch können
                   das Aussehen und die Funktionsweise deiner Website angepasst
-                  werden.
+                  werden. Von klaren, minimalistischen Designs bis hin zu
+                  interaktiven, komplexen Webanwendungen: Alles ist möglich.
                 </h2>
               </div>
-              <div className="md:h-[400px] animate-spin m-8">
+              <div className="h-[100px] md:h-[250px] animate-spin m-8">
                 <img
                   className="w-full h-full object-scale-down"
                   src="svg/settings.svg"
@@ -104,30 +107,23 @@ export default function Webentwicklung() {
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8 order-1 md:order-2">
                 <h1 className="text-green md:text-right mb-8 md:text-3xl">
-                  Klare Kommunikation
+                  Echte Handarbeit
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center text-[18px] md:text-3xl">
-                  Das Treffen von klaren Absprachen und regelmäßiger Austausch
-                  sind die wichtigsten Aspekte für eine erfolgreiche
-                  Zusammenarbeit.
+                <h2 className="text-left text-[18px] md:text-3xl">
+                  Ich arbeite ohne Baukastensysteme oder generische Vorlagen.
+                  Jedes Pixel, jede Codezeile entsteht mit Sorgfalt und
+                  Fachwissen, genau auf die Bedürfnisse zugeschnitten. Das
+                  schafft nicht nur eine unverwechselbare Identität, sondern
+                  auch eine technisch saubere, wartungsfreundliche Lösung.
                 </h2>
               </div>
-              <div className="relative md:h-[400px] m-8 order-2 md:order-1">
+              <div className="h-[100px] md:h-[250px] m-8 order-2 md:order-1">
                 <img
-                  className="w-full h-full object-scale-down"
-                  src="svg/bubble.svg"
+                  className="w-full h-full animate-wiggle object-scale-down"
+                  src="svg/hand-shake.svg"
                   alt="iconImage"
                 />
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[150%]">
-                  <TypeAnimation
-                    sequence={[1000, "Nein", 1000, "Doch", 1000, "Oh"]}
-                    wrapper="span"
-                    speed={5}
-                    className="font-noto text-[50px]"
-                    repeat={Infinity}
-                  />
-                </div>
               </div>
             </div>
           </div>
@@ -136,19 +132,22 @@ export default function Webentwicklung() {
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <h1 className="text-green md:text-left mb-8 text-3xl">
-                  Fester Zeitplan
+                  Schnelle Umsetzung
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center text-[18px] md:text-3xl">
-                  Es muss schnell gehen? Kein Problem - Wir können uns gerne auf
-                  ein festes Datum zur Veröffentlichung deiner Website einigen.
+                <h2 className="text-left text-[18px] md:text-3xl">
+                  Dank klarer Prozesse, schlanker Strukturen und einer präzisen
+                  Arbeitsweise kann ich schnelle Ergebnisse liefern, ohne an
+                  Qualität einzubüßen. Du profitierst von kurzen
+                  Entwicklungszeiten und direkter Kommunikation - ohne unnötige
+                  Umwege.
                 </h2>
               </div>
 
-              <div className="md:h-[400px] m-8">
+              <div className="h-[100px] md:h-[250px] m-8">
                 <img
-                  className="w-full h-full object-scale-down"
-                  src="svg/calendar.svg"
+                  className="w-full h-full animate-spin object-scale-down"
+                  src="svg/time-sand.svg"
                   alt="iconImage"
                 />
               </div>
@@ -159,16 +158,44 @@ export default function Webentwicklung() {
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8 order-1 md:order-2">
                 <h1 className="text-green md:text-right mb-8 text-3xl">
-                  Fixes Budget
+                  Modernes Design
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center text-[18px] md:text-3xl">
-                  Sobald abzusehen ist, welche Arbeitsschritte für die Umsetzung
-                  notwendig sind und wie komplex deine Website sein wird, kann
-                  ein maximales Budget festgelegt werden.
+                <h2 className="text-left text-[18px] md:text-3xl">
+                  Ob minimalistisch, kreativ oder markant – ich entwickle eine
+                  individuelle Gestaltung, die perfekt zu deinem Stil und deiner
+                  Marke passt. Zeitgemäß, einzigartig und auf jedem Gerät
+                  optimal dargestellt.
                 </h2>
               </div>
-              <div className="md:h-[400px] animate-wiggle m-8 order-2 md:order-1">
+              <div className="h-[100px] md:h-[250px] animate-wiggle m-8 order-2 md:order-1">
+                <img
+                  className="w-full h-full object-scale-down"
+                  src="svg/sketch.svg"
+                  alt="iconImage"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h1 className="pt-8 text-5xl md:text-8xl text-green">Preise</h1>
+      <section className="flex items-center justify-center">
+        <div className="max-w-[1500px]">
+          <div className="flex flex-col md:mt-[100px]">
+            <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
+              <div className="m-8">
+                <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
+                <h2 className="text-left text-[18px] md:text-3xl">
+                  Nach unserem Erstgespräch erstelle ich ein individuelles
+                  Angebot, das genau auf deine Anforderungen zugeschnitten ist.
+                  Der Zeitaufwand und der damit verbundene Preis für das
+                  Entwickeln deiner Website sind größtenteils abhängig von der
+                  technischen und ästhetischen Komplexität.
+                </h2>
+              </div>
+              <div className="h-[100px] md:h-[250px] animate-wiggle m-8">
                 <img
                   className="w-full h-full object-scale-down"
                   src="svg/pricetag2.svg"
@@ -179,8 +206,6 @@ export default function Webentwicklung() {
           </div>
         </div>
       </section>
-
-      <h1 className="pt-8 text-5xl md:text-8xl text-green">Deine Website</h1>
     </>
   );
 }

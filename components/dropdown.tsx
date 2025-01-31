@@ -37,7 +37,7 @@ export const SingleLevelDropdownMenu = ({
             {items.map((item, index) => (
               <li
                 key={index}
-                className={`relative flex items-center gap-4 font-saira text-xl hover:bg-gray-100 hover:cursor-pointer rounded-md`}
+                className={`relative flex items-center gap-4 font-saira text-xl hover:bg-gray-300 hover:cursor-pointer rounded-md`}
               >
                 <Link href={item.url!}>{item.title}</Link>
               </li>
