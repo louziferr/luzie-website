@@ -155,7 +155,7 @@ export default function Webentwicklung() {
           </div>
 
           <div className="flex flex-col md:mt-[100px]">
-            <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8 order-1 md:order-2">
                 <h1 className="text-green md:text-right mb-8 text-3xl">
                   Modernes Design
