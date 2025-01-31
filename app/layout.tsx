@@ -49,16 +49,12 @@ export default function RootLayout({
         <Header
           sideBarVisible={sideBarVisible}
           handleBurgerClick={showSideBar}
+          hideSideBar={hideSideBar}
           showDropdown={showDropdown}
           toggleDropdown={toggleDropdown}
         />
 
-        <div
-          className={sideBarVisible ? "brightness-50" : "brightness-100"}
-          onClick={hideSideBar}
-        >
-          {children}
-        </div>
+        <div onClick={hideSideBar}>{children}</div>
         <Footer />
       </body>
     </html>

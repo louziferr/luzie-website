@@ -57,6 +57,15 @@
     @apply px-2.5;
     @apply text-[20px];
   }
+
+  .background-gradient {
+    @apply bg-gradient-to-r;
+    @apply from-gray-400;
+    @apply to-gray-700;
+    @apply inline-block;
+    @apply text-transparent;
+    @apply bg-clip-text;
+  }
 }
 
 @keyframes grow {

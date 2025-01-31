@@ -2,10 +2,12 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { SingleLevelDropdownMenu } from "./dropdown";
+import { SideBarDropDown } from "./sidebar_dropdown";
 
 interface HeaderProps {
   sideBarVisible: boolean;
   handleBurgerClick: () => void;
+  hideSideBar: () => void;
   showDropdown: boolean;
   toggleDropdown: () => void;
 }
@@ -13,6 +15,7 @@ interface HeaderProps {
 export default function Header({
   sideBarVisible,
   handleBurgerClick,
+  hideSideBar,
   showDropdown,
   toggleDropdown,
 }: HeaderProps) {
@@ -86,11 +89,7 @@ export default function Header({
       className="fixed w-full z-50 shadow-black shadow-sm"
       style={{ top: topShiftString }}
     >
-      <div
-        className={`bg-white flex justify-between items-center px-5 py-2.5 max-h-[90px] ${
-          sideBarVisible ? "brightness-50" : "brightness-100"
-        }`}
-      >
+      <div className="bg-white flex justify-between items-center px-5 py-2.5 max-h-[90px]">
         <div className="p-2">
           <Link href="/">
             <h1 className="p-0 text-darkBlue">LA</h1>
@@ -141,33 +140,44 @@ export default function Header({
       </div>
 
       {sideBarVisible && (
-        <div
-          className="bg-white text-primary space-y-5 px-4 py-2 
+        <div className="fixed top-0 animate-fade left-0 w-full z-50 h-full bg-black bg-opacity-50">
+          <div
+            className="fixed top-0 left-0 w-1/3 h-full"
+            onClick={hideSideBar}
+          ></div>
+          <div
+            className="bg-white animate-fade-left text-primary space-y-5 px-4 py-2 
         fixed top-0 right-0 w-2/3 h-full z-50 flex flex-col border-darkBrown"
-          id="burger-menu"
-        >
-          <p className="text-4xl ml-4 mt-4 text-darkBlue font-alfa">LA</p>
-          <p className="nav-link text-[30px] mt-4">Leistungen</p>
-          <div className="ml-4 pb-4 border-l-4 border-gray-500 grid grid-cols-1 gap-2">
-            <Link href="/webentwicklung" className="nav-link text-[30px] mt-4">
-              Webentwicklung
-            </Link>
-            <Link href="/lehre" className="nav-link text-[30px] mt-4">
-              Lehre
-            </Link>
-            <Link href="/programmierung" className="nav-link text-[30px] mt-4">
-              Programmierung
-            </Link>
-          </div>
-          {headerItems.map((item, itemIndex) => (
+            id="burger-menu"
+          >
+            <p className="text-4xl ml-4 mt-4 text-darkBlue font-alfa">LA</p>
             <Link
-              key={itemIndex}
-              href={item[1]}
-              className="nav-link text-[30px] mt-4"
+              href="/"
+              className="nav-link text-[30px] mt-4 border-b-2 pb-2 border-gray-300"
             >
-              {item[0]}
+              Startseite
             </Link>
-          ))}
+            <SideBarDropDown
+              buttonLabel="Leistungen"
+              showDropdown={showDropdown}
+              toggleDropdown={toggleDropdown}
+              items={[
+                { title: "Web-Entwicklung", url: "/webentwicklung" },
+                { title: "Lehre", url: "/lehre" },
+                { title: "Programmierung", url: "/programmierung" },
+              ]}
+            />
+
+            {headerItems.map((item, itemIndex) => (
+              <Link
+                key={itemIndex}
+                href={item[1]}
+                className="nav-link text-[30px] mt-4 border-b-2 pb-2 border-gray-300"
+              >
+                {item[0]}
+              </Link>
+            ))}
+          </div>
         </div>
       )}
     </header>

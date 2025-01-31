@@ -21,13 +21,14 @@ export default function Webentwicklung() {
           <div className="flex">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
               <p className="text-[18px] text-center md:text-3xl md:text-justify leading-relaxed font-saira">
-                Die digitale Welt entwickelt sich rasant – und Websites werden
-                stets gebraucht.
+                Die digitale Welt entwickelt sich rasant – und du brauchst eine
+                Website?
                 <br />
                 <br />
-                Meine Webentwicklung richtet sich an Selbstständige, kreative
-                Köpfe und kleine Unternehmen, die eine moderne, funktionale und
-                individuelle Website brauchen – ohne komplizierte Prozesse.
+                Meine Arbeit als Webentwicklerin richtet sich an Selbstständige,
+                kreative Köpfe und kleine Unternehmen, die eine moderne,
+                funktionale und individuelle Website brauchen – ohne
+                komplizierte Prozesse.
                 <br /> <br />
                 Bei der Umsetzung setze ich auf aktuelle Technologien,
                 ansprechende Designs und skalierbare Lösungen. Gleichzeitig
@@ -82,9 +83,13 @@ export default function Webentwicklung() {
           <div className="flex flex-col md:mt-[100px]">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8">
-                <h1 className="text-green md:text-left mb-8 md:text-3xl">
+                <div className="text-gray-700 text-center text-6xl md:text-left md:text-8xl font-alfa mr-3">
+                  01
+                </div>
+                <h1 className="text-green md:text-left mb-8 md:text-5xl">
                   Individuelle Lösung
                 </h1>
+
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <h2 className="text-left text-[18px] md:text-3xl">
                   Jedes Projekt hat andere Anforderungen. Je nach Wunsch können
@@ -106,11 +111,14 @@ export default function Webentwicklung() {
           <div className="flex flex-col md:mt-[100px]">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8 order-1 md:order-2">
-                <h1 className="text-green md:text-right mb-8 md:text-3xl">
+                <p className="text-gray-700 text-center text-6xl md:text-right md:text-8xl font-alfa mr-3">
+                  02
+                </p>
+                <h1 className="text-green md:text-right mb-8 md:text-5xl">
                   Echte Handarbeit
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-left text-[18px] md:text-3xl">
+                <h2 className="text-center md:text-left text-[18px] md:text-3xl">
                   Ich arbeite ohne Baukastensysteme oder generische Vorlagen.
                   Jedes Pixel, jede Codezeile entsteht mit Sorgfalt und
                   Fachwissen, genau auf die Bedürfnisse zugeschnitten. Das
@@ -131,11 +139,14 @@ export default function Webentwicklung() {
           <div className="flex flex-col md:mt-[100px]">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
-                <h1 className="text-green md:text-left mb-8 text-3xl">
+                <p className="text-gray-700 text-center text-6xl md:text-left md:text-8xl font-alfa mr-3">
+                  03
+                </p>
+                <h1 className="text-green md:text-left mb-8 md:text-5xl">
                   Schnelle Umsetzung
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-left text-[18px] md:text-3xl">
+                <h2 className="text-center md:text-left text-[18px] md:text-3xl">
                   Dank klarer Prozesse, schlanker Strukturen und einer präzisen
                   Arbeitsweise kann ich schnelle Ergebnisse liefern, ohne an
                   Qualität einzubüßen. Du profitierst von kurzen
@@ -157,11 +168,14 @@ export default function Webentwicklung() {
           <div className="flex flex-col md:mt-[100px]">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8 order-1 md:order-2">
-                <h1 className="text-green md:text-right mb-8 text-3xl">
+                <p className="text-gray-700 text-center text-6xl md:text-right md:text-8xl font-alfa mr-3">
+                  04
+                </p>
+                <h1 className="text-green md:text-right mb-8 md:text-5xl">
                   Modernes Design
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-left text-[18px] md:text-3xl">
+                <h2 className="text-center md:text-left text-[18px] md:text-3xl">
                   Ob minimalistisch, kreativ oder markant – ich entwickle eine
                   individuelle Gestaltung, die perfekt zu deinem Stil und deiner
                   Marke passt. Zeitgemäß, einzigartig und auf jedem Gerät
@@ -187,7 +201,7 @@ export default function Webentwicklung() {
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-left text-[18px] md:text-3xl">
+                <h2 className="text-center md:text-left text-[18px] md:text-3xl">
                   Nach unserem Erstgespräch erstelle ich ein individuelles
                   Angebot, das genau auf deine Anforderungen zugeschnitten ist.
                   Der Zeitaufwand und der damit verbundene Preis für das
