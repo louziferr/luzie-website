@@ -146,8 +146,8 @@ export default function Webentwicklung() {
 
               <div className="h-[100px] md:h-[250px] m-8">
                 <img
-                  className="w-full h-full animate-spin object-scale-down"
-                  src="svg/time-sand.svg"
+                  className="w-full h-full object-scale-down"
+                  src="svg/calendar.svg"
                   alt="iconImage"
                 />
               </div>
