@@ -1,15 +1,20 @@
 "use client";
 
+import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Webentwicklung() {
   return (
-    <>
-      <div className="h-screen flex bg-green flex-col flex-grow items-center justify-center p-8">
-        <h1 className="text-white text-4xl">Deine Website.</h1>
+    <div>
+      <div className="h-screen flex bg-green flex-col flex-grow flex-wrap items-center justify-center p-8">
+        <h1 className="text-white text-4xl animate-fade-down animate-delay-200">
+          Deine Website.
+        </h1>
         <div className="w-full h-[10px] bg-white"></div>
 
-        <h1 className="font-saira text-white text-4xl pt-4">Wie du willst.</h1>
+        <h1 className="font-saira text-white text-4xl pt-4 animate-fade-up animate-delay-500">
+          Wie du willst.
+        </h1>
       </div>
 
       <div className="m-8 md:p-8">
@@ -47,7 +52,7 @@ export default function Webentwicklung() {
                       1000, // wait 1s before replacing "Mice" with "Hamsters"
                       "Responsiv",
                       1000,
-                      "Zukunftssicher",
+                      "Flexibel",
                       1000,
                     ]}
                     wrapper="span"
@@ -67,8 +72,8 @@ export default function Webentwicklung() {
 
           <div className="flex items-center justify-center">
             <p className="text-[18px] mt-8 md:text-3xl text-center leading-relaxed w-full font-saira">
-              Bereit für <b>Webentwicklung</b> auf höchstem Niveau? Lass uns
-              deine Vision realisieren.
+              Bereit für erstklassige <b>Webentwicklung</b>? Lass uns deine
+              Vision realisieren.
             </p>
           </div>
           <div className="mt-[70px] h-[5px] bg-green"></div>
@@ -76,7 +81,7 @@ export default function Webentwicklung() {
       </div>
 
       <h1 className="pt-8 text-2xl md:text-8xl text-darkBlue underline underline-offset-4">
-        Meine Standards
+        Meine Arbeitsweise
       </h1>
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
@@ -91,16 +96,16 @@ export default function Webentwicklung() {
                 </h1>
 
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-left text-[18px] md:text-3xl">
+                <h2 className="text-center md:text-left text-[18px] md:text-3xl">
                   Jedes Projekt hat andere Anforderungen. Je nach Wunsch können
                   das Aussehen und die Funktionsweise deiner Website angepasst
                   werden. Von klaren, minimalistischen Designs bis hin zu
                   interaktiven, komplexen Webanwendungen: Alles ist möglich.
                 </h2>
               </div>
-              <div className="h-[100px] md:h-[250px] animate-spin m-8">
+              <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="w-full h-full object-scale-down"
+                  className="h-[100px] md:h-[250px] w-full animate-spin object-scale-down"
                   src="svg/settings.svg"
                   alt="iconImage"
                 />
@@ -126,9 +131,9 @@ export default function Webentwicklung() {
                   auch eine technisch saubere, wartungsfreundliche Lösung.
                 </h2>
               </div>
-              <div className="h-[100px] md:h-[250px] m-8 order-2 md:order-1">
+              <div className="m-8 flex flex-col items-center justify-center order-2 md:order-1">
                 <img
-                  className="w-full h-full animate-wiggle object-scale-down"
+                  className="h-[100px] md:h-[250px] w-full animate-wiggle object-scale-down"
                   src="svg/hand-shake.svg"
                   alt="iconImage"
                 />
@@ -155,9 +160,9 @@ export default function Webentwicklung() {
                 </h2>
               </div>
 
-              <div className="h-[100px] md:h-[250px] m-8">
+              <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="w-full h-full object-scale-down"
+                  className="h-[100px] md:h-[250px] w-full object-scale-down"
                   src="svg/calendar.svg"
                   alt="iconImage"
                 />
@@ -182,10 +187,75 @@ export default function Webentwicklung() {
                   optimal dargestellt.
                 </h2>
               </div>
-              <div className="h-[100px] md:h-[250px] animate-wiggle m-8 order-2 md:order-1">
+              <div className="m-8 flex flex-col items-center justify-center  order-2 md:order-1">
                 <img
-                  className="w-full h-full object-scale-down"
+                  className="h-[100px] md:h-[250px] w-full object-scale-down"
                   src="svg/sketch.svg"
+                  alt="iconImage"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h1 className="pt-8 text-5xl md:text-8xl text-darkBlue">Zur Technik</h1>
+
+      <section className="flex items-center justify-center">
+        <div className="max-w-[1500px]">
+          <div className="flex flex-col md:mt-[100px]">
+            <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
+              <div className="m-8">
+                <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
+                <p className="text-center text-[18px] md:text-3xl">
+                  Ich setze auf bewährte und moderne Technologien, um schnelle,
+                  sichere und skalierbare Websites zu entwickeln.
+                </p>
+                <div className="text-center mt-2 md:text-left text-[18px] md:text-3xl">
+                  <h1 className="py-4 font-anta text-gray-600 text-3xl md:text-5xl">
+                    React & Next.js
+                  </h1>
+                  <p className="text-center">
+                    Dynamische, performante Webanwendungen mit modernster
+                    Frontend-Technologie.
+                  </p>
+
+                  <h1 className="py-4 font-anta text-gray-600 text-3xl md:text-5xl">
+                    Tailwind CSS
+                  </h1>
+                  <p className="text-center">
+                    Die Grundlage für sauberen, semantischen Code und
+                    individuelles Styling.
+                  </p>
+                  <h1 className="py-4 font-anta text-gray-600 text-3xl md:text-5xl">
+                    Prisma
+                  </h1>
+                  <p className="text-center">
+                    Eine effiziente und flexible Lösung für Datenbankverwaltung,
+                    die Skalierbarkeit und Sicherheit gewährleistet.
+                  </p>
+                  <p className="pt-8 text-center text-[18px] md:text-3xl">
+                    Durch diese Technologien entstehen leistungsstarke Websites,
+                    die nicht nur optisch überzeugen, sondern auch technisch auf
+                    höchstem Niveau sind.
+                  </p>
+                </div>
+              </div>
+              <div className="m-8 flex flex-row md:flex-col items-center justify-between">
+                <img
+                  className="h-[80px] md:h-[250px] w-full object-scale-down"
+                  src="svg/react.svg"
+                  alt="iconImage"
+                />
+
+                <img
+                  className="h-[80px] md:h-[250px] w-full object-scale-down"
+                  src="svg/tailwind.svg"
+                  alt="iconImage"
+                />
+                <img
+                  className="h-[80px] md:h-[250px] w-full object-scale-down"
+                  src="svg/prisma.svg"
                   alt="iconImage"
                 />
               </div>
@@ -201,25 +271,34 @@ export default function Webentwicklung() {
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[18px] md:text-3xl">
+                <p className="text-center md:text-left text-[18px] md:text-3xl">
                   Nach unserem Erstgespräch erstelle ich ein individuelles
                   Angebot, das genau auf deine Anforderungen zugeschnitten ist.
                   Der Zeitaufwand und der damit verbundene Preis für das
                   Entwickeln deiner Website sind größtenteils abhängig von der
                   technischen und ästhetischen Komplexität.
-                </h2>
+                </p>
               </div>
-              <div className="h-[100px] md:h-[250px] animate-wiggle m-8">
+              <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="w-full h-full object-scale-down"
+                  className="h-[100px] md:h-[250px] w-full animate-wiggle object-scale-down"
                   src="svg/pricetag2.svg"
                   alt="iconImage"
                 />
+              </div>
+
+              <div className="m-8 flex flex-col items-center justify-center">
+                <Link
+                  href="/preise"
+                  className="py-3 px-2 bg-green rounded border-black text-white transition ease-in hover:scale-110"
+                >
+                  Zu den Preisen
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

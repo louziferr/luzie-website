@@ -153,7 +153,7 @@ export default function Header({
             <p className="text-4xl ml-4 mt-4 text-darkBlue font-alfa">LA</p>
             <Link
               href="/"
-              className="nav-link text-[30px] mt-4 border-b-2 pb-2 border-gray-300"
+              className="nav-link text-xl mt-4 border-b-2 pb-2 border-gray-300"
             >
               Startseite
             </Link>
@@ -172,7 +172,7 @@ export default function Header({
               <Link
                 key={itemIndex}
                 href={item[1]}
-                className="nav-link text-[30px] mt-4 border-b-2 pb-2 border-gray-300"
+                className="nav-link text-xl mt-4 border-b-2 pb-2 border-gray-300"
               >
                 {item[0]}
               </Link>

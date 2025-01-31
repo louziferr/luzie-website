@@ -23,7 +23,7 @@ export const SideBarDropDown = ({
     <div className="relative mt-4 border-b-2 pb-2 border-gray-300">
       <button
         type="button"
-        className="ml-2 inline-flex text-[30px] font-saira navlink items-center justify-center"
+        className="ml-2 inline-flex text-xl font-saira navlink items-center justify-center"
         onClick={toggleDropdown}
       >
         {buttonLabel}
@@ -32,12 +32,12 @@ export const SideBarDropDown = ({
         </span>
       </button>
       {showDropdown && (
-        <div className="top-[52px]">
+        <div className="top-[52px] pt-3">
           <ul className="">
             {items.map((item, index) => (
               <li
                 key={index}
-                className={`relative flex items-center gap-4 font-saira text-[25px]`}
+                className={`relative flex items-center gap-4 font-saira`}
               >
                 <Link href={item.url!}>{item.title}</Link>
               </li>

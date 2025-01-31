@@ -54,7 +54,7 @@ export default function RootLayout({
           toggleDropdown={toggleDropdown}
         />
 
-        <div onClick={hideSideBar}>{children}</div>
+        <div className="w-full">{children}</div>
         <Footer />
       </body>
     </html>

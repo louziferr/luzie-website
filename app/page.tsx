@@ -7,9 +7,13 @@ export default function Home() {
   return (
     <>
       <div className="h-screen flex bg-darkBlue flex-col flex-grow items-center justify-center p-8">
-        <h1 className="text-white text-4xl">Luzie Ahrens</h1>
+        <h1 className="text-white text-4xl animate-fade-down animate-delay-200">
+          Luzie Ahrens
+        </h1>
         <div className="w-full h-[10px] justify-center bg-white"></div>
-        <h1 className="text-white text-4xl pt-2">Informatikerin</h1>
+        <h1 className="text-white text-4xl pt-2 animate-fade-up animate-delay-500">
+          Informatikerin
+        </h1>
         <TypeAnimation
           sequence={[
             1000,
