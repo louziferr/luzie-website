@@ -13,11 +13,11 @@ export default function Lehre() {
         <div className="w-full h-[10px] bg-white"></div>
 
         <h1 className="font-saira text-white md:text-4xl pt-4 animate-fade-up animate-delay-500">
-          Professionell & Praxisnah.
+          Auf deinem Niveau.
         </h1>
       </div>
 
-      <div className="m-8 md:p-8">
+      <div className="mb-0 m-8 md:p-8">
         <h1 className="py-8 text-3xl md:text-6xl text-red">
           Unterricht und Kurse
         </h1>
@@ -77,9 +77,64 @@ export default function Lehre() {
         Kursthemen
       </h1>
 
+      <div className="p-8 leading-relaxed w-full max-w-[600px]">
+        <p className="text-[15px] md:text-2xl text-center font-saira pb-4">
+          Bereits konzipiert sind Kurse zu folgenden Themen:
+        </p>
+        <ul className="font-saira">
+          <li className="p-1 flex">
+            <div className="text-red text-xl font-alfa mr-3">01</div>
+            <Link
+              className="underline underline-offset-2 hover:cursor-pointer"
+              href="/lehre/#programmiersprachen"
+            >
+              Programmiersprachen
+            </Link>
+          </li>
+          <li className="p-1 flex">
+            <div className="text-rose-700 text-xl font-alfa mr-3">02</div>
+            <Link
+              className="underline underline-offset-2 hover:cursor-pointer"
+              href="/lehre/#robotik"
+            >
+              Robotik
+            </Link>
+          </li>
+          <li className="p-1 flex">
+            <div className="text-rose-800 text-xl font-alfa mr-3">03</div>
+            <Link
+              className="underline underline-offset-2 hover:cursor-pointer"
+              href="/lehre/#web-entwicklung"
+            >
+              Web-Entwicklung
+            </Link>
+          </li>
+          <li className="p-1 flex">
+            <div className="text-rose-900 text-xl font-alfa mr-3">04</div>
+            <Link
+              className="underline underline-offset-2 hover:cursor-pointer"
+              href="/lehre/#theoretische-informatik"
+            >
+              Theoretische Informatik
+            </Link>
+          </li>
+          <li className="p-1 flex">
+            <div className="text-rose-950 text-xl font-alfa mr-3 hover:cursor-pointer">
+              05
+            </div>
+            <Link
+              className="underline underline-offset-2 hover:cursor-pointer"
+              href="/lehre/#machine-learning"
+            >
+              Machine Learning
+            </Link>
+          </li>
+        </ul>
+      </div>
+
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
-          <div className="flex flex-col">
+          <div className="flex flex-col" id={"programmiersprachen"}>
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8">
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
@@ -126,7 +181,7 @@ export default function Lehre() {
             </div>
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col" id={"robotik"}>
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8 order-1 md:order-2">
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
@@ -156,7 +211,7 @@ export default function Lehre() {
             </div>
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col" id={"web-entwicklung"}>
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <p className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
@@ -180,7 +235,7 @@ export default function Lehre() {
 
               <div className="mt-0 md:m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[100px] md:h-[250px] w-full object-scale-down"
+                  className="h-[100px] md:h-[300px] w-full object-scale-down"
                   src="svg/lehre/web-design.svg"
                   alt="iconImage"
                 />
@@ -188,7 +243,7 @@ export default function Lehre() {
             </div>
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col" id={"theoretische-informatik"}>
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8 order-1 md:order-2">
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
@@ -221,7 +276,7 @@ export default function Lehre() {
             </div>
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col" id={"machine-learning"}>
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8">
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
@@ -257,6 +312,8 @@ export default function Lehre() {
         </div>
       </section>
 
+      <div className="mt-[70px] h-[5px] bg-red"></div>
+
       <h1 className="pt-8 text-4xl md:text-6xl text-red">Preise</h1>
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
@@ -266,10 +323,9 @@ export default function Lehre() {
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p className="text-center md:text-left text-[15px] md:text-2xl">
                   Nach unserem Erstgespräch erstelle ich ein individuelles
-                  Angebot, das genau auf deine Anforderungen zugeschnitten ist.
-                  Der Zeitaufwand und der damit verbundene Preis für das
-                  Entwickeln deiner Website sind größtenteils abhängig von der
-                  technischen und ästhetischen Komplexität.
+                  Angebot, das genau auf die Anforderungen zugeschnitten ist.
+                  Der Preis für einen Kurs ist größtenteils abhängig vom
+                  zeitlichen Aufwand für die Konzipierung und Durchführung.
                 </p>
               </div>
               <div className="m-8 flex flex-col items-center justify-center">

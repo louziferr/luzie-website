@@ -201,7 +201,7 @@ export default function Webentwicklung() {
 
       <div className="mt-[70px] h-[5px] bg-green"></div>
       <h1 className="pt-10 text-3xl md:text-6xl text-darkBlue underline underline-offset-4">
-        Tech Stack
+        Tools
       </h1>
 
       <section className="flex items-center justify-center">
