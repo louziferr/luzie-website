@@ -1,7 +1,5 @@
 "use client";
 
-import Link from "next/link";
-
 export default function Programmierung() {
   return (
     <>
@@ -151,6 +149,15 @@ export default function Programmierung() {
               </div>
               <p className="text-[15px] md:text-2xl">
                 2017 - 2019 - studentische Hilfskraft an der Uni Potsdam
+              </p>
+            </li>
+
+            <li className="p-1 flex items-center">
+              <div className="relative flex">
+                <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+              </div>
+              <p className="text-[15px] md:text-2xl">
+                seit 2008 - gelegentliche Tätigkeit als Schauspielerin
               </p>
             </li>
           </ul>
