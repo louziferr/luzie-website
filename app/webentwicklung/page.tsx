@@ -22,8 +22,8 @@ export default function Webentwicklung() {
           Moderne Web-Entwicklung
         </h1>
 
-        <section className="flex flex-col">
-          <div className="flex">
+        <section className="flex  items-center flex-col">
+          <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
               <p className="text-[15px] text-center md:text-xl md:text-justify leading-relaxed font-saira">
                 Die digitale Welt entwickelt sich rasant – und du brauchst eine
@@ -85,7 +85,7 @@ export default function Webentwicklung() {
       </h1>
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
-          <div className="flex flex-col md:mt-[100px]">
+          <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8">
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
@@ -113,7 +113,7 @@ export default function Webentwicklung() {
             </div>
           </div>
 
-          <div className="flex flex-col md:mt-[100px]">
+          <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8 order-1 md:order-2">
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
@@ -141,7 +141,7 @@ export default function Webentwicklung() {
             </div>
           </div>
 
-          <div className="flex flex-col md:mt-[100px]">
+          <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <p className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
@@ -170,7 +170,7 @@ export default function Webentwicklung() {
             </div>
           </div>
 
-          <div className="flex flex-col md:mt-[100px]">
+          <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8 order-1 md:order-2">
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
@@ -199,6 +199,7 @@ export default function Webentwicklung() {
         </div>
       </section>
 
+      <div className="mt-[70px] h-[5px] bg-green"></div>
       <h1 className="pt-10 text-3xl md:text-6xl text-darkBlue underline underline-offset-4">
         Tech Stack
       </h1>
@@ -209,34 +210,34 @@ export default function Webentwicklung() {
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <p className="text-center text-[18px] md:text-3xl">
+                <p className="text-left text-[15px] md:text-2xl">
                   Ich setze auf bewährte und moderne Technologien, um schnelle,
                   sichere und skalierbare Websites zu entwickeln.
                 </p>
-                <div className="text-center mt-2 md:text-left text-[18px] md:text-3xl">
-                  <h1 className="py-4 font-anta text-gray-600 text-3xl md:text-5xl">
+                <div className="text-left mt-2 md:text-left text-[18px] md:text-3xl">
+                  <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-5xl">
                     React & Next.js
                   </h1>
-                  <p className="text-center">
+                  <p className="text-[15px] md:text-2xl text-left">
                     Dynamische, performante Webanwendungen mit modernster
                     Frontend-Technologie.
                   </p>
 
-                  <h1 className="py-4 font-anta text-gray-600 text-3xl md:text-5xl">
+                  <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-5xl">
                     Tailwind CSS
                   </h1>
-                  <p className="text-center">
+                  <p className="text-[15px] md:text-2xl text-left">
                     Die Grundlage für sauberen, semantischen Code und
                     individuelles Styling.
                   </p>
-                  <h1 className="py-4 font-anta text-gray-600 text-3xl md:text-5xl">
+                  <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-5xl">
                     Prisma
                   </h1>
-                  <p className="text-center">
+                  <p className="text-[15px] md:text-2xl text-left">
                     Eine effiziente und flexible Lösung für Datenbankverwaltung,
                     die Skalierbarkeit und Sicherheit gewährleistet.
                   </p>
-                  <p className="pt-8 text-center text-[18px] md:text-3xl">
+                  <p className="pt-8 text-left text-[15px] md:text-2xl">
                     Durch diese Technologien entstehen leistungsstarke Websites,
                     die nicht nur optisch überzeugen, sondern auch technisch auf
                     höchstem Niveau sind.
@@ -245,18 +246,18 @@ export default function Webentwicklung() {
               </div>
               <div className="m-8 flex flex-row md:flex-col items-center justify-between">
                 <img
-                  className="h-[80px] md:h-[250px] w-full object-scale-down"
+                  className="h-[80px] md:h-[200px] w-full object-scale-down"
                   src="svg/react.svg"
                   alt="iconImage"
                 />
 
                 <img
-                  className="h-[80px] md:h-[250px] w-full object-scale-down"
+                  className="h-[80px] md:h-[200px] w-full object-scale-down"
                   src="svg/tailwind.svg"
                   alt="iconImage"
                 />
                 <img
-                  className="h-[80px] md:h-[250px] w-full object-scale-down"
+                  className="h-[80px] md:h-[200px] w-full object-scale-down"
                   src="svg/prisma.svg"
                   alt="iconImage"
                 />
@@ -273,7 +274,7 @@ export default function Webentwicklung() {
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <p className="text-center md:text-left text-[18px] md:text-3xl">
+                <p className="text-center md:text-left text-[15px] md:text-2xl">
                   Nach unserem Erstgespräch erstelle ich ein individuelles
                   Angebot, das genau auf deine Anforderungen zugeschnitten ist.
                   Der Zeitaufwand und der damit verbundene Preis für das
@@ -292,10 +293,10 @@ export default function Webentwicklung() {
 
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
-                href="/preise"
+                href="/kontakt"
                 className="py-3 px-2 bg-green rounded text-3xl border-black text-white transition ease-in hover:scale-110"
               >
-                Zu den Preisen
+                Kontakt
               </Link>
             </div>
           </div>

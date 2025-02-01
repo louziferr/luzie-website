@@ -97,7 +97,7 @@ export default function Header() {
 
   return (
     <header
-      className="fixed w-full z-50 shadow-black shadow-sm"
+      className="fixed w-full z-50 shadow-black shadow-sm animate-delay-1000 animate-fade-down"
       style={{ top: topShiftString }}
     >
       <div className="bg-white flex justify-between items-center px-5 py-2.5 max-h-[90px]">
@@ -108,7 +108,12 @@ export default function Header() {
         </div>
 
         <nav className="hidden md:flex items-center gap-1">
-          <div className="border-r-2 border-gray-400">
+          <div>
+            <Link href="/" className="nav-link">
+              Startseite
+            </Link>
+          </div>
+          <div className="border-r-2 border-l-2 border-gray-400">
             <SingleLevelDropdownMenu
               buttonLabel="Leistungen"
               showDropdown={showDropdown}
