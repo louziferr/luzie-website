@@ -12,7 +12,7 @@ export default function Lehre() {
         </h1>
         <div className="w-full h-[10px] bg-white"></div>
 
-        <h1 className="font-saira text-white text-4xl pt-4 animate-fade-up animate-delay-500">
+        <h1 className="font-saira text-white md:text-4xl pt-4 animate-fade-up animate-delay-500">
           Professionell & Praxisnah.
         </h1>
       </div>
@@ -46,7 +46,11 @@ export default function Lehre() {
               <div className="flex items-center justify-center py-[30px] md:pt-0">
                 <span className="relative flex">
                   <div className="bg-red rounded-full p-4 border-2">
-                    <img src="svg/school.svg" alt="school SVG" width="200" />
+                    <img
+                      src="svg/school.svg"
+                      alt="school SVG"
+                      className="w-[100px] md:w-[200px]"
+                    />
                   </div>
                   <span className="absolute bg-red h-full w-full animate-custom-ping rounded-full" />
                 </span>
@@ -69,7 +73,7 @@ export default function Lehre() {
         </section>
       </div>
 
-      <h1 className="pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
+      <h1 className="md:pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
         Kursthemen
       </h1>
 
@@ -280,7 +284,7 @@ export default function Lehre() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/preise"
-                className="py-3 px-2 bg-red rounded text-3xl border-black text-white transition ease-in hover:scale-110"
+                className="py-3 px-3 bg-red rounded text-xl border-black text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>

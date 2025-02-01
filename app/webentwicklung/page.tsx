@@ -25,7 +25,7 @@ export default function Webentwicklung() {
         <section className="flex  items-center flex-col">
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className="text-[15px] text-center md:text-xl md:text-justify leading-relaxed font-saira">
+              <p className="text-[17px] text-center md:text-xl md:text-justify leading-relaxed font-saira">
                 Die digitale Welt entwickelt sich rasant – und du brauchst eine
                 Website?
                 <br />
@@ -71,7 +71,7 @@ export default function Webentwicklung() {
           </div>
 
           <div className="flex items-center justify-center">
-            <p className="text-[15px] mt-8 md:text-xl text-center leading-relaxed w-full font-saira">
+            <p className="text-[17px] mt-8 md:text-xl text-center leading-relaxed w-full font-saira">
               Bereit für erstklassige <b>Webentwicklung</b>? Lass uns deine
               Vision realisieren.
             </p>
@@ -96,7 +96,7 @@ export default function Webentwicklung() {
                 </h1>
 
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
+                <h2 className="text-center md:text-left text-[17px] md:text-2xl">
                   Jedes Projekt hat andere Anforderungen. Je nach Wunsch können
                   das Aussehen und die Funktionsweise deiner Website angepasst
                   werden. Von klaren, minimalistischen Designs bis hin zu
@@ -123,7 +123,7 @@ export default function Webentwicklung() {
                   Echte Handarbeit
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
+                <h2 className="text-center md:text-left text-[17px] md:text-2xl">
                   Ich arbeite ohne Baukastensysteme oder generische Vorlagen.
                   Jedes Pixel, jede Codezeile entsteht mit Sorgfalt und
                   Fachwissen, genau auf die Bedürfnisse zugeschnitten. Das
@@ -151,7 +151,7 @@ export default function Webentwicklung() {
                   Schnelle Umsetzung
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
+                <h2 className="text-center md:text-left text-[17px] md:text-2xl">
                   Dank klarer Prozesse, schlanker Strukturen und einer präzisen
                   Arbeitsweise kann ich schnelle Ergebnisse liefern, ohne an
                   Qualität einzubüßen. Du profitierst von kurzen
@@ -180,7 +180,7 @@ export default function Webentwicklung() {
                   Modernes Design
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
+                <h2 className="text-center md:text-left text-[17px] md:text-2xl">
                   Ob minimalistisch, kreativ oder markant – ich entwickle eine
                   individuelle Gestaltung, die perfekt zu deinem Stil und deiner
                   Marke passt. Zeitgemäß, einzigartig und auf jedem Gerät
@@ -210,7 +210,7 @@ export default function Webentwicklung() {
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <p className="text-left text-[15px] md:text-2xl">
+                <p className="text-left text-[17px] md:text-2xl">
                   Ich setze auf bewährte und moderne Technologien, um schnelle,
                   sichere und skalierbare Websites zu entwickeln.
                 </p>
@@ -218,7 +218,7 @@ export default function Webentwicklung() {
                   <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-5xl">
                     React & Next.js
                   </h1>
-                  <p className="text-[15px] md:text-2xl text-left">
+                  <p className="text-[17px] md:text-2xl text-left">
                     Dynamische, performante Webanwendungen mit modernster
                     Frontend-Technologie.
                   </p>
@@ -226,18 +226,18 @@ export default function Webentwicklung() {
                   <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-5xl">
                     Tailwind CSS
                   </h1>
-                  <p className="text-[15px] md:text-2xl text-left">
+                  <p className="text-[17px] md:text-2xl text-left">
                     Die Grundlage für sauberen, semantischen Code und
                     individuelles Styling.
                   </p>
                   <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-5xl">
                     Prisma
                   </h1>
-                  <p className="text-[15px] md:text-2xl text-left">
+                  <p className="text-[17px] md:text-2xl text-left">
                     Eine effiziente und flexible Lösung für Datenbankverwaltung,
                     die Skalierbarkeit und Sicherheit gewährleistet.
                   </p>
-                  <p className="pt-8 text-left text-[15px] md:text-2xl">
+                  <p className="pt-8 text-left text-[17px] md:text-2xl">
                     Durch diese Technologien entstehen leistungsstarke Websites,
                     die nicht nur optisch überzeugen, sondern auch technisch auf
                     höchstem Niveau sind.
@@ -274,7 +274,7 @@ export default function Webentwicklung() {
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <p className="text-center md:text-left text-[15px] md:text-2xl">
+                <p className="text-center md:text-left text-[17px] md:text-2xl">
                   Nach unserem Erstgespräch erstelle ich ein individuelles
                   Angebot, das genau auf deine Anforderungen zugeschnitten ist.
                   Der Zeitaufwand und der damit verbundene Preis für das
@@ -294,7 +294,7 @@ export default function Webentwicklung() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/kontakt"
-                className="py-3 px-2 bg-green rounded text-3xl border-black text-white transition ease-in hover:scale-110"
+                className="py-3 px-5 bg-green rounded md:text-2xl border-black text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>

@@ -37,7 +37,7 @@ export const SideBarDropDown = ({
             {items.map((item, index) => (
               <li
                 key={index}
-                className={`relative flex text-lg animate-delay-150 animate-fade items-center gap-4 font-saira p-2 m-2`}
+                className={`relative flex text-md animate-delay-150 animate-fade items-center gap-4 font-saira p-2 m-2`}
               >
                 <Link href={item.url!}>{item.title}</Link>
               </li>

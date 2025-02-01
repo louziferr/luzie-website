@@ -96,11 +96,8 @@ export default function Header() {
   });
 
   return (
-    <header
-      className="fixed w-full z-50 shadow-black shadow-sm animate-delay-1000 animate-fade-down"
-      style={{ top: topShiftString }}
-    >
-      <div className="bg-white flex justify-between items-center px-5 py-2.5 max-h-[90px]">
+    <header className="fixed w-full z-50" style={{ top: topShiftString }}>
+      <div className="bg-white shadow-black shadow-sm flex animate-fade-down animate-delay-1000 justify-between items-center px-5 py-2.5 max-h-[90px]">
         <div className="p-2">
           <Link href="/">
             <h1 className="p-0 text-darkBlue">LA</h1>
