@@ -18,14 +18,14 @@ export default function Webentwicklung() {
       </div>
 
       <div className="m-8 md:p-8">
-        <h1 className="py-8 text-3xl md:text-8xl text-green">
+        <h1 className="py-8 text-3xl md:text-6xl text-green">
           Moderne Web-Entwicklung
         </h1>
 
         <section className="flex flex-col">
           <div className="flex">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className="text-[18px] text-center md:text-3xl md:text-justify leading-relaxed font-saira">
+              <p className="text-[15px] text-center md:text-xl md:text-justify leading-relaxed font-saira">
                 Die digitale Welt entwickelt sich rasant – und du brauchst eine
                 Website?
                 <br />
@@ -63,7 +63,7 @@ export default function Webentwicklung() {
                   <img
                     src="svg/programming.svg"
                     alt="programming SVG"
-                    width="400"
+                    width="300"
                   />
                 </div>
               </div>
@@ -71,7 +71,7 @@ export default function Webentwicklung() {
           </div>
 
           <div className="flex items-center justify-center">
-            <p className="text-[18px] mt-8 md:text-3xl text-center leading-relaxed w-full font-saira">
+            <p className="text-[15px] mt-8 md:text-xl text-center leading-relaxed w-full font-saira">
               Bereit für erstklassige <b>Webentwicklung</b>? Lass uns deine
               Vision realisieren.
             </p>
@@ -80,7 +80,7 @@ export default function Webentwicklung() {
         </section>
       </div>
 
-      <h1 className="pt-8 text-2xl md:text-8xl text-darkBlue underline underline-offset-4">
+      <h1 className="pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
         Meine Arbeitsweise
       </h1>
       <section className="flex items-center justify-center">
@@ -88,15 +88,15 @@ export default function Webentwicklung() {
           <div className="flex flex-col md:mt-[100px]">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8">
-                <div className="text-gray-700 text-center text-6xl md:text-left md:text-8xl font-alfa mr-3">
+                <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   01
                 </div>
-                <h1 className="text-green md:text-left mb-8 md:text-5xl">
+                <h1 className="text-green md:text-left mb-8 md:text-4xl">
                   Individuelle Lösung
                 </h1>
 
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[18px] md:text-3xl">
+                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
                   Jedes Projekt hat andere Anforderungen. Je nach Wunsch können
                   das Aussehen und die Funktionsweise deiner Website angepasst
                   werden. Von klaren, minimalistischen Designs bis hin zu
@@ -116,14 +116,14 @@ export default function Webentwicklung() {
           <div className="flex flex-col md:mt-[100px]">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8 order-1 md:order-2">
-                <p className="text-gray-700 text-center text-6xl md:text-right md:text-8xl font-alfa mr-3">
+                <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   02
                 </p>
-                <h1 className="text-green md:text-right mb-8 md:text-5xl">
+                <h1 className="text-green md:text-right mb-8 md:text-4xl">
                   Echte Handarbeit
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[18px] md:text-3xl">
+                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
                   Ich arbeite ohne Baukastensysteme oder generische Vorlagen.
                   Jedes Pixel, jede Codezeile entsteht mit Sorgfalt und
                   Fachwissen, genau auf die Bedürfnisse zugeschnitten. Das
@@ -144,14 +144,14 @@ export default function Webentwicklung() {
           <div className="flex flex-col md:mt-[100px]">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
-                <p className="text-gray-700 text-center text-6xl md:text-left md:text-8xl font-alfa mr-3">
+                <p className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   03
                 </p>
-                <h1 className="text-green md:text-left mb-8 md:text-5xl">
+                <h1 className="text-green md:text-left mb-8 md:text-4xl">
                   Schnelle Umsetzung
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[18px] md:text-3xl">
+                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
                   Dank klarer Prozesse, schlanker Strukturen und einer präzisen
                   Arbeitsweise kann ich schnelle Ergebnisse liefern, ohne an
                   Qualität einzubüßen. Du profitierst von kurzen
@@ -173,14 +173,14 @@ export default function Webentwicklung() {
           <div className="flex flex-col md:mt-[100px]">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8 order-1 md:order-2">
-                <p className="text-gray-700 text-center text-6xl md:text-right md:text-8xl font-alfa mr-3">
+                <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   04
                 </p>
-                <h1 className="text-green md:text-right mb-8 md:text-5xl">
+                <h1 className="text-green md:text-right mb-8 md:text-4xl">
                   Modernes Design
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[18px] md:text-3xl">
+                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
                   Ob minimalistisch, kreativ oder markant – ich entwickle eine
                   individuelle Gestaltung, die perfekt zu deinem Stil und deiner
                   Marke passt. Zeitgemäß, einzigartig und auf jedem Gerät
@@ -199,11 +199,13 @@ export default function Webentwicklung() {
         </div>
       </section>
 
-      <h1 className="pt-8 text-5xl md:text-8xl text-darkBlue">Zur Technik</h1>
+      <h1 className="pt-10 text-3xl md:text-6xl text-darkBlue underline underline-offset-4">
+        Tech Stack
+      </h1>
 
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
-          <div className="flex flex-col md:mt-[100px]">
+          <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
@@ -264,10 +266,10 @@ export default function Webentwicklung() {
         </div>
       </section>
 
-      <h1 className="pt-8 text-5xl md:text-8xl text-green">Preise</h1>
+      <h1 className="pt-8 text-4xl md:text-6xl text-green">Preise</h1>
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
-          <div className="flex flex-col md:mt-[100px]">
+          <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
@@ -286,15 +288,15 @@ export default function Webentwicklung() {
                   alt="iconImage"
                 />
               </div>
+            </div>
 
-              <div className="m-8 flex flex-col items-center justify-center">
-                <Link
-                  href="/preise"
-                  className="py-3 px-2 bg-green rounded border-black text-white transition ease-in hover:scale-110"
-                >
-                  Zu den Preisen
-                </Link>
-              </div>
+            <div className="m-8 flex flex-col items-center justify-center">
+              <Link
+                href="/preise"
+                className="py-3 px-2 bg-green rounded text-3xl border-black text-white transition ease-in hover:scale-110"
+              >
+                Zu den Preisen
+              </Link>
             </div>
           </div>
         </div>

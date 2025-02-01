@@ -3,24 +3,35 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { SingleLevelDropdownMenu } from "./dropdown";
 import { SideBarDropDown } from "./sidebar_dropdown";
+import { usePathname } from "next/navigation";
 
-interface HeaderProps {
-  sideBarVisible: boolean;
-  handleBurgerClick: () => void;
-  hideSideBar: () => void;
-  showDropdown: boolean;
-  toggleDropdown: () => void;
-}
+export default function Header() {
+  const [sideBarVisible, setsideBarVisible] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
 
-export default function Header({
-  sideBarVisible,
-  handleBurgerClick,
-  hideSideBar,
-  showDropdown,
-  toggleDropdown,
-}: HeaderProps) {
+  function toggleDropdown() {
+    setShowDropdown(!showDropdown);
+  }
+
+  function showSideBar() {
+    setsideBarVisible(true);
+  }
+
+  function hideSideBar() {
+    setsideBarVisible(false);
+    setShowDropdown(false);
+    console.log("HIDING");
+  }
+
+  const location = usePathname();
+
+  useEffect(() => {
+    setsideBarVisible(false);
+    setShowDropdown(false);
+  }, [location]);
+
   function handleClick() {
-    handleBurgerClick();
+    showSideBar();
   }
 
   const headerHeight = 90;

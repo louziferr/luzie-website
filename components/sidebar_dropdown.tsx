@@ -32,12 +32,12 @@ export const SideBarDropDown = ({
         </span>
       </button>
       {showDropdown && (
-        <div className="top-[52px] pt-3">
+        <div className="top-[52px] pt-3 animate-expand">
           <ul className="">
             {items.map((item, index) => (
               <li
                 key={index}
-                className={`relative flex items-center gap-4 font-saira`}
+                className={`relative flex text-lg animate-delay-150 animate-fade items-center gap-4 font-saira p-2 m-2`}
               >
                 <Link href={item.url!}>{item.title}</Link>
               </li>

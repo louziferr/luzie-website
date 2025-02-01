@@ -33,11 +33,11 @@ export const SingleLevelDropdownMenu = ({
       </button>
       {showDropdown && (
         <div className="absolute left-1/2 -translate-x-1/2 top-[52px]">
-          <ul className="w-56 h-auto shadow-md rounded-b-md p-2 border border-black border-t-0 bg-white">
+          <ul className="w-56 h-auto shadow-md rounded-b-md p-2 border animate-expand border-black border-t-0 bg-white">
             {items.map((item, index) => (
               <li
                 key={index}
-                className={`relative flex items-center gap-4 font-saira text-xl hover:bg-gray-300 hover:cursor-pointer rounded-md`}
+                className={`relative flex items-center gap-4 animate-fade font-saira text-xl hover:bg-gray-300 hover:cursor-pointer rounded-md`}
               >
                 <Link href={item.url!}>{item.title}</Link>
               </li>
