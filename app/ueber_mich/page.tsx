@@ -39,7 +39,7 @@ export default function Programmierung() {
                 </p>
                 <div className="pt-0 p-4 flex items-center justify-center order-1 md:order-2">
                   <img
-                    src="me.JPG"
+                    src="me.jpg"
                     alt="ME"
                     className="w-[300px] p-4 md:w-[400px] border-4 border-gray-700"
                   />

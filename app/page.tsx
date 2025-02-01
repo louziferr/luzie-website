@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function Home() {
   return (
     <>
-      <div className="h-screen flex bg-gradient-to-b from-darkBlue via-sky-950 to-darkBlue flex-col flex-grow items-center justify-center p-8">
+      <div className="h-screen flex bg-darkBlue flex-col flex-grow items-center justify-center p-8">
         <h1 className="text-white text-4xl animate-fade-down animate-delay-200">
           Luzie Ahrens
         </h1>
