@@ -84,7 +84,7 @@ export default function Lehre() {
           </p>
           <ul className="font-saira">
             <li className="p-1 flex">
-              <div className="text-red text-xl md:text-3xl font-alfa mr-3">
+              <div className="text-rose-700 text-xl md:text-3xl font-alfa mr-3">
                 01
               </div>
               <Link
@@ -95,7 +95,7 @@ export default function Lehre() {
               </Link>
             </li>
             <li className="p-1 flex">
-              <div className="text-rose-700 text-xl font-alfa md:text-3xl mr-3">
+              <div className="text-cyan-700 text-xl font-alfa md:text-3xl mr-3">
                 02
               </div>
               <Link
@@ -106,7 +106,7 @@ export default function Lehre() {
               </Link>
             </li>
             <li className="p-1 flex">
-              <div className="text-rose-800 text-xl md:text-3xl font-alfa mr-3">
+              <div className="text-amber-500 text-xl md:text-3xl font-alfa mr-3">
                 03
               </div>
               <Link
@@ -117,7 +117,7 @@ export default function Lehre() {
               </Link>
             </li>
             <li className="p-1 flex">
-              <div className="text-rose-900 text-xl md:text-3xl font-alfa mr-3">
+              <div className="text-teal-600 text-xl md:text-3xl font-alfa mr-3">
                 04
               </div>
               <Link
@@ -128,7 +128,7 @@ export default function Lehre() {
               </Link>
             </li>
             <li className="p-1 flex">
-              <div className="text-rose-950 text-xl md:text-3xl font-alfa mr-3 hover:cursor-pointer">
+              <div className="text-purple-800 text-xl md:text-3xl font-alfa mr-3 hover:cursor-pointer">
                 05
               </div>
               <Link
@@ -150,7 +150,7 @@ export default function Lehre() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   01
                 </div>
-                <h1 className="text-red text-[20px] md:text-left mb-8 md:text-4xl">
+                <h1 className="text-rose-700 text-[20px] md:text-left mb-8 md:text-4xl">
                   Programmiersprachen
                 </h1>
 
@@ -197,7 +197,7 @@ export default function Lehre() {
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   02
                 </p>
-                <h1 className="text-rose-700 md:text-right mb-8 md:text-4xl">
+                <h1 className="text-cyan-700 md:text-right mb-8 md:text-4xl">
                   Robotik
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
@@ -227,7 +227,7 @@ export default function Lehre() {
                 <p className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   03
                 </p>
-                <h1 className="text-rose-800 md:text-left mb-8 md:text-4xl">
+                <h1 className="text-amber-500 md:text-left mb-8 md:text-4xl">
                   Web-Entwicklung
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
@@ -259,7 +259,7 @@ export default function Lehre() {
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   04
                 </p>
-                <h1 className="text-rose-900 md:text-right mb-8 md:text-4xl">
+                <h1 className="text-teal-600 md:text-right mb-8 md:text-4xl">
                   Theoretische Informatik
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
@@ -292,7 +292,7 @@ export default function Lehre() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   05
                 </div>
-                <h1 className="text-rose-900 text-[20px] md:text-left mb-8 md:text-4xl">
+                <h1 className="text-purple-800 text-[20px] md:text-left mb-8 md:text-4xl">
                   Machine Learning
                 </h1>
 
