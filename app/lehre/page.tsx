@@ -197,7 +197,7 @@ export default function Lehre() {
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   02
                 </p>
-                <h1 className="text-red md:text-right mb-8 md:text-4xl">
+                <h1 className="text-rose-700 md:text-right mb-8 md:text-4xl">
                   Robotik
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
@@ -227,7 +227,7 @@ export default function Lehre() {
                 <p className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   03
                 </p>
-                <h1 className="text-red md:text-left mb-8 md:text-4xl">
+                <h1 className="text-rose-800 md:text-left mb-8 md:text-4xl">
                   Web-Entwicklung
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
@@ -259,7 +259,7 @@ export default function Lehre() {
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   04
                 </p>
-                <h1 className="text-red md:text-right mb-8 md:text-4xl">
+                <h1 className="text-rose-900 md:text-right mb-8 md:text-4xl">
                   Theoretische Informatik
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
@@ -292,7 +292,7 @@ export default function Lehre() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   05
                 </div>
-                <h1 className="text-red text-[20px] md:text-left mb-8 md:text-4xl">
+                <h1 className="text-rose-900 text-[20px] md:text-left mb-8 md:text-4xl">
                   Machine Learning
                 </h1>
 
