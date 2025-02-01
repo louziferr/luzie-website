@@ -77,59 +77,69 @@ export default function Lehre() {
         Kursthemen
       </h1>
 
-      <div className="p-8 leading-relaxed w-full max-w-[600px]">
-        <p className="text-[15px] md:text-2xl text-center font-saira pb-4">
-          Bereits konzipiert sind Kurse zu folgenden Themen:
-        </p>
-        <ul className="font-saira">
-          <li className="p-1 flex">
-            <div className="text-red text-xl font-alfa mr-3">01</div>
-            <Link
-              className="underline underline-offset-2 hover:cursor-pointer"
-              href="/lehre/#programmiersprachen"
-            >
-              Programmiersprachen
-            </Link>
-          </li>
-          <li className="p-1 flex">
-            <div className="text-rose-700 text-xl font-alfa mr-3">02</div>
-            <Link
-              className="underline underline-offset-2 hover:cursor-pointer"
-              href="/lehre/#robotik"
-            >
-              Robotik
-            </Link>
-          </li>
-          <li className="p-1 flex">
-            <div className="text-rose-800 text-xl font-alfa mr-3">03</div>
-            <Link
-              className="underline underline-offset-2 hover:cursor-pointer"
-              href="/lehre/#web-entwicklung"
-            >
-              Web-Entwicklung
-            </Link>
-          </li>
-          <li className="p-1 flex">
-            <div className="text-rose-900 text-xl font-alfa mr-3">04</div>
-            <Link
-              className="underline underline-offset-2 hover:cursor-pointer"
-              href="/lehre/#theoretische-informatik"
-            >
-              Theoretische Informatik
-            </Link>
-          </li>
-          <li className="p-1 flex">
-            <div className="text-rose-950 text-xl font-alfa mr-3 hover:cursor-pointer">
-              05
-            </div>
-            <Link
-              className="underline underline-offset-2 hover:cursor-pointer"
-              href="/lehre/#machine-learning"
-            >
-              Machine Learning
-            </Link>
-          </li>
-        </ul>
+      <div className="flex flex-row items-center justify-center">
+        <div className="p-8 leading-relaxed max-w-[900px]">
+          <p className="text-[15px] md:text-2xl text-center font-saira pb-4">
+            Bereits konzipiert sind Kurse zu folgenden Themen:
+          </p>
+          <ul className="font-saira">
+            <li className="p-1 flex">
+              <div className="text-red text-xl md:text-3xl font-alfa mr-3">
+                01
+              </div>
+              <Link
+                className="underline underline-offset-2 md:text-2xl hover:cursor-pointer"
+                href="/lehre/#programmiersprachen"
+              >
+                Programmiersprachen
+              </Link>
+            </li>
+            <li className="p-1 flex">
+              <div className="text-rose-700 text-xl font-alfa md:text-3xl mr-3">
+                02
+              </div>
+              <Link
+                className="underline underline-offset-2  md:text-2xl hover:cursor-pointer"
+                href="/lehre/#robotik"
+              >
+                Robotik
+              </Link>
+            </li>
+            <li className="p-1 flex">
+              <div className="text-rose-800 text-xl md:text-3xl font-alfa mr-3">
+                03
+              </div>
+              <Link
+                className="underline underline-offset-2  md:text-2xl hover:cursor-pointer"
+                href="/lehre/#web-entwicklung"
+              >
+                Web-Entwicklung
+              </Link>
+            </li>
+            <li className="p-1 flex">
+              <div className="text-rose-900 text-xl md:text-3xl font-alfa mr-3">
+                04
+              </div>
+              <Link
+                className="underline underline-offset-2  md:text-2xl hover:cursor-pointer"
+                href="/lehre/#theoretische-informatik"
+              >
+                Theoretische Informatik
+              </Link>
+            </li>
+            <li className="p-1 flex">
+              <div className="text-rose-950 text-xl md:text-3xl font-alfa mr-3 hover:cursor-pointer">
+                05
+              </div>
+              <Link
+                className="underline underline-offset-2  md:text-2xl hover:cursor-pointer"
+                href="/lehre/#machine-learning"
+              >
+                Machine Learning
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <section className="flex items-center justify-center">
