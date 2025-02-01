@@ -3,17 +3,17 @@
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 
-export default function Lehre() {
+export default function Programmierung() {
   return (
     <div>
-      <div className="h-screen flex bg-gradient-to-b from-red via-rose-800 to-red flex-col flex-grow flex-wrap items-center justify-center p-8">
+      <div className="h-screen flex bg-gradient-to-b from-blue via-sky-900 to-blue flex-col flex-grow flex-wrap items-center justify-center p-8">
         <h1 className="text-white text-4xl animate-fade-down animate-delay-200">
-          Informatik lernen.
+          Software.
         </h1>
         <div className="w-full h-[10px] bg-white"></div>
 
         <h1 className="font-saira text-white md:text-4xl pt-4 animate-fade-up animate-delay-500">
-          Auf deinem Niveau.
+          Für dich.
         </h1>
       </div>
 

@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function Webentwicklung() {
   return (
     <div>
-      <div className="h-screen flex bg-green flex-col flex-grow flex-wrap items-center justify-center p-8">
+      <div className="h-screen flex bg-gradient-to-b from-green via-teal-800 to-green flex-col flex-grow flex-wrap items-center justify-center p-8">
         <h1 className="text-white text-4xl animate-fade-down animate-delay-200">
           Deine Website.
         </h1>

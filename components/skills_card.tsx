@@ -20,7 +20,7 @@ export default function SkillsCard({
   return (
     <>
       <div className="bg-white pb-8">
-        <div className="md:mt-[100px] py-4 m-4 text-center flex flex-col items-center shadow-md shadow-black rounded-lg bg-darkBlue">
+        <div className="md:mt-[50px] py-4 m-4 text-center flex flex-col items-center shadow-md shadow-black rounded-lg bg-darkBlue">
           <h1 className="mb-8 text-4xl font-jockey text-white">{headline}</h1>
           <div
             className="m-2 p-5 rounded-lg shadow-lg shadow-black"
