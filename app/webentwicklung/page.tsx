@@ -7,12 +7,12 @@ export default function Webentwicklung() {
   return (
     <div>
       <div className="h-screen flex bg-green-comp flex-col flex-grow flex-wrap items-center justify-center p-8">
-        <h1 className="text-white md:text-4xl animate-fade-down animate-delay-200 pb-2">
+        <h1 className="text-white text-3xl md:text-4xl animate-fade-down animate-delay-200 pb-2">
           Deine Website.
         </h1>
-        <div className="w-full h-[10px] bg-white"></div>
+        <div className="w-full h-[5px] bg-white"></div>
 
-        <h1 className="font-saira text-white text-3xl pt-4 animate-fade-up animate-delay-500">
+        <h1 className="font-saira text-white text-2xl m:d:text-3xl pt-4 animate-fade-up animate-delay-500">
           Wie du willst.
         </h1>
       </div>
@@ -265,13 +265,13 @@ export default function Webentwicklung() {
         </div>
       </section>
 
-      <div className="h-[5px] md:mt-4 bg-green shadow-md shadow-blue"></div>
+      <div className="h-[5px] md:mt-4 bg-green shadow-md shadow-green"></div>
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
-                <h1 className="text-green text-left mb-4 md:text-4xl">
+                <h1 className="text-green mt-8 text-left mb-4 md:text-4xl">
                   Melde dich!
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
@@ -295,7 +295,7 @@ export default function Webentwicklung() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/kontakt"
-                className="py-2 px-5 bg-green rounded md:text-2xl border-black text-white transition ease-in hover:scale-110"
+                className="py-2 px-3 bg-green rounded md:text-2xl border-black text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>

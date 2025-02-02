@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="text-white text-4xl pb-2 animate-fade-down animate-delay-200">
           Luzie Ahrens
         </h1>
-        <div className="w-full h-[10px] justify-center bg-white"></div>
+        <div className="w-full h-[5px] justify-center bg-white"></div>
         <h1 className="font-saira text-white text-2xl pt-2 animate-fade-up animate-delay-500">
           Informatikerin
         </h1>
@@ -33,7 +33,7 @@ export default function Home() {
         />
       </div>
 
-      <h1 className="m-8 pt-8 text-3xl md:text-6xl text-darkBlue">
+      <h1 className="m-8 pt-8 text-4xl md:text-6xl text-darkBlue">
         Leistungen
       </h1>
 
@@ -86,8 +86,8 @@ export default function Home() {
         <div className="max-w-[1500px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
-              <div className="m-8">
-                <p className="text-blue font-anta text-[20px] text-left mb-4 md:text-4xl">
+              <div className="m-8 ">
+                <p className="text-blue mt-8 font-anta text-[20px] text-left mb-4 md:text-4xl">
                   Melde dich!
                 </p>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[100px] w-full animate-wiggle object-scale-down"
+                  className="h-[80px] md:h-[150px] w-full animate-wiggle object-scale-down"
                   src="svg/hand-shake.svg"
                   alt="hand shake"
                 />

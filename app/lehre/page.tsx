@@ -10,7 +10,7 @@ export default function Lehre() {
         <h1 className="pb-2 text-white text-3xl md:text-4xl animate-fade-down animate-delay-200">
           Informatik lernen.
         </h1>
-        <div className="w-full h-[10px] bg-white"></div>
+        <div className="w-full h-[5px] bg-white"></div>
 
         <h1 className="font-saira text-white md:text-3xl pt-4 animate-fade-up animate-delay-500">
           Auf jedem Niveau.
@@ -321,14 +321,14 @@ export default function Lehre() {
         </div>
       </section>
 
-      <div className="h-[5px] mt-8 bg-rose-700 shadow-md shadow-blue"></div>
+      <div className="h-[5px] mt-8 bg-rose-700 shadow-md shadow-red"></div>
 
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
-                <h1 className="text-rose-700 text-left mb-4 md:text-4xl">
+                <h1 className="text-rose-700 mt-8 text-left mb-4 md:text-4xl">
                   Melde dich!
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
@@ -351,7 +351,7 @@ export default function Lehre() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/preise"
-                className="py-2 px-3 bg-rose-700 rounded text-xl md:text-2xl border-black text-white transition ease-in hover:scale-110"
+                className="py-2 px-3 bg-rose-700 rounded md:text-2xl text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>

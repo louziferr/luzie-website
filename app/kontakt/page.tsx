@@ -23,9 +23,7 @@ export default function Kontakt() {
                 <div className="bg-sky-100 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 <span className="absolute inline-flex w-[10px] h-[10px] animate-ping rounded-full bg-sky-100 opacity-75"></span>
               </div>
-              <p className="text-[12px] md:text-lg text-white">
-                luzie.ahrens@gmail.com
-              </p>
+              <p className="md:text-lg text-white">luzie.ahrens@gmail.com</p>
             </div>
           </div>
         </div>

@@ -10,10 +10,10 @@ export default function Programmierung() {
   return (
     <div>
       <div className="h-screen flex bg-blue-comp flex-col flex-grow flex-wrap items-center justify-center p-8">
-        <h1 className="text-white md:text-4xl animate-fade-down animate-delay-200 mb-4">
+        <h1 className="text-white text-3xl md:text-4xl animate-fade-down animate-delay-200 mb-4">
           Programmierung.
         </h1>
-        <div className="w-full h-[10px] bg-white"></div>
+        <div className="w-full h-[5px] bg-white"></div>
       </div>
 
       <div className="mb-0 m-8 md:p-8">
@@ -63,7 +63,7 @@ export default function Programmierung() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   01
                 </div>
-                <h1 className="text-blue text-[20px] md:text-left mb-8 md:text-4xl">
+                <h1 className="text-blue md:text-left mb-8 md:text-4xl">
                   Datenverarbeitung
                 </h1>
 
@@ -146,7 +146,7 @@ export default function Programmierung() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   03
                 </div>
-                <h1 className="text-blue text-[20px] md:text-left mb-8 md:text-4xl">
+                <h1 className="text-blue md:text-left mb-8 md:text-4xl">
                   Skripte
                 </h1>
 
@@ -193,7 +193,9 @@ export default function Programmierung() {
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
-                <h1 className="text-blue text-left md:text-4xl">Melde dich!</h1>
+                <h1 className="text-blue text-left md:text-4xl mt-8">
+                  Melde dich!
+                </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Wenn du denkst, ich kann dir helfen oder wenn du sonstige
@@ -204,7 +206,7 @@ export default function Programmierung() {
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[100px] md:h-[150px] w-full animate-wiggle object-scale-down"
+                  className="h-[80px] md:h-[150px] w-full animate-wiggle object-scale-down"
                   src="svg/hand-shake.svg"
                   alt="hand shake"
                 />
@@ -214,7 +216,7 @@ export default function Programmierung() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/kontakt"
-                className="py-2 px-3 bg-blue rounded text-xl md:text-2xl text-white transition ease-in hover:scale-110"
+                className="py-2 px-3 bg-blue rounded md:text-2xl text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>
