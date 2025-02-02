@@ -36,13 +36,12 @@ export default function Lehre() {
                 Interesse an einem maßgeschneiderten Kurs zu Informatik haben.
                 Ich unterrichte Kinder, Jugendliche und Erwachsene und passe das
                 Niveau sowie die Lehr- und Lernmethoden an die jeweilige
-                Zielgruppe an.
+                Zielgruppe an. Die Kurse können online oder vor Ort stattfinden.
                 <br /> <br />
-                Ich biete bereits erprobte Kurskonzepte zu verschiedenen Themen
-                der Informatik an, die strukturiert und praxisnah Wissen
-                vermitteln. Gleichzeitig lege ich großen Wert auf individuelle
-                Anpassung. Auf Wunsch entwickle ich maßgeschneiderte Kurse, die
-                genau auf das Projekt und die Lernziele abgestimmt sind.
+                Eine Auflistung bereits erprobter Kurskonzepte zu verschiedenen
+                Themen der Informatik findest du auf dieser Seite. Auf Wunsch
+                entwickle ich neue, maßgeschneiderte Kurse, die genau auf das
+                Projekt und die Lernziele abgestimmt sind.
                 <br />
                 <br />
               </p>
