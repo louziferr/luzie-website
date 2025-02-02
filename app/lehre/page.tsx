@@ -323,7 +323,6 @@ export default function Lehre() {
 
       <div className="h-[5px] md:mt-4 bg-rose-700 shadow-md shadow-blue"></div>
 
-      <h1 className="pt-8 text-2xl md:text-4xl text-rose-700">Anfragen</h1>
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
           <div className="flex flex-col">
