@@ -58,8 +58,8 @@ export default function Programmierung() {
             <ul className="font-saira">
               <li className="p-1 flex items-center">
                 <div className="relative flex">
-                  <div className="bg-purple-600 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[12px] h-[12px]"></div>
-                  <span className="absolute inline-flex w-[12px] h-[12px] animate-ping rounded-full bg-purple-600 opacity-75"></span>
+                  <div className="bg-sky-200 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[12px] h-[12px]"></div>
+                  <span className="absolute inline-flex w-[12px] h-[12px] animate-ping rounded-full bg-sky-200 opacity-75"></span>
                 </div>
                 <p className="text-white">
                   Heute - freiberufliche Informatikerin
@@ -68,7 +68,7 @@ export default function Programmierung() {
 
               <li className="p-1 flex items-center">
                 <div className="relative flex">
-                  <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                  <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
                   seit 2024 - Dozentin für Informatik bei IBB Institut für
@@ -78,7 +78,7 @@ export default function Programmierung() {
 
               <li className="p-1 flex items-center">
                 <div className="relative flex">
-                  <div className="bg-purple-800 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                  <div className="bg-sky-300 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
                   <b>
@@ -90,7 +90,7 @@ export default function Programmierung() {
 
               <li className="p-1 flex items-center">
                 <div className="relative flex">
-                  <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                  <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
                   2024 - Dozentin für Webentwicklung bei Devhaus Leipzig GmbH
@@ -99,7 +99,7 @@ export default function Programmierung() {
 
               <li className="p-1 flex items-center">
                 <div className="relative flex">
-                  <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                  <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
                   seit 2023 - Dozentin für Python an der Uni Bremen
@@ -108,7 +108,7 @@ export default function Programmierung() {
 
               <li className="p-1 flex items-center">
                 <div className="relative flex">
-                  <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                  <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
                   seit 2022 - Dozentin für Python an der TU Berlin
@@ -117,7 +117,7 @@ export default function Programmierung() {
 
               <li className="p-1 flex items-center">
                 <div className="relative flex">
-                  <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                  <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
                   seit 2022 - Leitung der Robotik AG an der BIP
@@ -127,7 +127,7 @@ export default function Programmierung() {
 
               <li className="p-1 flex items-center">
                 <div className="relative flex">
-                  <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                  <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
                   2021 - 2022 - studentische Hilfskraft an der Fachhochschule
@@ -137,7 +137,7 @@ export default function Programmierung() {
 
               <li className="p-1 flex items-center">
                 <div className="relative flex">
-                  <div className="bg-purple-800 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                  <div className="bg-sky-300 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
                   <b>2016 - 2020 - Bachelor of Science: Computerlinguistik</b>
@@ -146,7 +146,7 @@ export default function Programmierung() {
 
               <li className="p-1 flex items-center">
                 <div className="relative flex">
-                  <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                  <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
                   2018 - 2020 - MINT-Tutorin an der Uni Potsdam
@@ -155,7 +155,7 @@ export default function Programmierung() {
 
               <li className="p-1 flex items-center">
                 <div className="relative flex">
-                  <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                  <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
                   2017 - 2019 - studentische Hilfskraft an der Uni Potsdam
@@ -164,7 +164,7 @@ export default function Programmierung() {
 
               <li className="p-1 flex items-center">
                 <div className="relative flex">
-                  <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                  <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
                   seit 2008 - gelegentliche Tätigkeit als Schauspielerin
