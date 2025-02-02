@@ -67,16 +67,10 @@ export default function Webentwicklung() {
               </div>
             </div>
           </div>
-
-          <div className="flex items-center justify-center">
-            <p className="text-[17px] mt-8 md:text-xl text-center leading-relaxed w-full font-saira">
-              Bereit für erstklassige <b>Webentwicklung</b>? Lass uns deine
-              Vision realisieren.
-            </p>
-          </div>
-          <div className="mt-[70px] h-[5px] bg-green"></div>
         </section>
       </div>
+
+      <div className="mt-[30px] mb-[30px] w-full h-[5px] bg-green shadow-md shadow-green"></div>
 
       <h1 className="pt-0 font-alfa md:pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
         Meine Arbeitsweise
