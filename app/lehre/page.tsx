@@ -39,9 +39,9 @@ export default function Lehre() {
                 Zielgruppe an. Die Kurse können online oder vor Ort stattfinden.
                 <br /> <br />
                 Eine Auflistung bereits erprobter Kurskonzepte zu verschiedenen
-                Themen der Informatik sind auf dieser Seite aufgelistet. Auf
-                Wunsch entwickle ich neue, maßgeschneiderte Kurse, die genau auf
-                das Projekt und die Lernziele abgestimmt sind.
+                Themen der Informatik ist auf dieser Seite zu sehen. Auf Wunsch
+                entwickle ich neue, maßgeschneiderte Kurse, die genau auf das
+                Projekt und die Lernziele abgestimmt sind.
                 <br />
                 <br />
               </p>
@@ -58,18 +58,6 @@ export default function Lehre() {
                 </span>
               </div>
             </div>
-          </div>
-
-          <div className="flex items-center justify-center">
-            <p className="mt-8 text-center leading-relaxed w-full max-w-[600px]">
-              Schau dir gerne die Liste meiner bereits konzipierten Kurse an.
-              <br />
-              <br />
-              <b>Dein Kurs ist nicht dabei?</b> Kein Problem!
-              <br />
-              Melde dich bei mir, und wir finden gemeinsam eine Lösung, die
-              genau auf deine Wünsche und Lernziele zugeschnitten ist.
-            </p>
           </div>
           <div className="mt-[70px] w-full h-[5px] bg-rose-700"></div>
         </section>
