@@ -102,7 +102,7 @@ export default function Programmierung() {
                   <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
-                  seit 2023 - Dozentin für Python an der Uni Bremen
+                  seit 2023 - Gastdozentin für Python an der Uni Bremen
                 </p>
               </li>
 
@@ -111,7 +111,7 @@ export default function Programmierung() {
                   <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
-                  seit 2022 - Dozentin für Python an der TU Berlin
+                  seit 2022 - Gastdozentin für Python an der TU Berlin
                 </p>
               </li>
 
