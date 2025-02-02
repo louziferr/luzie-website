@@ -149,7 +149,7 @@ export default function Lehre() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   01
                 </div>
-                <h1 className="text-rose-700 text-[20px] md:text-left mb-8 md:text-4xl">
+                <h1 className="text-rose-700 md:text-left mb-8 md:text-4xl">
                   Programmiersprachen
                 </h1>
 
@@ -291,7 +291,7 @@ export default function Lehre() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   05
                 </div>
-                <h1 className="text-purple-800 text-[20px] md:text-left mb-8 md:text-4xl">
+                <h1 className="text-purple-800 md:text-left mb-8 md:text-4xl">
                   Machine Learning
                 </h1>
 
