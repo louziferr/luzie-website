@@ -31,7 +31,7 @@ export default function SkillsCard({
               boxShadow: `0px 10px 20px ${color}`,
             }}
           >
-            <img src={image} alt="image" width="200" />
+            <img src={image} alt="image" className="w-[120px]" />
           </div>
           <p className="text-2xl mt-10" style={{ color: color }}>
             {subheadline}

@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function Lehre() {
   return (
     <div>
-      <div className="h-screen flex bg-gradient-to-b from-red via-rose-800 to-red flex-col flex-grow flex-wrap items-center justify-center p-8">
+      <div className="h-screen flex bg-rose flex-col flex-grow flex-wrap items-center justify-center p-8">
         <h1 className="text-white text-3xl md:text-4xl animate-fade-down animate-delay-200">
           Informatik lernen.
         </h1>
@@ -18,7 +18,7 @@ export default function Lehre() {
       </div>
 
       <div className="mb-0 m-8 md:p-8">
-        <h1 className="py-8 text-3xl md:text-6xl text-rose-700">
+        <h1 className="py-8 text-3xl md:text-6xl text-red">
           Unterricht und Kurse
         </h1>
 
@@ -39,9 +39,9 @@ export default function Lehre() {
                 Zielgruppe an. Die Kurse können online oder vor Ort stattfinden.
                 <br /> <br />
                 Eine Auflistung bereits erprobter Kurskonzepte zu verschiedenen
-                Themen der Informatik findest du auf dieser Seite. Auf Wunsch
-                entwickle ich neue, maßgeschneiderte Kurse, die genau auf das
-                Projekt und die Lernziele abgestimmt sind.
+                Themen der Informatik sind auf dieser Seite aufgelistet. Auf
+                Wunsch entwickle ich neue, maßgeschneiderte Kurse, die genau auf
+                das Projekt und die Lernziele abgestimmt sind.
                 <br />
                 <br />
               </p>
@@ -81,9 +81,6 @@ export default function Lehre() {
 
       <div className="flex flex-row items-center justify-center">
         <div className="p-8 leading-relaxed max-w-[900px]">
-          <p className="text-center pb-4">
-            Bereits konzipiert sind Kurse zu folgenden Themen:
-          </p>
           <ul className="font-saira">
             <li className="p-1 flex">
               <div className="text-rose-700 text-xl md:text-3xl font-alfa mr-3">
@@ -352,7 +349,7 @@ export default function Lehre() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/preise"
-                className="py-2 px-3 bg-rose-700 rounded text-xl border-black text-white transition ease-in hover:scale-110"
+                className="py-2 px-3 bg-rose-700 rounded text-xl md:text-2xl border-black text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>

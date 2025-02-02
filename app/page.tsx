@@ -39,14 +39,14 @@ export default function Home() {
 
       <div className="flex items-center justify-center">
         <div className="max-w-screen-md p-4">
-          <p>
-            Ob moderne Webentwicklung, individuelle Softwarelösungen oder
-            praxisnahe Informatik-Kurse – ich biete maßgeschneiderte Lösungen
-            für deine Anforderungen. Ich entwickle performante und ansprechende
-            Webanwendungen, unterrichte Programmierung und theoretische
-            Informatik verständlich und anwendungsorientiert und erstelle
-            effiziente Software, die perfekt auf deine Bedürfnisse zugeschnitten
-            ist. Lass uns gemeinsam deine Ideen in die Realität umsetzen!
+          <p className="md:text-center">
+            Ob moderne Webentwicklung, individuelle Softwarelösungen, oder
+            praxisnahe IT-Kurse – ich biete maßgeschneiderte Lösungen für
+            diverse Anforderungen im Bereich der Informatik.
+            <br />
+            <br />
+            Meine Lösungen können an viele Settings angepasst und auf diverse
+            Bedürfnisse zugeschnitten werden.
           </p>
         </div>
       </div>
@@ -99,7 +99,7 @@ export default function Home() {
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[100px] md:h-[200px] w-full animate-wiggle object-scale-down"
+                  className="h-[100px] w-full animate-wiggle object-scale-down"
                   src="svg/hand-shake.svg"
                   alt="hand shake"
                 />
@@ -109,7 +109,7 @@ export default function Home() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/kontakt"
-                className="py-2 px-3 bg-blue rounded text-white transition ease-in hover:scale-110"
+                className="py-2 px-3 bg-blue rounded md:text-xl text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>

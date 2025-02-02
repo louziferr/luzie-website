@@ -6,8 +6,8 @@ import { TypeAnimation } from "react-type-animation";
 export default function Webentwicklung() {
   return (
     <div>
-      <div className="h-screen flex bg-gradient-to-b from-green via-teal-800 to-green flex-col flex-grow flex-wrap items-center justify-center p-8">
-        <h1 className="text-white text-4xl animate-fade-down animate-delay-200">
+      <div className="h-screen flex bg-green-comp flex-col flex-grow flex-wrap items-center justify-center p-8">
+        <h1 className="text-white md:text-4xl animate-fade-down animate-delay-200">
           Deine Website.
         </h1>
         <div className="w-full h-[10px] bg-white"></div>
@@ -103,7 +103,7 @@ export default function Webentwicklung() {
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[100px] md:h-[250px] w-full animate-spin object-scale-down"
+                  className="h-[100px] md:h-[150px] w-full animate-spin object-scale-down"
                   src="svg/settings.svg"
                   alt="iconImage"
                 />
@@ -131,7 +131,7 @@ export default function Webentwicklung() {
               </div>
               <div className="m-8 flex flex-col items-center justify-center order-2 md:order-1">
                 <img
-                  className="h-[100px] md:h-[250px] w-full animate-wiggle object-scale-down"
+                  className="h-[100px] md:h-[150px] w-full animate-wiggle object-scale-down"
                   src="svg/hand-shake.svg"
                   alt="iconImage"
                 />
@@ -160,7 +160,7 @@ export default function Webentwicklung() {
 
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[100px] md:h-[250px] w-full object-scale-down"
+                  className="h-[100px] md:h-[150px] w-full object-scale-down"
                   src="svg/calendar.svg"
                   alt="iconImage"
                 />
@@ -187,7 +187,7 @@ export default function Webentwicklung() {
               </div>
               <div className="m-8 flex flex-col items-center justify-center  order-2 md:order-1">
                 <img
-                  className="h-[100px] md:h-[250px] w-full object-scale-down"
+                  className="h-[100px] md:h-[150px] w-full object-scale-down"
                   src="svg/sketch.svg"
                   alt="iconImage"
                 />
@@ -244,18 +244,18 @@ export default function Webentwicklung() {
               </div>
               <div className="m-8 flex flex-row md:flex-col items-center justify-between">
                 <img
-                  className="h-[60px] md:h-[200px] w-full object-scale-down"
+                  className="h-[60px] md:h-[150px] w-full object-scale-down"
                   src="svg/react.svg"
                   alt="iconImage"
                 />
 
                 <img
-                  className="h-[60px] md:h-[200px] w-full object-scale-down"
+                  className="h-[60px] md:h-[150px] w-full object-scale-down"
                   src="svg/tailwind.svg"
                   alt="iconImage"
                 />
                 <img
-                  className="h-[60px] md:h-[200px] w-full object-scale-down"
+                  className="h-[60px] md:h-[150px] w-full object-scale-down"
                   src="svg/prisma.svg"
                   alt="iconImage"
                 />

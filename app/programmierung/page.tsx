@@ -9,14 +9,14 @@ import { TypeAnimation } from "react-type-animation";
 export default function Programmierung() {
   return (
     <div>
-      <div className="h-screen flex bg-gradient-to-b from-blue via-sky-900 to-blue flex-col flex-grow flex-wrap items-center justify-center p-8">
+      <div className="h-screen flex bg-blue-comp flex-col flex-grow flex-wrap items-center justify-center p-8">
         <h1 className="text-white md:text-4xl animate-fade-down animate-delay-200 mb-4">
           Programmierung.
         </h1>
         <div className="w-full h-[10px] bg-white"></div>
 
         <h1 className="font-saira text-white md:text-4xl pt-4 animate-fade-up animate-delay-500">
-          Software für dich.
+          Effizient & Skalierbar.
         </h1>
       </div>
 
@@ -209,7 +209,7 @@ export default function Programmierung() {
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[100px] md:h-[200px] w-full animate-wiggle object-scale-down"
+                  className="h-[100px] md:h-[150px] w-full animate-wiggle object-scale-down"
                   src="svg/hand-shake.svg"
                   alt="hand shake"
                 />
@@ -219,7 +219,7 @@ export default function Programmierung() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/kontakt"
-                className="py-2 px-3 bg-blue rounded text-xl text-white transition ease-in hover:scale-110"
+                className="py-2 px-3 bg-blue rounded text-xl md:text-2xl text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>
