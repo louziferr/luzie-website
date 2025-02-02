@@ -112,8 +112,8 @@ export default function Programmierung() {
                 <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
               </div>
               <p>
-                seit 2022 - Leitung einer Robotik AG an der BIP
-                Kreativitätsschule Leipzig
+                seit 2022 - Leitung der Robotik AG an der BIP Kreativitätsschule
+                Leipzig
               </p>
             </li>
 
