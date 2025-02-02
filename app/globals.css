@@ -4,7 +4,7 @@
 
 @layer base {
   h1 {
-    @apply font-zen;
+    @apply font-anta;
     @apply text-black;
     @apply text-2xl;
     @apply lg:text-4xl;

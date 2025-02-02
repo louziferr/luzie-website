@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <>
       <div className="h-screen flex bg-blue-comp flex-col flex-grow items-center justify-center p-8">
-        <h1 className="text-white text-4xl animate-fade-down animate-delay-200">
+        <h1 className="text-white text-4xl pb-2 animate-fade-down animate-delay-200">
           Luzie Ahrens
         </h1>
         <div className="w-full h-[10px] justify-center bg-white"></div>
-        <h1 className="text-white text-2xl pt-2 animate-fade-up animate-delay-500">
+        <h1 className="font-saira text-white text-2xl pt-2 animate-fade-up animate-delay-500">
           Informatikerin
         </h1>
         <TypeAnimation
@@ -87,7 +87,7 @@ export default function Home() {
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
-                <p className="text-blue font-zen text-[20px] text-left mb-4 md:text-4xl">
+                <p className="text-blue font-anta text-[20px] text-left mb-4 md:text-4xl">
                   Melde dich!
                 </p>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>

@@ -49,7 +49,7 @@ export default function Programmierung() {
           </div>
         </div>
 
-        <h1 className="font-alfa md:pt-8 text-xl md:text-4xl text-white underline underline-offset-4">
+        <h1 className="md:pt-8 text-xl md:text-4xl text-white underline underline-offset-4">
           Lebenslauf
         </h1>
 

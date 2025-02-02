@@ -14,10 +14,6 @@ export default function Programmierung() {
           Programmierung.
         </h1>
         <div className="w-full h-[10px] bg-white"></div>
-
-        <h1 className="font-saira text-white md:text-4xl pt-4 animate-fade-up animate-delay-500">
-          Effizient & Individuell.
-        </h1>
       </div>
 
       <div className="mb-0 m-8 md:p-8">

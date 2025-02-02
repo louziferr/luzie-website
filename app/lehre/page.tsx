@@ -12,7 +12,7 @@ export default function Lehre() {
         </h1>
         <div className="w-full h-[10px] bg-white"></div>
 
-        <h1 className="font-saira text-white md:text-4xl pt-4 animate-fade-up animate-delay-500">
+        <h1 className="font-saira text-white md:text-3xl pt-4 animate-fade-up animate-delay-500">
           Auf jedem Niveau.
         </h1>
       </div>

@@ -89,7 +89,7 @@ export default function Webentwicklung() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   01
                 </div>
-                <h1 className="text-green md:text-left mb-8 md:text-4xl">
+                <h1 className="text-green font-anta md:text-left mb-8 md:text-4xl">
                   Individuelle Lösung
                 </h1>
 
