@@ -191,15 +191,13 @@ export default function Programmierung() {
         </div>
       </section>
 
-      <div className="h-[5px] md:mt-4 md:mb-4 bg-blue shadow-md shadow-blue"></div>
+      <div className="h-[5px] mt-8 md:mb-4 bg-blue shadow-md shadow-blue"></div>
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
-                <h1 className="text-blue md:text-left mb-8 md:text-4xl">
-                  Melde dich!
-                </h1>
+                <h1 className="text-blue text-left md:text-4xl">Melde dich!</h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Wenn du denkst, ich kann dir helfen oder wenn du sonstige

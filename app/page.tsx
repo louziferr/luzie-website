@@ -87,9 +87,9 @@ export default function Home() {
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
-                <h1 className="text-blue text-[20px] md:text-left mb-8 md:text-4xl">
+                <p className="text-blue text-[20px] text-left mb-4 md:text-4xl">
                   Melde dich!
-                </h1>
+                </p>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Wenn du meine Unterstützung in Anspruch nehmen möchtest oder
