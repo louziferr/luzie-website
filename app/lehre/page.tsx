@@ -18,7 +18,7 @@ export default function Lehre() {
       </div>
 
       <div className="mb-0 m-8 md:p-8">
-        <h1 className="py-8 text-3xl md:text-6xl text-red">
+        <h1 className="py-8 font-alfa text-3xl md:text-6xl text-red">
           Unterricht und Kurse
         </h1>
 
@@ -75,7 +75,7 @@ export default function Lehre() {
         </section>
       </div>
 
-      <h1 className="pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
+      <h1 className="pt-8 font-alfa text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
         Kursthemen
       </h1>
 

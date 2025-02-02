@@ -37,6 +37,7 @@ export default {
         saira: ['Saira', 'serif'],
         jockey: ['Jockey One', 'serif'],
         noto: ['Noto Sans JP', 'serif'],
+        zen: ['Zen Dots', 'serif'],
       },
     },
   },

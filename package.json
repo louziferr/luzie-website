@@ -22,6 +22,7 @@
     "@fontsource/roboto": "^5.1.1",
     "@fontsource/saira": "^5.1.1",
     "@fontsource/ultra": "^5.1.1",
+    "@fontsource/zen-dots": "^5.1.1",
     "@mui/material": "^6.4.2",
     "@mui/styled-engine-sc": "^6.4.2",
     "@mui/x-charts": "^7.25.0",

@@ -16,12 +16,12 @@ export default function Programmierung() {
         <div className="w-full h-[10px] bg-white"></div>
 
         <h1 className="font-saira text-white md:text-4xl pt-4 animate-fade-up animate-delay-500">
-          Effizient & Skalierbar.
+          Effizient & Individuell.
         </h1>
       </div>
 
       <div className="mb-0 m-8 md:p-8">
-        <h1 className="py-8 text-3xl md:text-6xl text-blue">
+        <h1 className="font-alfa py-8 text-3xl md:text-6xl text-blue">
           Softwarelösungen
         </h1>
 

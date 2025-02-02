@@ -12,13 +12,13 @@ export default function Webentwicklung() {
         </h1>
         <div className="w-full h-[10px] bg-white"></div>
 
-        <h1 className="font-saira text-white text-4xl pt-4 animate-fade-up animate-delay-500">
+        <h1 className="font-saira text-white text-3xl pt-4 animate-fade-up animate-delay-500">
           Wie du willst.
         </h1>
       </div>
 
       <div className="m-8 md:p-8">
-        <h1 className="py-8 text-3xl md:text-6xl text-green">
+        <h1 className="py-8 font-alfa text-3xl md:text-6xl text-green">
           Moderne Web-Entwicklung
         </h1>
 
@@ -78,7 +78,7 @@ export default function Webentwicklung() {
         </section>
       </div>
 
-      <h1 className="pt-0 md:pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
+      <h1 className="pt-0 font-alfa md:pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
         Meine Arbeitsweise
       </h1>
       <section className="flex items-center justify-center">
@@ -198,7 +198,7 @@ export default function Webentwicklung() {
       </section>
 
       <div className="mt-[50px] h-[5px] bg-green"></div>
-      <h1 className="pt-10 text-3xl md:text-6xl text-darkBlue underline underline-offset-4">
+      <h1 className="pt-10 font-alfa text-3xl md:text-6xl text-darkBlue underline underline-offset-4">
         Tools
       </h1>
 
@@ -213,7 +213,7 @@ export default function Webentwicklung() {
                   sichere und skalierbare Websites zu entwickeln.
                 </p>
                 <div className="text-left mt-2 md:text-left text-[18px] md:text-3xl">
-                  <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-5xl">
+                  <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-4xl">
                     React & Next.js
                   </h1>
                   <p>
@@ -221,14 +221,14 @@ export default function Webentwicklung() {
                     Frontend-Technologie.
                   </p>
 
-                  <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-5xl">
+                  <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-4xl">
                     Tailwind CSS
                   </h1>
                   <p>
                     Die Grundlage für sauberen, semantischen Code und
                     individuelles Styling.
                   </p>
-                  <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-5xl">
+                  <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-4xl">
                     Prisma
                   </h1>
                   <p>

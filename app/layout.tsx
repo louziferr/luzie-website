@@ -10,6 +10,7 @@ import "@fontsource/saira";
 import "@fontsource/anta";
 import "@fontsource/jockey-one";
 import "@fontsource/noto-sans-jp";
+import "@fontsource/zen-dots";
 
 export default function RootLayout({
   children,

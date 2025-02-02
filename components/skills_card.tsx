@@ -21,7 +21,7 @@ export default function SkillsCard({
     <>
       <div className="bg-white pb-8">
         <div className="md:mt-[50px] py-4 m-4 text-center flex flex-col items-center">
-          <h1 className="mb-8 text-3xl font-saira" style={{ color: color }}>
+          <h1 className="mb-8 text-3xl" style={{ color: color }}>
             {headline}
           </h1>
           <div
@@ -33,7 +33,7 @@ export default function SkillsCard({
           >
             <img src={image} alt="image" className="w-[120px]" />
           </div>
-          <p className="text-2xl mt-10" style={{ color: color }}>
+          <p className="text-2xl mt-10 font-zen" style={{ color: color }}>
             {subheadline}
           </p>
           <div
