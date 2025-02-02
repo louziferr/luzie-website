@@ -7,7 +7,7 @@ export default function Lehre() {
   return (
     <div>
       <div className="h-screen flex bg-rose flex-col flex-grow flex-wrap items-center justify-center p-8">
-        <h1 className="text-white text-3xl md:text-4xl animate-fade-down animate-delay-200">
+        <h1 className="pb-2 text-white text-3xl md:text-4xl animate-fade-down animate-delay-200">
           Informatik lernen.
         </h1>
         <div className="w-full h-[10px] bg-white"></div>
@@ -321,7 +321,7 @@ export default function Lehre() {
         </div>
       </section>
 
-      <div className="mt-[70px] h-[5px] bg-darkBlue"></div>
+      <div className="h-[5px] md:mt-4 bg-rose-700 shadow-md shadow-blue"></div>
 
       <h1 className="pt-8 text-2xl md:text-4xl text-rose-700">Anfragen</h1>
       <section className="flex items-center justify-center">
@@ -329,6 +329,9 @@ export default function Lehre() {
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
+                <h1 className="text-rose-700 md:text-left mb-8 md:text-4xl">
+                  Melde dich!
+                </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Melde dich bei mir, wenn du Interesse an meinem Angebot oder
