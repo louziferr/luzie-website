@@ -83,8 +83,8 @@ export default function Programmierung() {
                   Anforderungen angepasst.
                 </p>
               </div>
-              <div className="flex flex-col items-end justify-end p-4">
-                <div className="w-full">
+              <div className="flex flex-col items-center justify-end p-4 w-full">
+                <div className="w-4/5">
                   <Wave
                     fill="#4281A4"
                     paused={false}
@@ -96,8 +96,8 @@ export default function Programmierung() {
                       points: 5,
                     }}
                   />
+                  <div className="h-[100px] w-full bg-gradient-to-t from-darkBlue to-blue"></div>
                 </div>
-                <div className="h-[100px] w-full bg-gradient-to-t from-darkBlue to-blue"></div>
               </div>
             </div>
           </div>
@@ -124,20 +124,22 @@ export default function Programmierung() {
                 </p>
               </div>
 
-              <div className="flex flex-col items-end justify-end w-full order-2 md:order-1">
-                <BarChart
-                  series={[
-                    { data: [35, 44, 24, 34] },
-                    { data: [51, 6, 49, 30] },
-                    { data: [15, 25, 30, 50] },
-                    { data: [60, 50, 15, 25] },
-                  ]}
-                  height={290}
-                  xAxis={[
-                    { data: ["Q1", "Q2", "Q3", "Q4"], scaleType: "band" },
-                  ]}
-                  margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
-                />
+              <div className="flex flex-col items-center justify-end w-full order-2 md:order-1">
+                <div className="w-4/5">
+                  <BarChart
+                    series={[
+                      { data: [35, 44, 24, 34] },
+                      { data: [51, 6, 49, 30] },
+                      { data: [15, 25, 30, 50] },
+                      { data: [60, 50, 15, 25] },
+                    ]}
+                    height={290}
+                    xAxis={[
+                      { data: ["Q1", "Q2", "Q3", "Q4"], scaleType: "band" },
+                    ]}
+                    margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -166,7 +168,7 @@ export default function Programmierung() {
                 <img
                   src="svg/programmierung/workflow.svg"
                   alt="workflow SVG"
-                  className="w-[150px] md:w-[300px]"
+                  className="w-[170px] md:w-[300px]"
                 />
                 <TypeAnimation
                   sequence={[
@@ -180,7 +182,7 @@ export default function Programmierung() {
                   ]}
                   wrapper="span"
                   speed={50}
-                  className="font-mono text-[15px] text-black md:text-xl pt-8"
+                  className="font-mono text-[20px] text-black md:text-xl pt-8"
                   repeat={Infinity}
                 />
               </div>
@@ -217,7 +219,7 @@ export default function Programmierung() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/kontakt"
-                className="py-3 px-3 bg-blue rounded text-xl text-white transition ease-in hover:scale-110"
+                className="py-2 px-3 bg-blue rounded text-xl text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>

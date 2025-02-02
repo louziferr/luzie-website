@@ -7,7 +7,7 @@ export default function Lehre() {
   return (
     <div>
       <div className="h-screen flex bg-gradient-to-b from-red via-rose-800 to-red flex-col flex-grow flex-wrap items-center justify-center p-8">
-        <h1 className="text-white text-4xl animate-fade-down animate-delay-200">
+        <h1 className="text-white text-3xl md:text-4xl animate-fade-down animate-delay-200">
           Informatik lernen.
         </h1>
         <div className="w-full h-[10px] bg-white"></div>
@@ -18,7 +18,7 @@ export default function Lehre() {
       </div>
 
       <div className="mb-0 m-8 md:p-8">
-        <h1 className="py-8 text-3xl md:text-6xl text-darkBlue">
+        <h1 className="py-8 text-3xl md:text-6xl text-rose-700">
           Unterricht und Kurse
         </h1>
 
@@ -72,11 +72,11 @@ export default function Lehre() {
               genau auf deine Wünsche und Lernziele zugeschnitten ist.
             </p>
           </div>
-          <div className="mt-[70px] w-full h-[5px] bg-darkBlue"></div>
+          <div className="mt-[70px] w-full h-[5px] bg-rose-700"></div>
         </section>
       </div>
 
-      <h1 className="md:pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
+      <h1 className="pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
         Kursthemen
       </h1>
 
@@ -335,10 +335,10 @@ export default function Lehre() {
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
-                  Nach unserem Erstgespräch erstelle ich ein individuelles
-                  Angebot, das genau auf die Anforderungen zugeschnitten ist.
-                  Der Preis für einen Kurs ist größtenteils abhängig vom
-                  zeitlichen Aufwand für die Konzipierung und Durchführung.
+                  Melde dich bei mir, wenn du Interesse an meinem Angebot oder
+                  eine Nachfrage hast. Nach unserem Erstgespräch erstelle ich
+                  ein individuelles Angebot, das genau auf die Anforderungen
+                  zugeschnitten ist.
                 </p>
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
@@ -353,7 +353,7 @@ export default function Lehre() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/preise"
-                className="py-3 px-3 bg-rose-700 rounded text-xl border-black text-white transition ease-in hover:scale-110"
+                className="py-2 px-3 bg-rose-700 rounded text-xl border-black text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>

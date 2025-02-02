@@ -109,7 +109,7 @@ export default function Home() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/kontakt"
-                className="py-3 px-3 bg-blue rounded text-xl text-white transition ease-in hover:scale-110"
+                className="py-2 px-3 bg-blue rounded text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>

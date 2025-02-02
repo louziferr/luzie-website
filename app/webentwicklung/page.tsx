@@ -25,7 +25,7 @@ export default function Webentwicklung() {
         <section className="flex  items-center flex-col">
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className="text-center md:text-justify leading-relaxed">
+              <p className="text-left md:text-justify leading-relaxed">
                 Die digitale Welt entwickelt sich rasant – und du brauchst eine
                 Website?
                 <br />
@@ -57,14 +57,12 @@ export default function Webentwicklung() {
                     ]}
                     wrapper="span"
                     speed={50}
-                    className="text-3xl text-center leading-relaxed w-full font-saira"
+                    className="text-xl md:text-3xl text-center leading-relaxed w-full font-saira"
                     repeat={Infinity}
                   />
-                  <img
-                    src="svg/programming.svg"
-                    alt="programming SVG"
-                    width="300"
-                  />
+                  <div className="w-[150px] md:w-[200px]">
+                    <img src="svg/programming.svg" alt="programming SVG" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -80,7 +78,7 @@ export default function Webentwicklung() {
         </section>
       </div>
 
-      <h1 className="pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
+      <h1 className="pt-0 md:pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
         Meine Arbeitsweise
       </h1>
       <section className="flex items-center justify-center">
@@ -294,7 +292,7 @@ export default function Webentwicklung() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/kontakt"
-                className="py-3 px-5 bg-green rounded md:text-2xl border-black text-white transition ease-in hover:scale-110"
+                className="py-2 px-5 bg-green rounded md:text-2xl border-black text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>
