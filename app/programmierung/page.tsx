@@ -1,192 +1,103 @@
 "use client";
 
 import Link from "next/link";
+import { BarChart } from "@mui/x-charts/BarChart";
+
+import Wave from "react-wavify";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Programmierung() {
   return (
     <div>
       <div className="h-screen flex bg-gradient-to-b from-blue via-sky-900 to-blue flex-col flex-grow flex-wrap items-center justify-center p-8">
-        <h1 className="text-white text-4xl animate-fade-down animate-delay-200">
-          Software.
+        <h1 className="text-white md:text-4xl animate-fade-down animate-delay-200 mb-4">
+          Programmierung.
         </h1>
         <div className="w-full h-[10px] bg-white"></div>
 
         <h1 className="font-saira text-white md:text-4xl pt-4 animate-fade-up animate-delay-500">
-          Für dich.
+          Software für dich.
         </h1>
       </div>
 
       <div className="mb-0 m-8 md:p-8">
-        <h1 className="py-8 text-3xl md:text-6xl text-red">
-          Unterricht und Kurse
+        <h1 className="py-8 text-3xl md:text-6xl text-blue">
+          Softwarelösungen
         </h1>
 
         <section className="flex flex-col items-center">
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className="text-[15px] text-center md:text-2xl md:text-justify leading-relaxed font-saira">
-                Ob die erste Zeile Code geschrieben oder eine komplexe
-                Softwarearchitekturen optimiert werden soll: ich biete
-                Informatik-Unterricht auf allen Niveaus an.
+              <p className="md:text-justify leading-relaxed">
+                Ich kann maßgeschneiderte Softwarelösungen entwickeln, die genau
+                auf deine Bedürfnisse zugeschnitten sind.
                 <br />
                 <br />
-                Meine Arbeit als Dozentin richtet sich hauptsächlich an Schulen,
-                Universitäten, Ausbildungsinstitute und Unternehmen, die
-                Interesse an einem maßgeschneiderten Kurs zu Informatik haben.
-                <br /> <br />
-                Ich biete bereits erprobte Kurskonzepte zu verschiedenen Themen
-                der Informatik an, die strukturiert und praxisnah Wissen
-                vermitteln. Gleichzeitig lege ich großen Wert auf individuelle
-                Anpassung. Auf Wunsch entwickle ich maßgeschneiderte Kurse, die
-                genau auf das Projekt und die Lernziele abgestimmt sind.
+                Ob es um die Verarbeitung großer Datenmengen, statistische
+                Auswertungen, die Erstellung von Grafiken oder andere
+                automatisierbare Aufgaben geht – ich finde effiziente und
+                praxisnahe Lösungen für verschiedenste Herausforderungen. Wenn
+                du ein spezifisches Problem hast, das sich durch Software
+                optimieren oder automatisieren lässt, erarbeite ich eine
+                passende Lösung für dich.
                 <br />
+                Hauptsächlich arbeite ich beim Coden mit Python, doch je nach
+                Aufgabe können auch andere Sprachen und Tools zum Einsatz
+                kommen.
                 <br />
               </p>
-              <div className="flex items-center justify-center py-[30px] md:pt-0">
-                <span className="relative flex">
-                  <div className="bg-red rounded-full p-4 border-2">
-                    <img
-                      src="svg/school.svg"
-                      alt="school SVG"
-                      className="w-[100px] md:w-[200px]"
-                    />
-                  </div>
-                  <span className="absolute bg-red h-full w-full animate-custom-ping rounded-full" />
-                </span>
+
+              <div className="flex items-center justify-center py-[30px]">
+                <img
+                  src="svg/programmierung/code-opt.svg"
+                  alt="code SVG"
+                  className="w-[200px] md:w-[300px]"
+                />
               </div>
             </div>
           </div>
-
-          <div className="flex items-center justify-center">
-            <p className="text-[15px] mt-8 md:text-2xl text-center leading-relaxed w-full font-saira max-w-[600px]">
-              Schau dir gerne die Liste meiner bereits konzipierten Kurse an.
-              <br />
-              <br />
-              <b>Dein Kurs ist nicht dabei?</b> Kein Problem!
-              <br />
-              Melde dich bei mir, und wir finden gemeinsam eine Lösung, die
-              genau auf deine Wünsche und Lernziele zugeschnitten ist.
-            </p>
-          </div>
-          <div className="mt-[70px] h-[5px] bg-red"></div>
         </section>
-      </div>
-
-      <h1 className="md:pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
-        Kursthemen
-      </h1>
-
-      <div className="flex flex-row items-center justify-center">
-        <div className="p-8 leading-relaxed max-w-[900px]">
-          <p className="text-[15px] md:text-2xl text-center font-saira pb-4">
-            Bereits konzipiert sind Kurse zu folgenden Themen:
-          </p>
-          <ul className="font-saira">
-            <li className="p-1 flex">
-              <div className="text-red text-xl md:text-3xl font-alfa mr-3">
-                01
-              </div>
-              <Link
-                className="underline underline-offset-2 md:text-2xl hover:cursor-pointer"
-                href="/lehre/#programmiersprachen"
-              >
-                Programmiersprachen
-              </Link>
-            </li>
-            <li className="p-1 flex">
-              <div className="text-rose-700 text-xl font-alfa md:text-3xl mr-3">
-                02
-              </div>
-              <Link
-                className="underline underline-offset-2  md:text-2xl hover:cursor-pointer"
-                href="/lehre/#robotik"
-              >
-                Robotik
-              </Link>
-            </li>
-            <li className="p-1 flex">
-              <div className="text-rose-800 text-xl md:text-3xl font-alfa mr-3">
-                03
-              </div>
-              <Link
-                className="underline underline-offset-2  md:text-2xl hover:cursor-pointer"
-                href="/lehre/#web-entwicklung"
-              >
-                Web-Entwicklung
-              </Link>
-            </li>
-            <li className="p-1 flex">
-              <div className="text-rose-900 text-xl md:text-3xl font-alfa mr-3">
-                04
-              </div>
-              <Link
-                className="underline underline-offset-2  md:text-2xl hover:cursor-pointer"
-                href="/lehre/#theoretische-informatik"
-              >
-                Theoretische Informatik
-              </Link>
-            </li>
-            <li className="p-1 flex">
-              <div className="text-rose-950 text-xl md:text-3xl font-alfa mr-3 hover:cursor-pointer">
-                05
-              </div>
-              <Link
-                className="underline underline-offset-2  md:text-2xl hover:cursor-pointer"
-                href="/lehre/#machine-learning"
-              >
-                Machine Learning
-              </Link>
-            </li>
-          </ul>
-        </div>
       </div>
 
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
-          <div className="flex flex-col" id={"programmiersprachen"}>
+          <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8">
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   01
                 </div>
-                <h1 className="text-red text-[20px] md:text-left mb-8 md:text-4xl">
-                  Programmiersprachen
+                <h1 className="text-blue text-[20px] md:text-left mb-8 md:text-4xl">
+                  Datenverarbeitung
                 </h1>
 
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
-                  Ich biete maßgeschneiderte Kurse in einer Vielzahl von
-                  Programmiersprachen an. Lerne Python, Java, JavaScript oder
-                  TypeScript auf eine praxisorientierte und verständliche Weise.
-                  Mit meinen Kursen erhältst du fundiertes Wissen, das du direkt
-                  in der Praxis anwenden kannst, um deine Programmierfähigkeiten
-                  auf das nächste Level zu bringen.
-                </h2>
+                <p>
+                  Ob große Datenmengen, komplexe Analysen oder automatisierte
+                  Prozesse – ich entwickle maßgeschneiderte Lösungen für
+                  Datenverarbeitungsprobleme. Mit fundiertem Wissen in
+                  Datenstrukturen, Algorithmen und Machine Learning optimiere
+                  ich Abläufe, extrahiere relevante Informationen und sorge für
+                  eine effiziente Verarbeitung. Mein Fokus liegt darauf, Daten
+                  sinnvoll nutzbar zu machen – präzise, skalierbar und an deine
+                  Anforderungen angepasst.
+                </p>
               </div>
-              <div className="m-8 flex flex-col items-center justify-end">
-                <div className="border-2 border-gray-700 bg-black p-2">
-                  <TypeAnimation
-                    sequence={[
-                      // Same substring at the start will only be typed out once, initially
-                      "print('Python')",
-                      1000,
-                      "console.log('JavaScript')",
-                      1000,
-                      "System.out.println('Java')",
-                      1000,
-                    ]}
-                    wrapper="span"
-                    speed={50}
-                    className="font-mono text-[13px] text-white md:text-xl pt-8"
-                    repeat={Infinity}
+              <div className="flex flex-col items-end justify-end p-4">
+                <div className="w-full">
+                  <Wave
+                    fill="#4281A4"
+                    paused={false}
+                    style={{ display: "flex" }}
+                    options={{
+                      height: 40,
+                      amplitude: 80,
+                      speed: 0.15,
+                      points: 5,
+                    }}
                   />
                 </div>
-                <img
-                  src="svg/lehre/keyboard.svg"
-                  alt="keyboard SVG"
-                  className="w-[150px] md:w-[300px]"
-                />
+                <div className="h-[100px] w-full bg-gradient-to-t from-darkBlue to-blue"></div>
               </div>
             </div>
           </div>
@@ -197,124 +108,80 @@ export default function Programmierung() {
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   02
                 </p>
-                <h1 className="text-red md:text-right mb-8 md:text-4xl">
-                  Robotik
+                <h1 className="text-blue md:text-right mb-8 md:text-4xl">
+                  Visualisierungen
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
-                  In meinen Kursen zur Robotik und Elektronik wird ein Einblick
-                  in die spannende Welt der Mikrocontroller und kleinen Computer
-                  gegeben. Beispielsweise mit Arduino oder Raspberry Pi werden
-                  diverse Projekte realisiert, von einfachen Schaltungen bis hin
-                  zu komplexeren Steuerungen. Ich zeige dir, wie du Komponenten
-                  lötest, Schaltkreise baust und deine Ideen durch
-                  Programmierung zum Leben erweckst.
-                </h2>
-              </div>
-              <div className="m-8 mt-0 md:mt-8 flex flex-col items-center justify-center order-2 md:order-1">
-                <img
-                  className="h-[150px] md:h-[300px] w-full animate-wiggle object-scale-down"
-                  src="svg/lehre/robot.svg"
-                  alt="iconImage"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col" id={"web-entwicklung"}>
-            <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
-              <div className="m-8">
-                <p className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
-                  03
+                <p>
+                  Komplexe Informationen werden erst durch die richtige
+                  Darstellung wirklich greifbar. Ich erstelle maßgeschneiderte
+                  Visualisierungen und Grafiken, die Daten anschaulich
+                  präsentieren und Zusammenhänge klar machen. Ob interaktive
+                  Diagramme, statistische Auswertungen oder individuell
+                  gestaltete Infografiken – mit den passenden Tools und Methoden
+                  sorge ich dafür, dass Zahlen und Daten verständlich und
+                  aussagekräftig aufbereitet werden.
                 </p>
-                <h1 className="text-red md:text-left mb-8 md:text-4xl">
-                  Web-Entwicklung
-                </h1>
-                <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
-                  Du möchtest dynamische Webseiten und moderne Webanwendungen
-                  bauen? In meinen Kursen zur Webentwicklung vermittle ich –
-                  entweder mit Flask oder mit React - Grundlagenwissen für
-                  interaktive User Interfaces. Du wirst lernen, wie man
-                  Backend-Logik aufbaut und moderne, skalierbare Frontends
-                  entwickelt. Ich führe dich durch alle wichtigen Schritte, vom
-                  ersten Code bis zur vollständigen Anwendung, und lege großen
-                  Wert auf praxisorientierte Übungen.
-                </h2>
               </div>
 
-              <div className="mt-0 md:m-8 flex flex-col items-center justify-center">
-                <img
-                  className="h-[100px] md:h-[300px] w-full object-scale-down"
-                  src="svg/lehre/web-design.svg"
-                  alt="iconImage"
+              <div className="flex flex-col items-end justify-end w-full order-2 md:order-1">
+                <BarChart
+                  series={[
+                    { data: [35, 44, 24, 34] },
+                    { data: [51, 6, 49, 30] },
+                    { data: [15, 25, 30, 50] },
+                    { data: [60, 50, 15, 25] },
+                  ]}
+                  height={290}
+                  xAxis={[
+                    { data: ["Q1", "Q2", "Q3", "Q4"], scaleType: "band" },
+                  ]}
+                  margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
                 />
               </div>
             </div>
           </div>
 
-          <div className="flex flex-col" id={"theoretische-informatik"}>
-            <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
-              <div className="m-8 order-1 md:order-2">
-                <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
-                  04
-                </p>
-                <h1 className="text-red md:text-right mb-8 md:text-4xl">
-                  Theoretische Informatik
-                </h1>
-                <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
-                  Die theoretischen Informatik beschäftigt sich mit den
-                  essenziellen Konzepten, die hinter der Programmierung stehen.
-                  Im Rahmen meines Unterrichtes werden Algorithmen und
-                  Datenstrukturen behandelt und es wird die Grundlage für
-                  effizientes Programmieren gelegt. Durch die Arbeit mit
-                  Pseudocode, werden komplexe Probleme analysiert und
-                  Lösungsansätze entwickelt, bevor sie in Code umsetzt werden.
-                  Diese theoretischen Konzepte sind entscheidend, um die
-                  Struktur und Effizienz von Programmen zu verstehen und zu
-                  optimieren.
-                </h2>
-              </div>
-              <div className="md:m-8 flex flex-col items-center justify-center  order-2 md:order-1">
-                <img
-                  className="h-[100px] md:h-[250px] w-full object-scale-down animate-grow-little"
-                  src="svg/lehre/find-path.svg"
-                  alt="iconImage"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col" id={"machine-learning"}>
+          <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8">
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
-                  05
+                  03
                 </div>
-                <h1 className="text-red text-[20px] md:text-left mb-8 md:text-4xl">
-                  Machine Learning
+                <h1 className="text-blue text-[20px] md:text-left mb-8 md:text-4xl">
+                  Skripte
                 </h1>
 
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
-                  Inhalt des Kurses zu Machine Learning sind die theoretischen
-                  und praktischen Grundlagen von künstlicher Intelligenz. Meine
-                  Expertise liegt dabei in den Techniken der Sprachverarbeitung
-                  und Linguistik. Das Trainieren von Modellen, um Muster in
-                  sprachlichen Daten zu erkennen und Vorhersagen zu treffen, ist
-                  ein aktuelles und zukunftsorientiertes Thema. Wir gehen
-                  grundlegend auf die Theorie und Praxis der Algorithmen ein,
-                  die für die Analyse von Textdaten relevant sind, und ich zeige
-                  dir, wie du diese auf realen, linguistischen Datensätzen
-                  anwenden kannst.
-                </h2>
+                <p>
+                  Wiederkehrende Aufgaben kosten Zeit – mit individuell
+                  entwickelten Skripten lassen sie sich effizient
+                  automatisieren. Ich erstelle maßgeschneiderte Lösungen, die
+                  Abläufe optimieren, Daten verarbeiten oder Schnittstellen
+                  miteinander verbinden. Egal, ob es um die Automatisierung von
+                  Workflows oder die Vereinfachung alltäglicher Prozesse geht.
+                </p>
               </div>
-              <div className="md:m-8 flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center p-4 w-full">
                 <img
-                  className="h-[100px] md:h-[250px] w-full object-scale-down"
-                  src="svg/lehre/robot-ai.svg"
-                  alt="iconImage"
+                  src="svg/programmierung/workflow.svg"
+                  alt="workflow SVG"
+                  className="w-[150px] md:w-[300px]"
+                />
+                <TypeAnimation
+                  sequence={[
+                    // Same substring at the start will only be typed out once, initially
+                    "x = 2 + 4",
+                    1000,
+                    "y = 10 / x",
+                    1000,
+                    "z = x * y",
+                    1000,
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  className="font-mono text-[15px] text-black md:text-xl pt-8"
+                  repeat={Infinity}
                 />
               </div>
             </div>
@@ -322,35 +189,35 @@ export default function Programmierung() {
         </div>
       </section>
 
-      <div className="mt-[70px] h-[5px] bg-red"></div>
+      <div className="mt-[70px] h-[5px] bg-blue"></div>
 
-      <h1 className="pt-8 text-4xl md:text-6xl text-red">Preise</h1>
+      <h1 className="pt-8 text-2xl md:text-5xl text-blue">Anfragen</h1>
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <p className="text-center md:text-left text-[15px] md:text-2xl">
-                  Nach unserem Erstgespräch erstelle ich ein individuelles
-                  Angebot, das genau auf die Anforderungen zugeschnitten ist.
-                  Der Preis für einen Kurs ist größtenteils abhängig vom
-                  zeitlichen Aufwand für die Konzipierung und Durchführung.
+                <p>
+                  Wenn du denkst, ich kann dir helfen oder wenn du sonstige
+                  Fragen hast, melde dich gerne bei mir. Gemeinsam finden wir
+                  die passende Lösung für dein Anliegen. Ich freue mich auf
+                  deine Nachricht!
                 </p>
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
                   className="h-[100px] md:h-[200px] w-full animate-wiggle object-scale-down"
-                  src="svg/pricetag2.svg"
-                  alt="iconImage"
+                  src="svg/hand-shake.svg"
+                  alt="hand shake"
                 />
               </div>
             </div>
 
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
-                href="/preise"
-                className="py-3 px-3 bg-red rounded text-xl border-black text-white transition ease-in hover:scale-110"
+                href="/kontakt"
+                className="py-3 px-3 bg-blue rounded text-xl text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>

@@ -41,7 +41,7 @@ export default function Programmierung() {
                   <img
                     src="cool_me.jpeg"
                     alt="ME"
-                    className="h-[400px] p-4 md:h-[550px] border-4 border-gray-700"
+                    className="h-[250px] p-4 md:h-[550px] shadow-md shadow-black"
                   />
                 </div>
               </div>

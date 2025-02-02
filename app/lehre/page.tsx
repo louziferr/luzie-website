@@ -34,6 +34,9 @@ export default function Lehre() {
                 Meine Arbeit als Dozentin richtet sich hauptsächlich an Schulen,
                 Universitäten, Ausbildungsinstitute und Unternehmen, die
                 Interesse an einem maßgeschneiderten Kurs zu Informatik haben.
+                Ich unterrichte Kinder, Jugendliche und Erwachsene und passe das
+                Niveau sowie die Lehr- und Lernmethoden an die jeweilige
+                Zielgruppe an.
                 <br /> <br />
                 Ich biete bereits erprobte Kurskonzepte zu verschiedenen Themen
                 der Informatik an, die strukturiert und praxisnah Wissen

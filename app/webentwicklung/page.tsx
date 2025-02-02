@@ -199,7 +199,7 @@ export default function Webentwicklung() {
         </div>
       </section>
 
-      <div className="mt-[70px] h-[5px] bg-green"></div>
+      <div className="mt-[50px] h-[5px] bg-green"></div>
       <h1 className="pt-10 text-3xl md:text-6xl text-darkBlue underline underline-offset-4">
         Tools
       </h1>
@@ -246,18 +246,18 @@ export default function Webentwicklung() {
               </div>
               <div className="m-8 flex flex-row md:flex-col items-center justify-between">
                 <img
-                  className="h-[80px] md:h-[200px] w-full object-scale-down"
+                  className="h-[60px] md:h-[200px] w-full object-scale-down"
                   src="svg/react.svg"
                   alt="iconImage"
                 />
 
                 <img
-                  className="h-[80px] md:h-[200px] w-full object-scale-down"
+                  className="h-[60px] md:h-[200px] w-full object-scale-down"
                   src="svg/tailwind.svg"
                   alt="iconImage"
                 />
                 <img
-                  className="h-[80px] md:h-[200px] w-full object-scale-down"
+                  className="h-[60px] md:h-[200px] w-full object-scale-down"
                   src="svg/prisma.svg"
                   alt="iconImage"
                 />
@@ -274,7 +274,7 @@ export default function Webentwicklung() {
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <p className="text-center md:text-left text-[17px] md:text-2xl">
+                <p>
                   Nach unserem Erstgespräch erstelle ich ein individuelles
                   Angebot, das genau auf deine Anforderungen zugeschnitten ist.
                   Der Zeitaufwand und der damit verbundene Preis für das
@@ -284,7 +284,7 @@ export default function Webentwicklung() {
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[100px] md:h-[250px] w-full animate-wiggle object-scale-down"
+                  className="h-[60px] md:h-[100px] w-full animate-wiggle object-scale-down"
                   src="svg/pricetag2.svg"
                   alt="iconImage"
                 />
