@@ -70,7 +70,7 @@ export default function Webentwicklung() {
         </section>
       </div>
 
-      <div className="mt-[30px] mb-[30px] w-full h-[5px] bg-green shadow-md shadow-green"></div>
+      <div className="mt-[70px] mb-[70px] w-full h-[5px] bg-green shadow-md shadow-green"></div>
 
       <h1 className="pt-0 font-alfa md:pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
         Meine Arbeitsweise
@@ -191,7 +191,7 @@ export default function Webentwicklung() {
         </div>
       </section>
 
-      <div className="mt-[50px] h-[5px] bg-green"></div>
+      <div className="mt-[50px] h-[5px] bg-green shadow-md shadow-green"></div>
       <h1 className="pt-10 font-alfa text-3xl md:text-6xl text-darkBlue underline underline-offset-4">
         Tools
       </h1>

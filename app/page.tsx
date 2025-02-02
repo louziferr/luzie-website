@@ -101,7 +101,7 @@ export default function Home() {
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[80px] md:h-[150px] w-full animate-wiggle object-scale-down"
+                  className="h-[80px] w-full animate-wiggle object-scale-down"
                   src="svg/hand-shake.svg"
                   alt="hand shake"
                 />
