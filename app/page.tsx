@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function Home() {
   return (
     <>
-      <div className="h-screen flex bg-darkBlue flex-col flex-grow items-center justify-center p-8">
+      <div className="h-screen flex bg-computer flex-col flex-grow items-center justify-center p-8">
         <h1 className="text-white text-4xl animate-fade-down animate-delay-200">
           Luzie Ahrens
         </h1>
@@ -37,8 +37,8 @@ export default function Home() {
       </h1>
 
       <div className="flex items-center justify-center">
-        <div className="max-w-screen-lg p-4">
-          <p className="md:text-xl font-saira text-center">
+        <div className="max-w-screen-md p-4">
+          <p className="text-center">
             Ob moderne Webentwicklung, individuelle Softwarelösungen oder
             praxisnahe Informatik-Kurse – ich biete maßgeschneiderte Lösungen
             für deine Anforderungen. Ich entwickle performante und ansprechende
@@ -69,7 +69,7 @@ export default function Home() {
             link="/lehre"
           />
           <SkillsCard
-            headline="Programmieren"
+            headline="Programmierung"
             subheadline="Deine Lösung"
             keywords={["Datenverarbeitung.", "Machine Learning.", "Grafiken."]}
             color="#4281A4"

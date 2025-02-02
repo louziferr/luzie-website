@@ -11,7 +11,7 @@ export default function Programmierung() {
             </h1>
             <div className="flex max-w-screen-xl">
               <div className="relative grid grid-cols-1 md:grid-cols-2">
-                <p className="text-[15px] text-left md:text-2xl md:text-justify leading-relaxed font-saira order-2 md:order-1">
+                <p className="md:text-justify leading-relaxed order-2 md:order-1">
                   Im Rahmen meines Bachelorstudiums der Computerlinguistik habe
                   ich das Programmieren vom Anfang an mit hohem
                   wissenschaftlichem Bezug gelernt. Besonders Machine Learning
@@ -37,11 +37,11 @@ export default function Programmierung() {
                   <br />
                   <br />
                 </p>
-                <div className="pt-0 p-4 flex items-center justify-center order-1 md:order-2">
+                <div className="pt-0 p-4 flex items-start justify-center order-1 md:order-2">
                   <img
-                    src="me.jpg"
+                    src="cool_me.jpeg"
                     alt="ME"
-                    className="w-[300px] p-4 md:w-[400px] border-4 border-gray-700"
+                    className="h-[400px] p-4 md:h-[550px] border-4 border-gray-700"
                   />
                 </div>
               </div>
@@ -50,7 +50,7 @@ export default function Programmierung() {
         </div>
       </div>
 
-      <h1 className="md:pt-8 text-2xl md:text-6xl text-purple-900 underline underline-offset-4">
+      <h1 className="md:pt-8 text-xl md:text-4xl text-purple-900 underline underline-offset-4">
         Lebenslauf
       </h1>
 
@@ -62,16 +62,14 @@ export default function Programmierung() {
                 <div className="bg-purple-600 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[12px] h-[12px]"></div>
                 <span className="absolute inline-flex w-[12px] h-[12px] animate-ping rounded-full bg-purple-600 opacity-75"></span>
               </div>
-              <p className="text-[15px] md:text-2xl">
-                Heute - freiberufliche Informatikerin
-              </p>
+              <p>Heute - freiberufliche Informatikerin</p>
             </li>
 
             <li className="p-1 flex items-center">
               <div className="relative flex">
                 <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
               </div>
-              <p className="text-[15px] md:text-2xl">
+              <p>
                 seit 2024 - Dozentin für Informatik bei IBB Institut für
                 berufliche Bildung AG
               </p>
@@ -81,7 +79,7 @@ export default function Programmierung() {
               <div className="relative flex">
                 <div className="bg-purple-800 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
               </div>
-              <p className="text-[15px] md:text-2xl">
+              <p>
                 <b>
                   2024 - Master of Science: Audiokommunikation und -technologie
                 </b>
@@ -92,34 +90,28 @@ export default function Programmierung() {
               <div className="relative flex">
                 <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
               </div>
-              <p className="text-[15px] md:text-2xl">
-                2024 - Dozentin für Webentwicklung bei Devhaus Leipzig GmbH
-              </p>
+              <p>2024 - Dozentin für Webentwicklung bei Devhaus Leipzig GmbH</p>
             </li>
 
             <li className="p-1 flex items-center">
               <div className="relative flex">
                 <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
               </div>
-              <p className="text-[15px] md:text-2xl">
-                seit 2023 - Dozentin für Python an der Uni Bremen
-              </p>
+              <p>seit 2023 - Dozentin für Python an der Uni Bremen</p>
             </li>
 
             <li className="p-1 flex items-center">
               <div className="relative flex">
                 <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
               </div>
-              <p className="text-[15px] md:text-2xl">
-                seit 2022 - Dozentin für Python an der TU Berlin
-              </p>
+              <p>seit 2022 - Dozentin für Python an der TU Berlin</p>
             </li>
 
             <li className="p-1 flex items-center">
               <div className="relative flex">
                 <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
               </div>
-              <p className="text-[15px] md:text-2xl">
+              <p>
                 2021 - 2022 - studentische Hilfskraft an der Fachhochschule Kiel
                 GmbH
               </p>
@@ -129,7 +121,7 @@ export default function Programmierung() {
               <div className="relative flex">
                 <div className="bg-purple-800 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
               </div>
-              <p className="text-[15px] md:text-2xl">
+              <p>
                 <b>2016 - 2020 - Bachelor of Science: Computerlinguistik</b>
               </p>
             </li>
@@ -138,27 +130,21 @@ export default function Programmierung() {
               <div className="relative flex">
                 <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
               </div>
-              <p className="text-[15px] md:text-2xl">
-                2018 - 2020 - Tutorin an der Uni Potsdam
-              </p>
+              <p>2018 - 2020 - Tutorin an der Uni Potsdam</p>
             </li>
 
             <li className="p-1 flex items-center">
               <div className="relative flex">
                 <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
               </div>
-              <p className="text-[15px] md:text-2xl">
-                2017 - 2019 - studentische Hilfskraft an der Uni Potsdam
-              </p>
+              <p>2017 - 2019 - studentische Hilfskraft an der Uni Potsdam</p>
             </li>
 
             <li className="p-1 flex items-center">
               <div className="relative flex">
                 <div className="bg-purple-400 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
               </div>
-              <p className="text-[15px] md:text-2xl">
-                seit 2008 - gelegentliche Tätigkeit als Schauspielerin
-              </p>
+              <p>seit 2008 - gelegentliche Tätigkeit als Schauspielerin</p>
             </li>
           </ul>
         </div>

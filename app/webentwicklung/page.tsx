@@ -25,7 +25,7 @@ export default function Webentwicklung() {
         <section className="flex  items-center flex-col">
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className="text-[17px] text-center md:text-xl md:text-justify leading-relaxed font-saira">
+              <p className="text-center md:text-justify leading-relaxed">
                 Die digitale Welt entwickelt sich rasant – und du brauchst eine
                 Website?
                 <br />
@@ -96,12 +96,12 @@ export default function Webentwicklung() {
                 </h1>
 
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[17px] md:text-2xl">
+                <p>
                   Jedes Projekt hat andere Anforderungen. Je nach Wunsch können
                   das Aussehen und die Funktionsweise deiner Website angepasst
                   werden. Von klaren, minimalistischen Designs bis hin zu
                   interaktiven, komplexen Webanwendungen: Alles ist möglich.
-                </h2>
+                </p>
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
@@ -123,13 +123,13 @@ export default function Webentwicklung() {
                   Echte Handarbeit
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[17px] md:text-2xl">
+                <p>
                   Ich arbeite ohne Baukastensysteme oder generische Vorlagen.
                   Jedes Pixel, jede Codezeile entsteht mit Sorgfalt und
                   Fachwissen, genau auf die Bedürfnisse zugeschnitten. Das
                   schafft nicht nur eine unverwechselbare Identität, sondern
                   auch eine technisch saubere, wartungsfreundliche Lösung.
-                </h2>
+                </p>
               </div>
               <div className="m-8 flex flex-col items-center justify-center order-2 md:order-1">
                 <img
@@ -151,13 +151,13 @@ export default function Webentwicklung() {
                   Schnelle Umsetzung
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[17px] md:text-2xl">
+                <p>
                   Dank klarer Prozesse, schlanker Strukturen und einer präzisen
                   Arbeitsweise kann ich schnelle Ergebnisse liefern, ohne an
                   Qualität einzubüßen. Du profitierst von kurzen
                   Entwicklungszeiten und direkter Kommunikation - ohne unnötige
                   Umwege.
-                </h2>
+                </p>
               </div>
 
               <div className="m-8 flex flex-col items-center justify-center">
@@ -180,12 +180,12 @@ export default function Webentwicklung() {
                   Modernes Design
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[17px] md:text-2xl">
+                <p>
                   Ob minimalistisch, kreativ oder markant – ich entwickle eine
                   individuelle Gestaltung, die perfekt zu deinem Stil und deiner
                   Marke passt. Zeitgemäß, einzigartig und auf jedem Gerät
                   optimal dargestellt.
-                </h2>
+                </p>
               </div>
               <div className="m-8 flex flex-col items-center justify-center  order-2 md:order-1">
                 <img
@@ -210,7 +210,7 @@ export default function Webentwicklung() {
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <p className="text-left text-[17px] md:text-2xl">
+                <p>
                   Ich setze auf bewährte und moderne Technologien, um schnelle,
                   sichere und skalierbare Websites zu entwickeln.
                 </p>
@@ -218,7 +218,7 @@ export default function Webentwicklung() {
                   <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-5xl">
                     React & Next.js
                   </h1>
-                  <p className="text-[17px] md:text-2xl text-left">
+                  <p>
                     Dynamische, performante Webanwendungen mit modernster
                     Frontend-Technologie.
                   </p>
@@ -226,18 +226,18 @@ export default function Webentwicklung() {
                   <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-5xl">
                     Tailwind CSS
                   </h1>
-                  <p className="text-[17px] md:text-2xl text-left">
+                  <p>
                     Die Grundlage für sauberen, semantischen Code und
                     individuelles Styling.
                   </p>
                   <h1 className="text-left py-4 font-anta text-gray-600 text-3xl md:text-5xl">
                     Prisma
                   </h1>
-                  <p className="text-[17px] md:text-2xl text-left">
+                  <p>
                     Eine effiziente und flexible Lösung für Datenbankverwaltung,
                     die Skalierbarkeit und Sicherheit gewährleistet.
                   </p>
-                  <p className="pt-8 text-left text-[17px] md:text-2xl">
+                  <p className="pt-8">
                     Durch diese Technologien entstehen leistungsstarke Websites,
                     die nicht nur optisch überzeugen, sondern auch technisch auf
                     höchstem Niveau sind.

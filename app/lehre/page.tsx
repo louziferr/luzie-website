@@ -13,19 +13,19 @@ export default function Lehre() {
         <div className="w-full h-[10px] bg-white"></div>
 
         <h1 className="font-saira text-white md:text-4xl pt-4 animate-fade-up animate-delay-500">
-          Auf deinem Niveau.
+          Auf jedem Niveau.
         </h1>
       </div>
 
       <div className="mb-0 m-8 md:p-8">
-        <h1 className="py-8 text-3xl md:text-6xl text-red">
+        <h1 className="py-8 text-3xl md:text-6xl text-darkBlue">
           Unterricht und Kurse
         </h1>
 
         <section className="flex flex-col items-center">
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className="text-[15px] text-center md:text-2xl md:text-justify leading-relaxed font-saira">
+              <p className="text-center md:text-justify leading-relaxed">
                 Ob die erste Zeile Code geschrieben oder eine komplexe
                 Softwarearchitekturen optimiert werden soll: ich biete
                 Informatik-Unterricht auf allen Niveaus an.
@@ -45,21 +45,21 @@ export default function Lehre() {
               </p>
               <div className="flex items-center justify-center py-[30px] md:pt-0">
                 <span className="relative flex">
-                  <div className="bg-red rounded-full p-4 border-2">
+                  <div className="bg-rose-700 rounded-full p-4 border-2">
                     <img
                       src="svg/school.svg"
                       alt="school SVG"
-                      className="w-[100px] md:w-[200px]"
+                      className="w-[100px] md:w-[250px]"
                     />
                   </div>
-                  <span className="absolute bg-red h-full w-full animate-custom-ping rounded-full" />
+                  <span className="absolute bg-rose-600 h-full w-full animate-custom-ping rounded-full" />
                 </span>
               </div>
             </div>
           </div>
 
           <div className="flex items-center justify-center">
-            <p className="text-[15px] mt-8 md:text-2xl text-center leading-relaxed w-full font-saira max-w-[600px]">
+            <p className="mt-8 text-center leading-relaxed w-full max-w-[600px]">
               Schau dir gerne die Liste meiner bereits konzipierten Kurse an.
               <br />
               <br />
@@ -69,7 +69,7 @@ export default function Lehre() {
               genau auf deine Wünsche und Lernziele zugeschnitten ist.
             </p>
           </div>
-          <div className="mt-[70px] h-[5px] bg-red"></div>
+          <div className="mt-[70px] w-full h-[5px] bg-darkBlue"></div>
         </section>
       </div>
 
@@ -79,7 +79,7 @@ export default function Lehre() {
 
       <div className="flex flex-row items-center justify-center">
         <div className="p-8 leading-relaxed max-w-[900px]">
-          <p className="text-[15px] md:text-2xl text-center font-saira pb-4">
+          <p className="text-center pb-4">
             Bereits konzipiert sind Kurse zu folgenden Themen:
           </p>
           <ul className="font-saira">
@@ -155,14 +155,14 @@ export default function Lehre() {
                 </h1>
 
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
+                <p>
                   Ich biete maßgeschneiderte Kurse in einer Vielzahl von
                   Programmiersprachen an. Lerne Python, Java, JavaScript oder
                   TypeScript auf eine praxisorientierte und verständliche Weise.
                   Mit meinen Kursen erhältst du fundiertes Wissen, das du direkt
                   in der Praxis anwenden kannst, um deine Programmierfähigkeiten
                   auf das nächste Level zu bringen.
-                </h2>
+                </p>
               </div>
               <div className="m-8 flex flex-col items-center justify-end">
                 <div className="border-2 border-gray-700 bg-black p-2">
@@ -201,7 +201,7 @@ export default function Lehre() {
                   Robotik
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
+                <p>
                   In meinen Kursen zur Robotik und Elektronik wird ein Einblick
                   in die spannende Welt der Mikrocontroller und kleinen Computer
                   gegeben. Beispielsweise mit Arduino oder Raspberry Pi werden
@@ -209,7 +209,7 @@ export default function Lehre() {
                   zu komplexeren Steuerungen. Ich zeige dir, wie du Komponenten
                   lötest, Schaltkreise baust und deine Ideen durch
                   Programmierung zum Leben erweckst.
-                </h2>
+                </p>
               </div>
               <div className="m-8 mt-0 md:mt-8 flex flex-col items-center justify-center order-2 md:order-1">
                 <img
@@ -231,7 +231,7 @@ export default function Lehre() {
                   Web-Entwicklung
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
+                <p>
                   Du möchtest dynamische Webseiten und moderne Webanwendungen
                   bauen? In meinen Kursen zur Webentwicklung vermittle ich –
                   entweder mit Flask oder mit React - Grundlagenwissen für
@@ -240,12 +240,12 @@ export default function Lehre() {
                   entwickelt. Ich führe dich durch alle wichtigen Schritte, vom
                   ersten Code bis zur vollständigen Anwendung, und lege großen
                   Wert auf praxisorientierte Übungen.
-                </h2>
+                </p>
               </div>
 
-              <div className="mt-0 md:m-8 flex flex-col items-center justify-center">
+              <div className="mt-0 mb-4 md:m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[100px] md:h-[300px] w-full object-scale-down"
+                  className="h-[100px] md:h-[200px] w-full object-scale-down"
                   src="svg/lehre/web-design.svg"
                   alt="iconImage"
                 />
@@ -263,7 +263,7 @@ export default function Lehre() {
                   Theoretische Informatik
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
+                <p>
                   Die theoretischen Informatik beschäftigt sich mit den
                   essenziellen Konzepten, die hinter der Programmierung stehen.
                   Im Rahmen meines Unterrichtes werden Algorithmen und
@@ -274,7 +274,7 @@ export default function Lehre() {
                   Diese theoretischen Konzepte sind entscheidend, um die
                   Struktur und Effizienz von Programmen zu verstehen und zu
                   optimieren.
-                </h2>
+                </p>
               </div>
               <div className="md:m-8 flex flex-col items-center justify-center  order-2 md:order-1">
                 <img
@@ -297,7 +297,7 @@ export default function Lehre() {
                 </h1>
 
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <h2 className="text-center md:text-left text-[15px] md:text-2xl">
+                <p>
                   Inhalt des Kurses zu Machine Learning sind die theoretischen
                   und praktischen Grundlagen von künstlicher Intelligenz. Meine
                   Expertise liegt dabei in den Techniken der Sprachverarbeitung
@@ -308,7 +308,7 @@ export default function Lehre() {
                   die für die Analyse von Textdaten relevant sind, und ich zeige
                   dir, wie du diese auf realen, linguistischen Datensätzen
                   anwenden kannst.
-                </h2>
+                </p>
               </div>
               <div className="md:m-8 flex flex-col items-center justify-center">
                 <img
@@ -322,16 +322,16 @@ export default function Lehre() {
         </div>
       </section>
 
-      <div className="mt-[70px] h-[5px] bg-red"></div>
+      <div className="mt-[70px] h-[5px] bg-darkBlue"></div>
 
-      <h1 className="pt-8 text-4xl md:text-6xl text-red">Preise</h1>
+      <h1 className="pt-8 text-2xl md:text-4xl text-rose-700">Anfragen</h1>
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
-                <p className="text-center md:text-left text-[15px] md:text-2xl">
+                <p>
                   Nach unserem Erstgespräch erstelle ich ein individuelles
                   Angebot, das genau auf die Anforderungen zugeschnitten ist.
                   Der Preis für einen Kurs ist größtenteils abhängig vom
@@ -340,8 +340,8 @@ export default function Lehre() {
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[100px] md:h-[200px] w-full animate-wiggle object-scale-down"
-                  src="svg/pricetag2.svg"
+                  className="h-[80px] md:h-[150px] w-full animate-wiggle object-scale-down"
+                  src="svg/hand-shake.svg"
                   alt="iconImage"
                 />
               </div>
@@ -350,7 +350,7 @@ export default function Lehre() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/preise"
-                className="py-3 px-3 bg-red rounded text-xl border-black text-white transition ease-in hover:scale-110"
+                className="py-3 px-3 bg-rose-700 rounded text-xl border-black text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>
