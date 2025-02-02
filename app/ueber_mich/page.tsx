@@ -41,7 +41,7 @@ export default function Programmierung() {
                   <img
                     src="cool_me.jpeg"
                     alt="ME"
-                    className="h-[250px] p-4 md:h-[550px] shadow-md shadow-black bg-white"
+                    className="h-[250px] p-4 md:h-[550px] animate-delay-100 animate-fade shadow-md shadow-black bg-white"
                   />
                 </div>
               </div>
