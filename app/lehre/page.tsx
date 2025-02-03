@@ -63,7 +63,7 @@ export default function Lehre() {
         </section>
       </div>
 
-      <h1 className="pt-8 font-alfa text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
+      <h1 className="pt-8 font-alfa text-2xl md:text-5xl text-darkBlue underline underline-offset-4">
         Kursthemen
       </h1>
 
@@ -143,12 +143,15 @@ export default function Lehre() {
 
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
-                  Ich biete maßgeschneiderte Kurse in einer Vielzahl von
-                  Programmiersprachen an. Lerne Python, Java, JavaScript oder
-                  TypeScript auf eine praxisorientierte und verständliche Weise.
-                  Mit meinen Kursen erhältst du fundiertes Wissen, das du direkt
-                  in der Praxis anwenden kannst, um deine Programmierfähigkeiten
-                  auf das nächste Level zu bringen.
+                  Python, Javascript/Typescript, Java
+                  <br />
+                  <br />
+                  Ich biete maßgeschneiderte Kurse in unterschiedlichen
+                  Programmiersprachen an. Den Inhalt vermittle ich auf eine
+                  praxisorientierte und verständliche Weise. Je nach Bedarf kann
+                  der Fokus auf der Vermittlung von einfachen
+                  Programmierkenntnisse oder auf dem Erlernen von
+                  fortgeschrittenen Techniken liegen.
                 </p>
               </div>
               <div className="m-8 flex flex-col items-center justify-end">
@@ -190,12 +193,12 @@ export default function Lehre() {
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   In meinen Kursen zur Robotik und Elektronik wird ein Einblick
-                  in die spannende Welt der Mikrocontroller und kleinen Computer
-                  gegeben. Beispielsweise mit Arduino oder Raspberry Pi werden
-                  diverse Projekte realisiert, von einfachen Schaltungen bis hin
-                  zu komplexeren Steuerungen. Ich zeige dir, wie du Komponenten
-                  lötest, Schaltkreise baust und deine Ideen durch
-                  Programmierung zum Leben erweckst.
+                  in die Welt der Mikrocontroller und kleinen Computer gegeben.
+                  Beispielsweise mit Arduino oder Raspberry Pi werden diverse
+                  Projekte realisiert, von einfachen Schaltungen bis hin zu
+                  komplexeren Steuerungen. Ich erkläre, wie man Komponenten
+                  lötet, Schaltkreise baut und eigene Ideen durch Programmierung
+                  zum Leben erweckt.
                 </p>
               </div>
               <div className="m-8 mt-0 md:mt-8 flex flex-col items-center justify-center order-2 md:order-1">
@@ -219,14 +222,14 @@ export default function Lehre() {
                 </h1>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
-                  Du möchtest dynamische Webseiten und moderne Webanwendungen
-                  bauen? In meinen Kursen zur Webentwicklung vermittle ich –
-                  entweder mit Flask oder mit React - Grundlagenwissen für
-                  interaktive User Interfaces. Du wirst lernen, wie man
-                  Backend-Logik aufbaut und moderne, skalierbare Frontends
-                  entwickelt. Ich führe dich durch alle wichtigen Schritte, vom
-                  ersten Code bis zur vollständigen Anwendung, und lege großen
-                  Wert auf praxisorientierte Übungen.
+                  In meinen Kursen zur Webentwicklung vermittle ich – entweder
+                  mit Flask oder mit React - Grundlagenwissen für dynamische
+                  Webseiten und moderne Webanwendungen. Je nach Vorwissen wird
+                  auf die Grundbegriffe des Internets und der Webentwicklung
+                  eingegangen sowie auf den allgemeinen Aufbau von dynamischen
+                  und responsiven Webseiten. Ich führe durch alle wichtigen
+                  Schritte, vom ersten Code bis zur vollständigen Anwendung, und
+                  lege großen Wert auf praxisorientierte Übungen.
                 </p>
               </div>
 
@@ -256,7 +259,7 @@ export default function Lehre() {
                   Im Rahmen meines Unterrichtes werden Algorithmen und
                   Datenstrukturen behandelt und es wird die Grundlage für
                   effizientes Programmieren gelegt. Durch die Arbeit mit
-                  Pseudocode, werden komplexe Probleme analysiert und
+                  Pseudocode werden komplexe Probleme analysiert und
                   Lösungsansätze entwickelt, bevor sie in Code umsetzt werden.
                   Diese theoretischen Konzepte sind entscheidend, um die
                   Struktur und Effizienz von Programmen zu verstehen und zu
