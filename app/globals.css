@@ -23,7 +23,7 @@
     @apply font-saira;
     @apply text-left;
     @apply text-[15px];
-    @apply md:text-xl;
+    @apply md:text-lg;
   }
 
   .font-outline-1 {

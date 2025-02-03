@@ -26,14 +26,12 @@ export default function Webentwicklung() {
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
               <p className="text-left md:text-justify leading-relaxed">
-                Die digitale Welt entwickelt sich rasant – und du brauchst eine
-                Website?
+                Du brauchst eine Website?
                 <br />
                 <br />
                 Meine Arbeit als Webentwicklerin richtet sich an Selbstständige,
-                kreative Köpfe und kleine Unternehmen, die eine moderne,
-                funktionale und individuelle Website brauchen – ohne
-                komplizierte Prozesse.
+                Start-Ups und kleine Unternehmen, die eine moderne, funktionale
+                und individuelle Website brauchen – ohne komplizierte Prozesse.
                 <br /> <br />
                 Bei der Umsetzung setze ich auf aktuelle Technologien,
                 ansprechende Designs und skalierbare Lösungen. Gleichzeitig
@@ -48,7 +46,7 @@ export default function Webentwicklung() {
                     sequence={[
                       1000,
                       // Same substring at the start will only be typed out once, initially
-                      "Schnell",
+                      "Dynamisch",
                       1000, // wait 1s before replacing "Mice" with "Hamsters"
                       "Responsiv",
                       1000,

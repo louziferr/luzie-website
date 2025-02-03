@@ -10,9 +10,17 @@ export default function Programmierung() {
   return (
     <div>
       <div className="h-screen flex bg-blue-comp flex-col flex-grow flex-wrap items-center justify-center p-8">
-        <h1 className="text-white text-3xl md:text-4xl animate-fade-down animate-delay-200 mb-4">
-          Programmierung.
-        </h1>
+        <TypeAnimation
+          sequence={[
+            1000,
+            // Same substring at the start will only be typed out once, initially
+            "Programmierung",
+          ]}
+          wrapper="span"
+          speed={50}
+          className="text-white font-anta text-3xl md:text-4xl animate-delay-200 mb-4"
+          repeat={Infinity}
+        />
         <div className="w-full h-[5px] bg-white"></div>
       </div>
 

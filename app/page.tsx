@@ -39,44 +39,109 @@ export default function Home() {
 
       <div className="flex items-center justify-center">
         <div className="max-w-screen-md p-4">
-          <p className="md:text-center">
-            Ob moderne Webentwicklung, individuelle Softwarelösungen, oder
-            praxisnahe IT-Kurse – ich biete maßgeschneiderte Lösungen für
-            diverse Anforderungen im Bereich der Informatik.
+          <p>
+            Mit einem Hintergrund in der Computerlinguistik und langjähriger
+            Erfahrung im Programmieren bin ich heute freiberuflich in
+            verschiedenen Gebieten der Informatik tätig.
             <br />
             <br />
-            Meine Lösungen können an viele Settings angepasst und auf diverse
-            Bedürfnisse zugeschnitten werden.
+            Derzeit konzentriere ich mich insbesondere auf drei Schwerpunkte:
+            <br />
+            <br />
+            Die <b>Lehre</b>, die <b>Webentwicklung</b> und die
+            datenverarbeitende <b>Softwareentwicklung</b>.
+            <br />
+            <br />
           </p>
+          <div className="grid grid-cols-1 md:grid-cols-[15%_75%] gap-4">
+            <div className="flex items-center justify-center w-full order-2 md:order-1">
+              <div className="animate-grow-little flex items-center justify-center w-[80px] h-[80px] m-4 bg-red rounded p-4 shadow-lg shadow-red">
+                <img src="svg/pencil.svg" alt="pencil" />
+              </div>
+            </div>
+            <div className="order-1 md:order-2">
+              <p>
+                <b>Lehre:</b> Durch meine bisherige Lehrtätigkeit an
+                Universitäten, Schulen und Ausbildungsinstituten habe ich
+                gelernt, komplexe Themen verständlich zu vermitteln und
+                zielgerichtete Kurse zu entwickeln.
+              </p>
+            </div>
+
+            <div className="flex items-center justify-center w-full order-4 md:order-3">
+              <div className="animate-grow-little flex items-center justify-center w-[80px] h-[80px] m-4 bg-green rounded p-4 shadow-lg shadow-green">
+                <img src="svg/imac.svg" alt="pencil" />
+              </div>
+            </div>
+            <div className="order-3 md:order-4">
+              <p>
+                <b>Webentwicklung:</b> Meine Erfahrung in der Webentwicklung
+                habe ich durch verschiedene berufliche Tätigkeiten aufgebaut.
+                Heute erstelle ich moderne, maßgeschneiderte Websites und
+                Webanwendungen. Dabei setze ich auf aktuelle Technologien, um
+                performante und benutzerfreundliche Lösungen zu entwickeln.
+              </p>
+            </div>
+
+            <div className="flex items-center justify-center w-full order-6 md:order-5">
+              <div className="animate-grow-little flex items-center justify-center w-[80px] h-[80px] m-4 bg-blue rounded p-4  shadow-lg shadow-blue">
+                <img src="svg/chart-pie.svg" alt="pencil" />
+              </div>
+            </div>
+            <div className="order-5 md:order-6">
+              <p>
+                <b>Softwareentwicklung:</b> In der Softwareentwicklung befasse
+                ich mich mit Datenverarbeitung, Automatisierung und
+                Visualisierung. Ich erstelle maßgeschneiderte Skripte und
+                Anwendungen, um Daten effizient zu analysieren, zu verarbeiten
+                und anschaulich darzustellen.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
+      <div className="mt-8 mb-8 h-[5px] bg-blue shadow-md shadow-blue"></div>
+      <h2 className="text-center font-anta pt-8 text-3xl md:text-5xl text-darkBlue">
+        Mehr erfahren!
+      </h2>
       <div className="flex items-center justify-center">
         <div className="max-w-screen-xl grid w-full grid-cols-1 md:grid-cols-3">
-          <SkillsCard
-            headline="Web-Entwicklung"
-            subheadline="Deine Website"
-            keywords={["Individuell.", "Elegant.", "Responsiv."]}
-            color="#3B8986"
-            image="svg/imac.svg"
-            link="/webentwicklung"
-          />
-          <SkillsCard
-            headline="Lehre"
-            subheadline="Dein Format"
-            keywords={["Kurse.", "Workshops.", "Seminare."]}
-            color="#C1666B"
-            image="svg/pencil.svg"
-            link="/lehre"
-          />
-          <SkillsCard
-            headline="Programmierung"
-            subheadline="Deine Lösung"
-            keywords={["Datenverarbeitung.", "Machine Learning.", "Grafiken."]}
-            color="#4281A4"
-            image="svg/chart-pie.svg"
-            link="/programmierung"
-          />
+          <div className="order-2 md:order-1">
+            <SkillsCard
+              headline="Web-Entwicklung"
+              subheadline="Deine Website"
+              keywords={["Individuell.", "Elegant.", "Responsiv."]}
+              color="#3B8986"
+              image="svg/imac.svg"
+              link="/webentwicklung"
+            />
+          </div>
+          <div className="order-1 md:order-2">
+            <SkillsCard
+              headline="Lehre"
+              subheadline="Dein Format"
+              keywords={["Kurse.", "Workshops.", "Seminare."]}
+              color="#C1666B"
+              image="svg/pencil.svg"
+              link="/lehre"
+            />
+          </div>
+
+          <div className="order-3">
+            <SkillsCard
+              headline="Programmierung"
+              subheadline="Deine Lösung"
+              keywords={[
+                "Datenverarbeitung.",
+                "Machine Learning.",
+                "Visualisierung.",
+              ]}
+              color="#4281A4"
+              image="svg/chart-pie.svg"
+              link="/programmierung"
+            />
+          </div>
         </div>
       </div>
 

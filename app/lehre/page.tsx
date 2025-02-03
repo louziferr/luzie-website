@@ -146,11 +146,11 @@ export default function Lehre() {
                   Python, Javascript/Typescript, Java
                   <br />
                   <br />
-                  Ich biete maßgeschneiderte Kurse in unterschiedlichen
-                  Programmiersprachen an. Den Inhalt vermittle ich auf eine
-                  praxisorientierte und verständliche Weise. Je nach Bedarf kann
-                  der Fokus auf der Vermittlung von einfachen
-                  Programmierkenntnisse oder auf dem Erlernen von
+                  Ich biete maßgeschneiderte Kurse zu unterschiedlichen
+                  Programmiersprachen an. Den Inhalt wird ich auf eine
+                  praxisorientierte und verständliche Weise vermittelt. Je nach
+                  Bedarf kann der Fokus auf dem Erlernen von einfachen
+                  Programmierkenntnissen oder auf dem Anwenden von
                   fortgeschrittenen Techniken liegen.
                 </p>
               </div>
@@ -226,7 +226,7 @@ export default function Lehre() {
                   mit Flask oder mit React - Grundlagenwissen für dynamische
                   Webseiten und moderne Webanwendungen. Je nach Vorwissen wird
                   auf die Grundbegriffe des Internets und der Webentwicklung
-                  eingegangen sowie auf den allgemeinen Aufbau von dynamischen
+                  eingegangen, sowie auf den allgemeinen Aufbau von dynamischen
                   und responsiven Webseiten. Ich führe durch alle wichtigen
                   Schritte, vom ersten Code bis zur vollständigen Anwendung, und
                   lege großen Wert auf praxisorientierte Übungen.
@@ -295,9 +295,9 @@ export default function Lehre() {
                   sprachlichen Daten zu erkennen und Vorhersagen zu treffen, ist
                   ein aktuelles und zukunftsorientiertes Thema. Wir gehen
                   grundlegend auf die Theorie und Praxis der Algorithmen ein,
-                  die für die Analyse von Textdaten relevant sind, und ich zeige
-                  dir, wie du diese auf realen, linguistischen Datensätzen
-                  anwenden kannst.
+                  die für die Analyse von Textdaten relevant sind, und ich
+                  vermittle, wie diese auf realen, linguistischen Datensätzen
+                  angewendet werden können.
                 </p>
               </div>
               <div className="md:m-8 flex flex-col items-center justify-center">
