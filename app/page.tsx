@@ -40,31 +40,33 @@ export default function Home() {
       <div className="flex items-center justify-center">
         <div className="max-w-screen-md p-4">
           <p>
-            Mit einem Hintergrund in der Computerlinguistik und langjähriger
-            Erfahrung im Programmieren bin ich heute freiberuflich in
-            verschiedenen Gebieten der Informatik tätig.
+            Mit einem Hintergrund in der Computerlinguistik und Medientechnik
+            sowie langjähriger Erfahrung im Programmieren bin ich heute
+            freiberuflich in verschiedenen Gebieten der Informatik tätig.
             <br />
             <br />
             Derzeit konzentriere ich mich insbesondere auf drei Schwerpunkte:
-            <br />
             <br />
             Die <b>Lehre</b>, die <b>Webentwicklung</b> und die
             datenverarbeitende <b>Softwareentwicklung</b>.
             <br />
             <br />
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-[15%_75%] gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-[15%_75%] gap-8">
             <div className="flex items-center justify-center w-full order-2 md:order-1">
               <div className="animate-grow-little flex items-center justify-center w-[80px] h-[80px] m-4 bg-red rounded p-4 shadow-lg shadow-red">
                 <img src="svg/pencil.svg" alt="pencil" />
               </div>
             </div>
             <div className="order-1 md:order-2">
+              <h1 className="text-red text-left text-lg md:text-xl underline-offset-8 mb-2 underline underline-red">
+                Lehre
+              </h1>
               <p>
-                <b>Lehre:</b> Durch meine bisherige Lehrtätigkeit an
-                Universitäten, Schulen und Ausbildungsinstituten habe ich
-                gelernt, komplexe Themen verständlich zu vermitteln und
-                zielgerichtete Kurse zu entwickeln.
+                Durch meine bisherige Lehrtätigkeit an Universitäten, Schulen
+                und Ausbildungsinstituten habe ich gelernt, komplexe Themen
+                verständlich zu vermitteln und zielgerichtete Kurse zu
+                entwickeln.
               </p>
             </div>
 
@@ -75,11 +77,14 @@ export default function Home() {
             </div>
             <div className="order-3 md:order-4">
               <p>
-                <b>Webentwicklung:</b> Meine Erfahrung in der Webentwicklung
-                habe ich durch verschiedene berufliche Tätigkeiten aufgebaut.
-                Heute erstelle ich moderne, maßgeschneiderte Websites und
-                Webanwendungen. Dabei setze ich auf aktuelle Technologien, um
-                performante und benutzerfreundliche Lösungen zu entwickeln.
+                <h1 className="mb-2 text-green text-left text-lg md:text-xl  underline-offset-8 underline underline-green">
+                  Webentwicklung
+                </h1>
+                Meine Erfahrung in der Webentwicklung habe ich durch
+                verschiedene berufliche Tätigkeiten aufgebaut. Heute erstelle
+                ich moderne, maßgeschneiderte Websites und Webanwendungen. Dabei
+                setze ich auf aktuelle Technologien, um performante und
+                benutzerfreundliche Lösungen zu entwickeln.
               </p>
             </div>
 
@@ -90,11 +95,14 @@ export default function Home() {
             </div>
             <div className="order-5 md:order-6">
               <p>
-                <b>Softwareentwicklung:</b> In der Softwareentwicklung befasse
-                ich mich mit Datenverarbeitung, Automatisierung und
-                Visualisierung. Ich erstelle maßgeschneiderte Skripte und
-                Anwendungen, um Daten effizient zu analysieren, zu verarbeiten
-                und anschaulich darzustellen.
+                <h1 className="text-blue text-left text-lg mb-2 md:text-xl underline-offset-8 underline underline-blue">
+                  Softwareentwicklung
+                </h1>
+                In der Softwareentwicklung befasse ich mich mit
+                Datenverarbeitung, Automatisierung und Visualisierung. Ich
+                erstelle maßgeschneiderte Skripte und Anwendungen, um Daten
+                effizient zu analysieren, zu verarbeiten und anschaulich
+                darzustellen.
               </p>
             </div>
           </div>
