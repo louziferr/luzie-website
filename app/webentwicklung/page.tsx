@@ -85,7 +85,7 @@ export default function Webentwicklung() {
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Jedes Projekt hat andere Anforderungen. Je nach Wunsch können
-                  das Aussehen und die Funktionsweise deiner Website angepasst
+                  das Aussehen und die Funktionsweise der Website angepasst
                   werden. Von klaren, minimalistischen Designs bis hin zu
                   interaktiven, komplexen Webanwendungen: Alles ist möglich.
                 </p>
@@ -141,9 +141,8 @@ export default function Webentwicklung() {
                 <p>
                   Dank klarer Prozesse, schlanker Strukturen und einer präzisen
                   Arbeitsweise kann ich schnelle Ergebnisse liefern, ohne an
-                  Qualität einzubüßen. Du profitierst von kurzen
-                  Entwicklungszeiten und direkter Kommunikation - ohne unnötige
-                  Umwege.
+                  Qualität einzubüßen. Es entstehen kurze Entwicklungszeiten und
+                  eine direkte Kommunikation - ohne große Umwege.
                 </p>
               </div>
 
@@ -169,8 +168,8 @@ export default function Webentwicklung() {
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Ob minimalistisch, kreativ oder markant – ich entwickle eine
-                  individuelle Gestaltung, die perfekt zu deinem Stil und deiner
-                  Marke passt. Zeitgemäß, einzigartig und auf jedem Gerät
+                  individuelle Gestaltung, die perfekt zum gewünschten Stil und
+                  zur Marke passt. Zeitgemäß, einzigartig und auf jedem Gerät
                   optimal dargestellt.
                 </p>
               </div>
