@@ -40,7 +40,7 @@ export default function Home() {
       <div className="flex items-center justify-center">
         <div className="max-w-screen-md p-4">
           <p>
-            Mit einem Hintergrund in der Computerlinguistik und Medientgechnik
+            Mit einem Hintergrund in der Computerlinguistik und Audiotechnik
             sowie langjähriger Erfahrung im Programmieren bin ich heute
             freiberuflich in verschiedenen Gebieten der Informatik tätig.
             <br />
