@@ -40,13 +40,12 @@ export default function Home() {
       <div className="flex items-center justify-center">
         <div className="max-w-screen-md p-4">
           <p>
-            Mit einem Hintergrund in der Computerlinguistik und Medientechnik
+            Mit einem Hintergrund in der Computerlinguistik und Medientgechnik
             sowie langjähriger Erfahrung im Programmieren bin ich heute
             freiberuflich in verschiedenen Gebieten der Informatik tätig.
             <br />
             <br />
             Derzeit konzentriere ich mich insbesondere auf drei Schwerpunkte:
-            <br />
             Die <b>Lehre</b>, die <b>Webentwicklung</b> und die
             datenverarbeitende <b>Softwareentwicklung</b>.
             <br />
@@ -64,9 +63,9 @@ export default function Home() {
               </h1>
               <p>
                 Durch meine bisherige Lehrtätigkeit an Universitäten, Schulen
-                und Ausbildungsinstituten habe ich gelernt, komplexe Themen
-                verständlich zu vermitteln und zielgerichtete Kurse zu
-                entwickeln.
+                und Ausbildungsinstituten habe ich gelernt, komplexe Themen der
+                Informatik verständlich zu vermitteln und zielgerichtete Kurse
+                zu entwickeln.
               </p>
             </div>
 
