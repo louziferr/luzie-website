@@ -26,9 +26,6 @@ export default function Webentwicklung() {
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
               <p className="text-left md:text-justify leading-relaxed">
-                Du brauchst eine Website?
-                <br />
-                <br />
                 Meine Arbeit als Webentwicklerin richtet sich an Selbstständige,
                 Start-Ups und kleine Unternehmen, die eine moderne, funktionale
                 und individuelle Website brauchen – ohne komplizierte Prozesse.
