@@ -75,10 +75,10 @@ export default function Home() {
               </div>
             </div>
             <div className="order-3 md:order-4">
+              <h1 className="mb-2 text-green text-left text-lg md:text-xl  underline-offset-8 underline underline-green">
+                Webentwicklung
+              </h1>
               <p>
-                <h1 className="mb-2 text-green text-left text-lg md:text-xl  underline-offset-8 underline underline-green">
-                  Webentwicklung
-                </h1>
                 Meine Erfahrung in der Webentwicklung habe ich durch
                 verschiedene berufliche Tätigkeiten aufgebaut. Heute erstelle
                 ich moderne, maßgeschneiderte Websites und Webanwendungen. Dabei
@@ -93,10 +93,10 @@ export default function Home() {
               </div>
             </div>
             <div className="order-5 md:order-6">
+              <h1 className="text-blue text-left text-lg mb-2 md:text-xl underline-offset-8 underline underline-blue">
+                Softwareentwicklung
+              </h1>
               <p>
-                <h1 className="text-blue text-left text-lg mb-2 md:text-xl underline-offset-8 underline underline-blue">
-                  Softwareentwicklung
-                </h1>
                 In der Softwareentwicklung befasse ich mich mit
                 Datenverarbeitung, Automatisierung und Visualisierung. Ich
                 erstelle maßgeschneiderte Skripte und Anwendungen, um Daten
@@ -137,7 +137,7 @@ export default function Home() {
 
           <div className="order-3">
             <SkillsCard
-              headline="Programmierung"
+              headline="Software"
               subheadline="Deine Lösung"
               keywords={[
                 "Datenverarbeitung.",
@@ -146,7 +146,7 @@ export default function Home() {
               ]}
               color="#4281A4"
               image="svg/chart-pie.svg"
-              link="/programmierung"
+              link="/software"
             />
           </div>
         </div>

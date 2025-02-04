@@ -6,7 +6,7 @@ import { BarChart } from "@mui/x-charts/BarChart";
 import Wave from "react-wavify";
 import { TypeAnimation } from "react-type-animation";
 
-export default function Programmierung() {
+export default function Software() {
   return (
     <div>
       <div className="h-screen flex bg-blue-comp flex-col flex-grow flex-wrap items-center justify-center p-8">
@@ -14,7 +14,7 @@ export default function Programmierung() {
           sequence={[
             1000,
             // Same substring at the start will only be typed out once, initially
-            "Programmierung",
+            "Software",
           ]}
           wrapper="span"
           speed={50}
@@ -33,20 +33,18 @@ export default function Programmierung() {
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
               <p className="md:text-justify leading-relaxed">
-                Ich kann maßgeschneiderte Softwarelösungen entwickeln, die genau
-                auf deine Bedürfnisse zugeschnitten sind.
+                Mit fundierten Programmierkenntnissen entwickle ich
+                maßgeschneiderte Lösungen für Datenverarbeitung, -analyse und
+                -visualisierung. Ob automatisierte Auswertungen, individuelle
+                Skripte oder komplexe Programme – ich erstelle effiziente und
+                passgenaue Software für unterschiedlichste Anforderungen. Durch
+                den gezielten Einsatz moderner Technologien lassen sich Prozesse
+                optimieren, Daten verständlich darstellen und individuelle
+                Herausforderungen lösen.
                 <br />
                 <br />
-                Ob es um die Verarbeitung großer Datenmengen, statistische
-                Auswertungen, die Erstellung von Grafiken oder andere
-                automatisierbare Aufgaben geht – ich finde effiziente und
-                praxisnahe Lösungen für verschiedenste Herausforderungen. Wenn
-                du ein spezifisches Problem hast, das sich durch Software
-                optimieren oder automatisieren lässt, erarbeite ich eine
-                passende Lösung für dich.
-                <br />
-                Hauptsächlich arbeite ich beim Coden mit Python, doch je nach
-                Aufgabe können auch andere Sprachen und Tools zum Einsatz
+                Hauptsächlich arbeite ich beim Programmieren mit Python, doch je
+                nach Aufgabe können auch andere Sprachen und Tools zum Einsatz
                 kommen.
                 <br />
               </p>
@@ -77,14 +75,14 @@ export default function Programmierung() {
 
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
-                  Ob große Datenmengen, komplexe Analysen oder automatisierte
-                  Prozesse – ich entwickle maßgeschneiderte Lösungen für
-                  Datenverarbeitungsprobleme. Mit fundiertem Wissen in
-                  Datenstrukturen, Algorithmen und Machine Learning optimiere
-                  ich Abläufe, extrahiere relevante Informationen und sorge für
-                  eine effiziente Verarbeitung. Mein Fokus liegt darauf, Daten
-                  sinnvoll nutzbar zu machen – präzise, skalierbar und an deine
-                  Anforderungen angepasst.
+                  Ich entwickle maßgeschneiderte Lösungen für die Verarbeitung
+                  großer Datenmengen und die Erstellung von Analysen. Mit
+                  fundiertem Wissen in Statistik, Datenstrukturen, Algorithmen
+                  und Machine Learning optimiere ich Abläufe, extrahiere
+                  relevante Informationen und sorge für eine effiziente
+                  Verarbeitung. Mein Fokus liegt darauf, Daten sinnvoll nutzbar
+                  zu machen – präzise, skalierbar und an diverse Anforderungen
+                  angepasst.
                 </p>
               </div>
               <div className="flex flex-col items-center justify-end p-4 w-full">
