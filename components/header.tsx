@@ -97,7 +97,7 @@ export default function Header() {
 
   return (
     <header className="fixed w-full z-50" style={{ top: topShiftString }}>
-      <div className="bg-gray-950 shadow-black shadow-md flex animate-fade-down animate-delay-1000 justify-between items-center px-5 py-2.5 max-h-[90px]">
+      <div className="bg-white shadow-black shadow-md flex animate-fade-down animate-delay-1000 justify-between items-center px-5 py-2.5 max-h-[90px]">
         <div className="p-2">
           <Link href="/">
             <h1 className="p-0 text-darkBlue">LA</h1>
@@ -106,7 +106,7 @@ export default function Header() {
 
         <nav className="hidden md:flex items-center gap-1">
           <div>
-            <Link href="/" className="nav-link text-white">
+            <Link href="/" className="nav-link">
               Startseite
             </Link>
           </div>
@@ -124,11 +124,7 @@ export default function Header() {
           </div>
 
           {headerItems.map((item, itemIndex) => (
-            <Link
-              key={itemIndex}
-              href={item[1]}
-              className="nav-link text-white"
-            >
+            <Link key={itemIndex} href={item[1]} className="nav-link">
               {item[0]}
             </Link>
           ))}
@@ -142,9 +138,9 @@ export default function Header() {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
-            fill="#000000"
+            fill="#ffffff"
             viewBox="0 0 24 24"
-            stroke="white"
+            stroke="darkBlue"
           >
             <path
               strokeLinecap="round"
@@ -163,14 +159,14 @@ export default function Header() {
             onClick={hideSideBar}
           ></div>
           <div
-            className="bg-black animate-fade-left text-primary space-y-5 px-4 py-2 
+            className="bg-white animate-fade-left text-primary space-y-5 px-4 py-2 
         fixed top-0 right-0 w-2/3 h-full z-50 flex flex-col border-darkBrown"
             id="burger-menu"
           >
             <p className="text-4xl ml-4 mt-4 text-darkBlue font-alfa">LA</p>
             <Link
               href="/"
-              className="nav-link text-xl mt-4 text-white border-b-2 pb-2 border-gray-300"
+              className="nav-link text-xl mt-4 border-b-2 pb-2 border-gray-300"
             >
               Startseite
             </Link>
@@ -189,7 +185,7 @@ export default function Header() {
               <Link
                 key={itemIndex}
                 href={item[1]}
-                className="nav-link text-xl mt-4 text-white border-b-2 pb-2 border-gray-300"
+                className="nav-link text-xl mt-4 border-b-2 pb-2 border-gray-300"
               >
                 {item[0]}
               </Link>

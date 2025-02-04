@@ -265,9 +265,9 @@ export default function Webentwicklung() {
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Nach unserem Erstgespräch erstelle ich ein individuelles
-                  Angebot, das genau auf die Anforderungen zugeschnitten ist.
+                  Angebot, das genau auf deine Anforderungen zugeschnitten ist.
                   Der Zeitaufwand und der damit verbundene Preis für das
-                  Entwickeln der Website sind größtenteils abhängig von der
+                  Entwickeln deiner Website sind größtenteils abhängig von der
                   technischen und ästhetischen Komplexität.
                 </p>
               </div>
