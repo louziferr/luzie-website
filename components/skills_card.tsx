@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ScrollAnimation from "react-animate-on-scroll";
 
 interface SkillsCardProps {
   headline: string;

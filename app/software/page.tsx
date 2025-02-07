@@ -5,6 +5,7 @@ import { BarChart } from "@mui/x-charts/BarChart";
 
 import Wave from "react-wavify";
 import { TypeAnimation } from "react-type-animation";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function Software() {
   return (
@@ -21,40 +22,45 @@ export default function Software() {
           className="text-white font-anta text-3xl md:text-4xl animate-delay-200 mb-4"
           repeat={Infinity}
         />
-        <div className="w-full h-[5px] bg-white"></div>
+        <div className="w-full h-[5px] bg-white animate-jump-in animate-delay-200"></div>
       </div>
 
       <div className="mb-0 m-8 md:p-8">
-        <h1 className="font-alfa py-8 text-3xl md:text-6xl text-blue">
-          Softwarelösungen
-        </h1>
+        <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
+          <h1 className="font-alfa py-8 text-3xl md:text-6xl text-blue">
+            Softwarelösungen
+          </h1>
+        </ScrollAnimation>
 
         <section className="flex flex-col items-center">
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className="text-center md:text-justify leading-relaxed">
-                Mit fundierten Programmierkenntnissen entwickle ich
-                maßgeschneiderte Lösungen für Datenverarbeitung, -analyse und
-                -visualisierung. Ob automatisierte Auswertungen, individuelle
-                Skripte oder komplexe Programme – ich erstelle effiziente und
-                passgenaue Software für unterschiedlichste Anforderungen. Durch
-                den gezielten Einsatz moderner Technologien lassen sich Prozesse
-                optimieren, Daten verständlich darstellen und individuelle
-                Herausforderungen lösen.
-                <br />
-                <br />
-                Hauptsächlich arbeite ich beim Programmieren mit Python, doch je
-                nach Aufgabe können auch andere Sprachen und Tools zum Einsatz
-                kommen.
-                <br />
-              </p>
+              <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
+                <p className="text-center md:text-justify leading-relaxed">
+                  Mit fundierten Programmierkenntnissen entwickle ich Lösungen
+                  zur Datenverarbeitung, -analyse und -visualisierung. Je nach
+                  Anforderung können automatisierte Auswertungen stattfinden,
+                  einfache Skripte oder komplexe Programme geschrieben werden.
+                  Durch den gezielten Einsatz moderner Technologien lassen sich
+                  Prozesse optimieren, Daten verständlich darstellen und
+                  individuelle Herausforderungen lösen.
+                  <br />
+                  <br />
+                  Hauptsächlich arbeite ich beim Programmieren mit Python, doch
+                  je nach Aufgabe können auch andere Sprachen und Tools zum
+                  Einsatz kommen.
+                  <br />
+                </p>
+              </ScrollAnimation>
 
               <div className="flex items-center justify-center py-[30px]">
-                <img
-                  src="svg/programmierung/code-opt.svg"
-                  alt="code SVG"
-                  className="w-[200px] md:w-[300px]"
-                />
+                <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
+                  <img
+                    src="svg/programmierung/code-opt.svg"
+                    alt="code SVG"
+                    className="w-[200px] md:w-[300px]"
+                  />
+                </ScrollAnimation>
               </div>
             </div>
           </div>
@@ -106,7 +112,7 @@ export default function Software() {
 
           <div className="flex flex-col" id={"robotik"}>
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
-              <div className="m-8 order-1 md:order-2">
+              <div className="mt-[80px] m-8 order-1 md:order-2">
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   02
                 </p>
@@ -147,7 +153,7 @@ export default function Software() {
           </div>
 
           <div className="flex flex-col">
-            <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
+            <div className="mt-[80px] grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8">
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   03
@@ -193,7 +199,9 @@ export default function Software() {
         </div>
       </section>
 
-      <div className="h-[5px] mt-8 md:mb-4 bg-blue shadow-md shadow-blue"></div>
+      <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
+        <div className="h-[5px] mt-[40px] mb-[40px] md:m-[80px] md:mb-4 bg-blue shadow-md shadow-blue"></div>
+      </ScrollAnimation>
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
           <div className="flex flex-col">

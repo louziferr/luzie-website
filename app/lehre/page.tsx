@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function Lehre() {
   return (
@@ -10,7 +11,7 @@ export default function Lehre() {
         <h1 className="pb-2 text-white text-3xl md:text-4xl animate-fade-down animate-delay-200">
           Informatik lernen.
         </h1>
-        <div className="w-full h-[5px] bg-white"></div>
+        <div className="w-full h-[5px] bg-white  animate-jump-in animate-delay-200"></div>
 
         <h1 className="font-saira text-white md:text-3xl pt-4 animate-fade-up animate-delay-500">
           Auf jedem Niveau.
@@ -18,50 +19,60 @@ export default function Lehre() {
       </div>
 
       <div className="mb-0 m-8 md:p-8">
-        <h1 className="py-8 font-alfa text-3xl md:text-6xl text-red">
-          Unterricht und Kurse
-        </h1>
+        <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
+          <h1 className="py-8 font-alfa text-3xl md:text-6xl text-red">
+            Unterricht und Kurse
+          </h1>
+        </ScrollAnimation>
 
         <section className="flex flex-col items-center">
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className="text-center md:text-justify leading-relaxed">
-                Ob die erste Zeile Code geschrieben oder eine komplexe
-                Softwarearchitekturen optimiert werden soll: ich biete
-                Informatik-Unterricht auf allen Niveaus an.
-                <br />
-                <br />
-                Meine Arbeit als Dozentin richtet sich hauptsächlich an Schulen,
-                Universitäten, Ausbildungsinstitute und Unternehmen, die
-                Interesse an einem maßgeschneiderten Kurs zu Informatik haben.
-                Ich unterrichte Kinder, Jugendliche und Erwachsene und passe das
-                Niveau sowie die Lehr- und Lernmethoden an die jeweilige
-                Zielgruppe an. Die Kurse können online oder vor Ort stattfinden.
-                <br /> <br />
-                Eine Auflistung bereits erprobter Kurskonzepte zu verschiedenen
-                Themen der Informatik ist auf dieser Seite zu sehen. Auf Wunsch
-                entwickle ich neue, maßgeschneiderte Kurse, die genau auf das
-                Projekt und die Lernziele abgestimmt sind.
-                <br />
-                <br />
-              </p>
+              <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
+                <p className="text-center md:text-justify leading-relaxed">
+                  Ob die erste Zeile Code geschrieben oder eine komplexe
+                  Softwarearchitekturen optimiert werden soll: ich biete
+                  Informatik-Unterricht auf allen Niveaus an.
+                  <br />
+                  <br />
+                  Meine Arbeit als Dozentin richtet sich hauptsächlich an
+                  Schulen, Universitäten, Ausbildungsinstitute und Unternehmen,
+                  die Interesse an einem maßgeschneiderten Kurs zu Informatik
+                  haben. Ich unterrichte Kinder, Jugendliche und Erwachsene und
+                  passe das Niveau sowie die Lehr- und Lernmethoden an die
+                  jeweilige Zielgruppe an. Die Kurse können online oder vor Ort
+                  stattfinden.
+                  <br /> <br />
+                  Eine Auflistung bereits erprobter Kurskonzepte zu
+                  verschiedenen Themen der Informatik ist auf dieser Seite zu
+                  sehen. Auf Wunsch entwickle ich neue, maßgeschneiderte Kurse,
+                  die genau auf das Projekt und die Lernziele abgestimmt sind.
+                  <br />
+                  <br />
+                </p>
+              </ScrollAnimation>
               <div className="flex items-center justify-center py-[30px] md:pt-0">
-                <span className="relative flex">
-                  <div className="bg-rose-700 rounded-full p-4 border-2">
-                    <img
-                      src="svg/school.svg"
-                      alt="school SVG"
-                      className="w-[100px] md:w-[250px]"
-                    />
-                  </div>
-                  <span className="absolute bg-rose-600 h-full w-full animate-custom-ping rounded-full" />
-                </span>
+                <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
+                  <span className="relative flex">
+                    <div className="bg-rose-700 rounded-full p-4 border-2">
+                      <img
+                        src="svg/school.svg"
+                        alt="school SVG"
+                        className="w-[100px] md:w-[250px]"
+                      />
+                    </div>
+                    <span className="absolute bg-rose-600 h-full w-full animate-custom-ping rounded-full" />
+                  </span>
+                </ScrollAnimation>
               </div>
             </div>
           </div>
-          <div className="mt-[70px] w-full h-[5px] bg-rose-700"></div>
         </section>
       </div>
+
+      <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
+        <div className="mt-[40px] mb-[40px] md:m-[80px] w-full h-[5px] bg-rose-700 shadow-md shadow-rose-700"></div>
+      </ScrollAnimation>
 
       <h1 className="pt-8 font-alfa text-2xl md:text-5xl text-darkBlue underline underline-offset-4">
         Kursthemen
@@ -312,7 +323,9 @@ export default function Lehre() {
         </div>
       </section>
 
-      <div className="h-[5px] mt-8 bg-rose-700 shadow-md shadow-red"></div>
+      <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
+        <div className="mt-[80px] mb-[40px] md:m-[80px] h-[5px] bg-rose-700 shadow-md shadow-red"></div>
+      </ScrollAnimation>
 
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">

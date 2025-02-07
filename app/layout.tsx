@@ -19,6 +19,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+        />
+      </head>
       <body className="bg-primary">
         <Header />
 

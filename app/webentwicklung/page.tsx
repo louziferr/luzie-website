@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function Webentwicklung() {
   return (
@@ -10,7 +11,7 @@ export default function Webentwicklung() {
         <h1 className="text-white text-3xl md:text-4xl animate-fade-down animate-delay-200 pb-2">
           Deine Website.
         </h1>
-        <div className="w-full h-[5px] bg-white"></div>
+        <div className="w-full h-[5px] bg-white animate-jump-in animate-delay-200"></div>
 
         <h1 className="font-saira text-white text-2xl m:d:text-3xl pt-4 animate-fade-up animate-delay-500">
           Wie du willst.
@@ -18,58 +19,68 @@ export default function Webentwicklung() {
       </div>
 
       <div className="m-8 md:p-8">
-        <h1 className="py-8 font-alfa text-3xl md:text-6xl text-green">
-          Moderne Web-Entwicklung
-        </h1>
+        <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
+          <h1 className="py-8 font-alfa text-3xl md:text-6xl text-green">
+            Moderne Web-Entwicklung
+          </h1>
+        </ScrollAnimation>
 
         <section className="flex  items-center flex-col">
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className="text-center md:text-justify leading-relaxed">
-                Meine Arbeit als Webentwicklerin richtet sich an Selbstständige,
-                Start-Ups und kleine Unternehmen, die eine moderne, funktionale
-                und individuelle Website brauchen – ohne komplizierte Prozesse.
-                <br /> <br />
-                Bei der Umsetzung setze ich auf aktuelle Technologien,
-                ansprechende Designs und skalierbare Lösungen. Gleichzeitig
-                garantiere ich eine schnelle und unkomplizierte Zusammenarbeit
-                mit klarer Kommunikation.
-                <br />
-                <br />
-              </p>
+              <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
+                <p className="text-center md:text-justify leading-relaxed">
+                  Meine Arbeit als Webentwicklerin richtet sich an
+                  Selbstständige, Start-Ups und kleine Unternehmen, die eine
+                  moderne, funktionale und individuelle Website brauchen – ohne
+                  komplizierte Prozesse.
+                  <br /> <br />
+                  Bei der Umsetzung setze ich auf aktuelle Technologien,
+                  ansprechende Designs und skalierbare Lösungen. Gleichzeitig
+                  garantiere ich eine schnelle und unkomplizierte Zusammenarbeit
+                  mit klarer Kommunikation.
+                  <br />
+                  <br />
+                </p>
+              </ScrollAnimation>
               <div className="flex items-center justify-center pt-[30px] md:pt-0">
-                <div>
-                  <TypeAnimation
-                    sequence={[
-                      1000,
-                      // Same substring at the start will only be typed out once, initially
-                      "Dynamisch",
-                      1000, // wait 1s before replacing "Mice" with "Hamsters"
-                      "Responsiv",
-                      1000,
-                      "Flexibel",
-                      1000,
-                    ]}
-                    wrapper="span"
-                    speed={50}
-                    className="text-xl md:text-3xl text-center leading-relaxed w-full font-saira"
-                    repeat={Infinity}
-                  />
-                  <div className="w-[150px] md:w-[200px]">
-                    <img src="svg/programming.svg" alt="programming SVG" />
+                <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
+                  <div>
+                    <TypeAnimation
+                      sequence={[
+                        1000,
+                        // Same substring at the start will only be typed out once, initially
+                        "Dynamisch",
+                        1000, // wait 1s before replacing "Mice" with "Hamsters"
+                        "Responsiv",
+                        1000,
+                        "Flexibel",
+                        1000,
+                      ]}
+                      wrapper="span"
+                      speed={50}
+                      className="text-xl md:text-3xl text-center leading-relaxed w-full font-saira"
+                      repeat={Infinity}
+                    />
+                    <div className="w-[150px] md:w-[200px]">
+                      <img src="svg/programming.svg" alt="programming SVG" />
+                    </div>
                   </div>
-                </div>
+                </ScrollAnimation>
               </div>
             </div>
           </div>
         </section>
       </div>
 
-      <div className="mt-[70px] mb-[70px] w-full h-[5px] bg-green shadow-md shadow-green"></div>
+      <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
+        <div className="mt-[70px] mb-[70px] w-full h-[5px] bg-green shadow-md shadow-green"></div>
+      </ScrollAnimation>
 
       <h1 className="pt-0 font-alfa md:pt-8 text-2xl md:text-6xl text-darkBlue underline underline-offset-4">
         Meine Arbeitsweise
       </h1>
+
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
           <div className="flex flex-col">
@@ -185,7 +196,9 @@ export default function Webentwicklung() {
         </div>
       </section>
 
-      <div className="mt-[50px] h-[5px] bg-green shadow-md shadow-green"></div>
+      <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
+        <div className="mt-[40px] mb-[40px] md:m-[80px] h-[5px] bg-green shadow-md shadow-green"></div>
+      </ScrollAnimation>
       <h1 className="pt-10 font-alfa text-3xl md:text-6xl text-darkBlue underline underline-offset-4">
         Tools
       </h1>
@@ -253,7 +266,9 @@ export default function Webentwicklung() {
         </div>
       </section>
 
-      <div className="h-[5px] md:mt-4 bg-green shadow-md shadow-green"></div>
+      <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
+        <div className="h-[5px] md:m-[80px] bg-green shadow-md shadow-green mt-[40px] mb-[40px] "></div>
+      </ScrollAnimation>
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
           <div className="flex flex-col">
