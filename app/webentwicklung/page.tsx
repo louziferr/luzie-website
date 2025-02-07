@@ -89,9 +89,15 @@ export default function Webentwicklung() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   01
                 </div>
-                <h1 className="text-green font-anta md:text-left mb-8 md:text-4xl">
-                  Individuelle Lösung
-                </h1>
+
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-left"
+                >
+                  <h1 className="text-green font-anta md:text-left mb-8 md:text-4xl">
+                    Individuelle Lösung
+                  </h1>
+                </ScrollAnimation>
 
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
@@ -117,9 +123,14 @@ export default function Webentwicklung() {
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   02
                 </p>
-                <h1 className="text-green md:text-right mb-8 md:text-4xl">
-                  Echte Handarbeit
-                </h1>
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-right"
+                >
+                  <h1 className="text-green md:text-right mb-8 md:text-4xl">
+                    Echte Handarbeit
+                  </h1>
+                </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Ich arbeite ohne Baukastensysteme oder generische Vorlagen.
@@ -145,9 +156,15 @@ export default function Webentwicklung() {
                 <p className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   03
                 </p>
-                <h1 className="text-green md:text-left mb-8 md:text-4xl">
-                  Schnelle Umsetzung
-                </h1>
+
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-left"
+                >
+                  <h1 className="text-green md:text-left mb-8 md:text-4xl">
+                    Schnelle Umsetzung
+                  </h1>
+                </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Dank klarer Prozesse, schlanker Strukturen und einer präzisen
@@ -173,9 +190,15 @@ export default function Webentwicklung() {
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   04
                 </p>
-                <h1 className="text-green md:text-right mb-8 md:text-4xl">
-                  Modernes Design
-                </h1>
+
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-right"
+                >
+                  <h1 className="text-green md:text-right mb-8 md:text-4xl">
+                    Modernes Design
+                  </h1>
+                </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Ob minimalistisch, kreativ oder markant – ich entwickle eine

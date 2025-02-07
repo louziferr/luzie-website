@@ -54,7 +54,10 @@ export default function Software() {
               </ScrollAnimation>
 
               <div className="flex items-center justify-center py-[30px]">
-                <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-left"
+                >
                   <img
                     src="svg/programmierung/code-opt.svg"
                     alt="code SVG"
@@ -75,10 +78,14 @@ export default function Software() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   01
                 </div>
-                <h1 className="text-blue md:text-left mb-8 md:text-4xl">
-                  Datenverarbeitung
-                </h1>
-
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-left"
+                >
+                  <h1 className="text-blue md:text-left mb-8 md:text-4xl">
+                    Datenverarbeitung
+                  </h1>
+                </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Ich entwickle maßgeschneiderte Lösungen für die Verarbeitung
@@ -116,9 +123,14 @@ export default function Software() {
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   02
                 </p>
-                <h1 className="text-blue md:text-right mb-8 md:text-4xl">
-                  Visualisierungen
-                </h1>
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-right"
+                >
+                  <h1 className="text-blue md:text-right mb-8 md:text-4xl">
+                    Visualisierungen
+                  </h1>
+                </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Komplexe Informationen werden erst durch die richtige
@@ -158,10 +170,14 @@ export default function Software() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   03
                 </div>
-                <h1 className="text-blue md:text-left mb-8 md:text-4xl">
-                  Skripte
-                </h1>
-
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-left"
+                >
+                  <h1 className="text-blue md:text-left mb-8 md:text-4xl">
+                    Skripte
+                  </h1>
+                </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Wiederkehrende Aufgaben kosten Zeit – mit individuell

@@ -148,9 +148,15 @@ export default function Lehre() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   01
                 </div>
-                <h1 className="text-rose-700 md:text-left mb-8 md:text-4xl">
-                  Programmiersprachen
-                </h1>
+
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-left"
+                >
+                  <h1 className="text-rose-700 md:text-left mb-8 md:text-4xl">
+                    Programmiersprachen
+                  </h1>
+                </ScrollAnimation>
 
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
@@ -198,9 +204,15 @@ export default function Lehre() {
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   02
                 </p>
-                <h1 className="text-cyan-700 md:text-right mb-8 md:text-4xl">
-                  Robotik
-                </h1>
+
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-right"
+                >
+                  <h1 className="text-cyan-700 md:text-right mb-8 md:text-4xl">
+                    Robotik
+                  </h1>
+                </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   In meinen Kursen zur Robotik und Elektronik wird ein Einblick
@@ -228,9 +240,14 @@ export default function Lehre() {
                 <p className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   03
                 </p>
-                <h1 className="text-amber-500 md:text-left mb-8 md:text-4xl">
-                  Web-Entwicklung
-                </h1>
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-left"
+                >
+                  <h1 className="text-amber-500 md:text-left mb-8 md:text-4xl">
+                    Web-Entwicklung
+                  </h1>
+                </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   In meinen Kursen zur Webentwicklung vermittle ich – entweder
@@ -260,9 +277,14 @@ export default function Lehre() {
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   04
                 </p>
-                <h1 className="text-teal-600 md:text-right mb-8 md:text-4xl">
-                  Theoretische Informatik
-                </h1>
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-right"
+                >
+                  <h1 className="text-teal-600 md:text-right mb-8 md:text-4xl">
+                    Theoretische Informatik
+                  </h1>
+                </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Die theoretischen Informatik beschäftigt sich mit den
@@ -293,10 +315,14 @@ export default function Lehre() {
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   05
                 </div>
-                <h1 className="text-purple-800 md:text-left mb-8 md:text-4xl">
-                  Machine Learning
-                </h1>
-
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-left"
+                >
+                  <h1 className="text-purple-800 md:text-left mb-8 md:text-4xl">
+                    Machine Learning
+                  </h1>
+                </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Inhalt des Kurses zu Machine Learning sind die theoretischen
