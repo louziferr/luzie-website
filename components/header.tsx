@@ -177,7 +177,7 @@ export default function Header() {
               items={[
                 { title: "Web-Entwicklung", url: "/webentwicklung" },
                 { title: "Lehre", url: "/lehre" },
-                { title: "Programmierung", url: "/programmierung" },
+                { title: "Programmierung", url: "/software" },
               ]}
             />
 

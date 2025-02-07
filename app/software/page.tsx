@@ -17,7 +17,7 @@ export default function Software() {
             "Software",
           ]}
           wrapper="span"
-          speed={50}
+          speed={30}
           className="text-white font-anta text-3xl md:text-4xl animate-delay-200 mb-4"
           repeat={Infinity}
         />
@@ -175,11 +175,11 @@ export default function Software() {
                 <TypeAnimation
                   sequence={[
                     // Same substring at the start will only be typed out once, initially
-                    "x = 2 + 4",
+                    "f = open('data.csv', 'w')",
                     1000,
-                    "y = 10 / x",
+                    "f.write('done\n')",
                     1000,
-                    "z = x * y",
+                    "f.close()",
                     1000,
                   ]}
                   wrapper="span"
