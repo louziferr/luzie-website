@@ -32,7 +32,7 @@ export default function Software() {
         <section className="flex flex-col items-center">
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className="md:text-justify leading-relaxed">
+              <p className="text-center md:text-justify leading-relaxed">
                 Mit fundierten Programmierkenntnissen entwickle ich
                 maßgeschneiderte Lösungen für Datenverarbeitung, -analyse und
                 -visualisierung. Ob automatisierte Auswertungen, individuelle

@@ -25,7 +25,7 @@ export default function Webentwicklung() {
         <section className="flex  items-center flex-col">
           <div className="flex max-w-screen-xl">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
-              <p className="text-left md:text-justify leading-relaxed">
+              <p className="text-center md:text-justify leading-relaxed">
                 Meine Arbeit als Webentwicklerin richtet sich an Selbstständige,
                 Start-Ups und kleine Unternehmen, die eine moderne, funktionale
                 und individuelle Website brauchen – ohne komplizierte Prozesse.
