@@ -177,14 +177,14 @@ export default function Software() {
                     // Same substring at the start will only be typed out once, initially
                     "f = open('data.csv', 'w')",
                     1000,
-                    "f.write('done\n')",
+                    "f.write('done\\n')",
                     1000,
                     "f.close()",
                     1000,
                   ]}
                   wrapper="span"
                   speed={50}
-                  className="font-mono text-[20px] text-black md:text-xl pt-8"
+                  className="font-mono text-[15px] text-black pt-8"
                   repeat={Infinity}
                 />
               </div>
