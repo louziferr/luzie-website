@@ -26,10 +26,10 @@ export default function Webentwicklung() {
         </ScrollAnimation>
 
         <section className="flex  items-center flex-col">
-          <div className="flex max-w-screen-xl">
-            <div className="relative grid grid-cols-1 md:grid-cols-2">
+          <div className="flex max-w-screen-lg">
+            <div className="relative grid grid-cols-1 md:grid-cols-2 md:pt-8">
               <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
-                <p className="text-center md:text-justify leading-relaxed">
+                <p className="text-center md:text-justify leading-relaxed max-w-[400px]">
                   Meine Arbeit als Webentwicklerin richtet sich an
                   Selbstständige, Start-Ups und kleine Unternehmen, die eine
                   moderne, funktionale und individuelle Website brauchen – ohne
@@ -43,7 +43,7 @@ export default function Webentwicklung() {
                   <br />
                 </p>
               </ScrollAnimation>
-              <div className="flex items-center justify-center pt-[30px] md:pt-0">
+              <div className="flex items-center justify-center md:justify-end pt-[30px] md:pt-0">
                 <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
                   <div>
                     <TypeAnimation
@@ -82,7 +82,7 @@ export default function Webentwicklung() {
       </h1>
 
       <section className="flex items-center justify-center">
-        <div className="max-w-[1500px]">
+        <div className="max-w-[1300px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8">
@@ -227,7 +227,7 @@ export default function Webentwicklung() {
       </h1>
 
       <section className="flex items-center justify-center">
-        <div className="max-w-[1500px]">
+        <div className="max-w-[1300px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
@@ -293,7 +293,7 @@ export default function Webentwicklung() {
         <div className="h-[5px] md:m-[80px] bg-green shadow-md shadow-green mt-[40px] mb-[40px] "></div>
       </ScrollAnimation>
       <section className="flex items-center justify-center">
-        <div className="max-w-[1500px]">
+        <div className="max-w-[1300px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">

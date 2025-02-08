@@ -189,7 +189,7 @@ export default function Home() {
         <div className="h-[5px] bg-blue shadow-md shadow-blue mt-[40px] mb-[40px] md:m-[80px]"></div>
       </ScrollAnimation>
       <section className="flex items-center justify-center">
-        <div className="max-w-[1500px]">
+        <div className="max-w-[1300px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">

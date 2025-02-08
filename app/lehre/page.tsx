@@ -6,8 +6,8 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 export default function Lehre() {
   return (
-    <div>
-      <div className="h-screen flex bg-rose flex-col flex-grow flex-wrap items-center justify-center p-8">
+    <>
+      <div className="h-screen flex bg-rose flex-col flex-grow items-center justify-center p-8">
         <h1 className="pb-2 text-white text-3xl md:text-4xl animate-fade-down animate-delay-200">
           Informatik lernen.
         </h1>
@@ -26,10 +26,10 @@ export default function Lehre() {
         </ScrollAnimation>
 
         <section className="flex flex-col items-center">
-          <div className="flex max-w-screen-xl">
-            <div className="relative grid grid-cols-1 md:grid-cols-2">
+          <div className="flex max-w-[1300px]">
+            <div className="relative grid grid-cols-1 md:grid-cols-2 md:pt-8">
               <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
-                <p className="text-center md:text-justify leading-relaxed">
+                <p className="text-center md:text-justify leading-relaxed max-w-[400px]">
                   Ob die erste Zeile Code geschrieben oder eine komplexe
                   Softwarearchitekturen optimiert werden soll: ich biete
                   Informatik-Unterricht auf allen Niveaus an.
@@ -51,7 +51,7 @@ export default function Lehre() {
                   <br />
                 </p>
               </ScrollAnimation>
-              <div className="flex items-center justify-center py-[30px] md:pt-0">
+              <div className="flex items-center justify-center md:justify-end py-[30px] md:pt-0">
                 <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
                   <span className="relative flex">
                     <div className="bg-rose-700 rounded-full p-4 border-2">
@@ -70,13 +70,14 @@ export default function Lehre() {
         </section>
       </div>
 
-      <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
-        <div className="mt-[40px] mb-[40px] md:m-[80px] w-full h-[5px] bg-rose-700 shadow-md shadow-rose-700"></div>
-      </ScrollAnimation>
-
-      <h1 className="pt-8 font-alfa text-2xl md:text-5xl text-darkBlue underline underline-offset-4">
-        Kursthemen
-      </h1>
+      <div>
+        <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
+          <div className="mt-[80px] mb-[40px] md:m-[80px] h-[5px] bg-rose-700 shadow-md shadow-red"></div>
+        </ScrollAnimation>
+        <h1 className="pt-8 font-alfa text-2xl md:text-5xl text-darkBlue underline underline-offset-4">
+          Kursthemen
+        </h1>
+      </div>
 
       <div className="flex flex-row items-center justify-center">
         <div className="p-8 leading-relaxed max-w-[900px]">
@@ -141,7 +142,7 @@ export default function Lehre() {
       </div>
 
       <section className="flex items-center justify-center">
-        <div className="max-w-[1500px]">
+        <div className="max-w-[1300px]">
           <div className="flex flex-col" id={"programmiersprachen"}>
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8">
@@ -235,7 +236,7 @@ export default function Lehre() {
           </div>
 
           <div className="flex flex-col" id={"web-entwicklung"}>
-            <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 mt-4 md:mt-0 md:m-8">
               <div className="m-8">
                 <p className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   03
@@ -272,7 +273,7 @@ export default function Lehre() {
           </div>
 
           <div className="flex flex-col" id={"theoretische-informatik"}>
-            <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 mt-8 md:mt-0 md:m-8">
               <div className="m-8 order-1 md:order-2">
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   04
@@ -310,7 +311,7 @@ export default function Lehre() {
           </div>
 
           <div className="flex flex-col" id={"machine-learning"}>
-            <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
+            <div className="grid grid-cols-1 md:grid-cols-2  mt-8 md:mt-0 md:m-8">
               <div className="m-8">
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   05
@@ -389,6 +390,6 @@ export default function Lehre() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

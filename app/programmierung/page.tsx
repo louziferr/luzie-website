@@ -33,10 +33,10 @@ export default function Programmierung() {
         </ScrollAnimation>
 
         <section className="flex flex-col items-center">
-          <div className="flex max-w-screen-xl">
+          <div className="flex max-w-[1300px]">
             <div className="relative grid grid-cols-1 md:grid-cols-2">
               <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
-                <p className="text-center md:text-justify leading-relaxed">
+                <p className="text-center md:text-justify leading-relaxed md:mt-8 max-w-[400px]">
                   Als Software-Entwicklerin entwickle ich Lösungen in diversen
                   Bereichen der informationstechnischen Datenverarbeitung. Je
                   nach Anforderung können automatisierte Auswertungen
@@ -53,7 +53,7 @@ export default function Programmierung() {
                 </p>
               </ScrollAnimation>
 
-              <div className="flex items-center justify-center py-[30px]">
+              <div className="flex items-center justify-center md:justify-end py-[30px]">
                 <ScrollAnimation
                   animateOnce={true}
                   animateIn="animate-fade-left"
@@ -70,14 +70,14 @@ export default function Programmierung() {
         </section>
       </div>
       <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
-        <div className="h-[5px] mt-[40px] mb-[40px] md:m-[80px] md:mb-4 bg-blue shadow-md shadow-blue"></div>
+        <div className="h-[5px] mt-[40px] mb-[60px] md:mb-[80px] md:m-[80px] bg-blue shadow-md shadow-blue"></div>
       </ScrollAnimation>
-      <h1 className="pt-0 font-alfa md:pt-8 text-3xl md:text-6xl text-blue underline underline-offset-4">
+      <h1 className="pt-0 font-alfa md:pt-8 text-3xl md:text-5xl text-blue underline underline-offset-4">
         Bereiche
       </h1>
 
       <section className="flex items-center justify-center">
-        <div className="max-w-[1500px]">
+        <div className="max-w-[1300px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="mt-[80px] m-8">
@@ -194,11 +194,11 @@ export default function Programmierung() {
                   steigert die Performance von Softwareprojekten.
                 </p>
               </div>
-              <div className="flex flex-col items-center justify-center p-4 w-full ">
+              <div className="flex flex-col items-center justify-center p-4 w-full">
                 <img
                   src="svg/programmierung/library-book.svg"
                   alt="workflow SVG"
-                  className="w-[150px] md:w-[250px] p-4 shadow-md shadow-blue bg-slate-300 bg-opacity-20"
+                  className="w-[170px] md:w-[260px] p-4 shadow-md shadow-blue rounded-3xl bg-opacity-20"
                 />
                 <TypeAnimation
                   sequence={[
@@ -273,10 +273,10 @@ export default function Programmierung() {
       </section>
 
       <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
-        <div className="h-[5px] mt-[40px] mb-[40px] md:m-[80px] md:mb-4 bg-blue shadow-md shadow-blue"></div>
+        <div className="h-[5px] mt-[70px] mb-[40px] md:m-[80px] md:mb-4 bg-blue shadow-md shadow-blue"></div>
       </ScrollAnimation>
       <section className="flex items-center justify-center">
-        <div className="max-w-[1500px]">
+        <div className="max-w-[1300px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2  md:m-8">
               <div className="m-8">
