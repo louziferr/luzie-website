@@ -58,7 +58,7 @@
     @apply no-underline;
     @apply text-base;
     @apply px-2.5;
-    @apply text-[20px];
+    @apply text-[18px];
   }
 
   .background-gradient {

@@ -23,7 +23,7 @@ export const SingleLevelDropdownMenu = ({
     <div className="relative px-8">
       <button
         type="button"
-        className="inline-flex text-xl font-saira navlink items-center justify-center"
+        className="inline-flex text-[18px] font-saira navlink items-center justify-center"
         onClick={toggleDropdown}
       >
         {buttonLabel}
@@ -37,7 +37,7 @@ export const SingleLevelDropdownMenu = ({
             {items.map((item, index) => (
               <li
                 key={index}
-                className={`relative flex p-2 items-center gap-4 animate-fade font-saira text-xl hover:bg-gray-300 hover:cursor-pointer rounded-md`}
+                className={`relative flex p-2 items-center gap-4 animate-fade font-saira text-[18px] hover:bg-gray-300 hover:cursor-pointer rounded-md`}
               >
                 <Link href={item.url!}>{item.title}</Link>
               </li>

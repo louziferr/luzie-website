@@ -10,7 +10,7 @@ export default function Programmierung() {
             </h1>
             <div className="flex max-w-screen-xl">
               <div className="relative grid grid-cols-1 lg:grid-cols-2">
-                <p className="md:text-justify leading-relaxed order-2 md:order-1 text-white">
+                <p className="md:text-justify leading-relaxed order-2 mt-8 lg:order-1 text-white">
                   Im Rahmen meines Bachelorstudiums der Computerlinguistik habe
                   ich das Programmieren vom Anfang an mit hohem
                   wissenschaftlichem Bezug gelernt. Besonders Machine Learning
@@ -36,7 +36,7 @@ export default function Programmierung() {
                   <br />
                   <br />
                 </p>
-                <div className="pt-0 p-4 flex items-start justify-center order-1 md:order-2">
+                <div className="pt-0 p-4 flex items-start justify-center order-1 lg:order-2">
                   <img
                     src="cool_me.jpeg"
                     alt="ME"
