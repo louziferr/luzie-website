@@ -37,7 +37,7 @@ export default function Programmierung() {
             <div className="relative grid grid-cols-1 md:grid-cols-2">
               <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
                 <p className="text-center md:text-justify leading-relaxed md:mt-8 max-w-[400px]">
-                  Als Software-Entwicklerin entwickle ich Lösungen in diversen
+                  Als Software-Entwicklerin entwerfe ich Lösungen in diversen
                   Bereichen der informationstechnischen Datenverarbeitung. Je
                   nach Anforderung können automatisierte Auswertungen
                   stattfinden, einfache Skripte oder komplexe Programme
@@ -186,12 +186,13 @@ export default function Programmierung() {
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Die Entwicklung spezialisierter Softwarebibliotheken
-                  ermöglicht die Wiederverwendung, Modularität und Effizienz in
-                  der Programmierung. Durch gut strukturierte Schnittstellen und
-                  optimierte Algorithmen lassen sich komplexe Funktionen
-                  abstrahieren und flexibel in verschiedene Systeme integrieren.
-                  Dies reduziert Redundanzen, verbessert die Wartbarkeit und
-                  steigert die Performance von Softwareprojekten.
+                  ermöglicht die Wiederverwendung vom Code sowie Modularität und
+                  Effizienz in der Programmierung. Durch gut strukturierte
+                  Schnittstellen und optimierte Algorithmen lassen sich komplexe
+                  Funktionen abstrahieren und flexibel in verschiedene Systeme
+                  integrieren. Dies reduziert Redundanzen, verbessert die
+                  Wartbarkeit und steigert die Performance von
+                  Softwareprojekten.
                 </p>
               </div>
               <div className="flex flex-col items-center justify-center p-4 w-full">
