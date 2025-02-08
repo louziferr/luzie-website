@@ -9,7 +9,7 @@ export default function Programmierung() {
               Über mich
             </h1>
             <div className="flex max-w-screen-xl">
-              <div className="relative grid grid-cols-1 md:grid-cols-2">
+              <div className="relative grid grid-cols-1 lg:grid-cols-2">
                 <p className="md:text-justify leading-relaxed order-2 md:order-1 text-white">
                   Im Rahmen meines Bachelorstudiums der Computerlinguistik habe
                   ich das Programmieren vom Anfang an mit hohem
@@ -40,7 +40,7 @@ export default function Programmierung() {
                   <img
                     src="cool_me.jpeg"
                     alt="ME"
-                    className="h-[250px] p-4 md:h-[550px] animate-delay-100 animate-fade shadow-md shadow-black bg-white"
+                    className="h-[250px] p-4 md:h-[400px] lg:h-[550px] animate-delay-100 animate-fade shadow-md shadow-black bg-white"
                   />
                 </div>
               </div>
