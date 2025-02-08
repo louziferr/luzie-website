@@ -118,7 +118,7 @@ export default function Header() {
               items={[
                 { title: "Web-Entwicklung", url: "/webentwicklung" },
                 { title: "Lehre", url: "/lehre" },
-                { title: "Software", url: "/software" },
+                { title: "Programmierung", url: "/programmierung" },
               ]}
             />
           </div>
@@ -163,7 +163,7 @@ export default function Header() {
         fixed top-0 right-0 w-2/3 h-full z-50 flex flex-col border-darkBrown"
             id="burger-menu"
           >
-            <p className="text-4xl ml-4 mt-4 text-darkBlue font-alfa">LA</p>
+            <p className="text-4xl ml-4 mt-4 text-darkBlue font-anta">LA</p>
             <Link
               href="/"
               className="nav-link text-xl mt-4 border-b-2 pb-2 border-gray-300"
@@ -177,7 +177,7 @@ export default function Header() {
               items={[
                 { title: "Web-Entwicklung", url: "/webentwicklung" },
                 { title: "Lehre", url: "/lehre" },
-                { title: "Software", url: "/software" },
+                { title: "Programmierung", url: "/programmierung" },
               ]}
             />
 

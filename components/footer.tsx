@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t-2 border-secondary">
       <div className="bg-secondary flex justify-between items-center px-5 py-2.5 max-h-[90px]">
         <div>
-          <h2 className="text-white">LA</h2>
+          <h2 className="text-white font-anta">LA</h2>
         </div>
 
         <nav className="flex items-center gap-1">

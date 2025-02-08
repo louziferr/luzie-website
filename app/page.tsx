@@ -50,8 +50,8 @@ export default function Home() {
               <br />
               <br />
               Derzeit konzentriere ich mich insbesondere auf drei Schwerpunkte:
-              Die <b>Lehre</b>, die <b>Webentwicklung</b> und die
-              datenverarbeitende <b>Softwareentwicklung</b>.
+              Die <b>Lehre</b>, die <b>Webentwicklung</b> und die allgemeine{" "}
+              <b>Programmierung</b>.
               <br />
               <br />
             </p>
@@ -87,7 +87,7 @@ export default function Home() {
                 </div>
               </ScrollAnimation>
             </div>
-            <div className="order-3 md:order-4">
+            <div className="order-3 md:order-4  mt-4">
               <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
                 <Link href="/webentwicklung">
                   <h1 className="mb-2 text-green text-left text-lg md:text-xl  underline-offset-8 underline underline-green">
@@ -111,19 +111,19 @@ export default function Home() {
                 </div>
               </ScrollAnimation>
             </div>
-            <div className="order-5 md:order-6">
+            <div className="order-5 md:order-6 mt-4">
               <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
-                <Link href="/software">
+                <Link href="/programmierung">
                   <h1 className="text-blue text-left text-lg mb-2 md:text-xl underline-offset-8 underline underline-blue">
-                    Softwareentwicklung
+                    Programmierung
                   </h1>
                 </Link>
                 <p>
-                  In der Softwareentwicklung befasse ich mich mit
-                  Datenverarbeitung, Automatisierung und Visualisierung. Ich
-                  erstelle maßgeschneiderte Skripte und Anwendungen, um Daten
-                  effizient zu analysieren, zu verarbeiten und anschaulich
-                  darzustellen.
+                  Als Software-Entwicklerin wende ich theoretisches Wissen aus
+                  der Informatik an und erstelle Lösungen für diverse
+                  Anforderungen. Meine besonderen Stärken liegen in der
+                  Datenverarbeitung, im maschinellen Lernen sowie in der
+                  Entwicklung von Bibliotheken.
                 </p>
               </ScrollAnimation>
             </div>
@@ -169,7 +169,7 @@ export default function Home() {
           <div className="order-3">
             <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
               <SkillsCard
-                headline="Software"
+                headline="Programmierung"
                 subheadline="Deine Lösung"
                 keywords={[
                   "Datenverarbeitung.",
@@ -178,7 +178,7 @@ export default function Home() {
                 ]}
                 color="#4281A4"
                 image="svg/chart-pie.svg"
-                link="/software"
+                link="/programmierung"
               />
             </ScrollAnimation>
           </div>

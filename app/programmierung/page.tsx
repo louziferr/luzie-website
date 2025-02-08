@@ -7,7 +7,7 @@ import Wave from "react-wavify";
 import { TypeAnimation } from "react-type-animation";
 import ScrollAnimation from "react-animate-on-scroll";
 
-export default function Software() {
+export default function Programmierung() {
   return (
     <div>
       <div className="h-screen flex bg-blue-comp flex-col flex-grow flex-wrap items-center justify-center p-8">
@@ -15,7 +15,7 @@ export default function Software() {
           sequence={[
             1000,
             // Same substring at the start will only be typed out once, initially
-            "Software",
+            "Programmierung",
           ]}
           wrapper="span"
           speed={30}
@@ -37,18 +37,18 @@ export default function Software() {
             <div className="relative grid grid-cols-1 md:grid-cols-2">
               <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
                 <p className="text-center md:text-justify leading-relaxed">
-                  Mit fundierten Programmierkenntnissen entwickle ich Lösungen
-                  zur Datenverarbeitung, -analyse und -visualisierung. Je nach
-                  Anforderung können automatisierte Auswertungen stattfinden,
-                  einfache Skripte oder komplexe Programme geschrieben werden.
-                  Durch den gezielten Einsatz moderner Technologien lassen sich
-                  Prozesse optimieren, Daten verständlich darstellen und
-                  individuelle Herausforderungen lösen.
+                  Als Software-Entwicklerin entwickle ich Lösungen in diversen
+                  Bereichen der informationstechnischen Datenverarbeitung. Je
+                  nach Anforderung können automatisierte Auswertungen
+                  stattfinden, einfache Skripte oder komplexe Programme
+                  geschrieben werden. Durch den gezielten Einsatz moderner
+                  Technologien lassen sich Prozesse optimieren, Daten
+                  verständlich darstellen und individuelle Herausforderungen
+                  lösen.
                   <br />
                   <br />
-                  Hauptsächlich arbeite ich beim Programmieren mit Python, doch
-                  je nach Aufgabe können auch andere Sprachen und Tools zum
-                  Einsatz kommen.
+                  Je nach Aufgabe können unterschiedliche Programmiersprachen
+                  und Tools zum Einsatz kommen.
                   <br />
                 </p>
               </ScrollAnimation>
@@ -69,12 +69,18 @@ export default function Software() {
           </div>
         </section>
       </div>
+      <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
+        <div className="h-[5px] mt-[40px] mb-[40px] md:m-[80px] md:mb-4 bg-blue shadow-md shadow-blue"></div>
+      </ScrollAnimation>
+      <h1 className="pt-0 font-alfa md:pt-8 text-3xl md:text-6xl text-blue underline underline-offset-4">
+        Bereiche
+      </h1>
 
       <section className="flex items-center justify-center">
         <div className="max-w-[1500px]">
           <div className="flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
-              <div className="m-8">
+              <div className="mt-[80px] m-8">
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   01
                 </div>
@@ -88,14 +94,13 @@ export default function Software() {
                 </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
-                  Ich entwickle maßgeschneiderte Lösungen für die Verarbeitung
-                  großer Datenmengen und die Erstellung von Analysen. Mit
-                  fundiertem Wissen in Statistik, Datenstrukturen, Algorithmen
-                  und Machine Learning optimiere ich Abläufe, extrahiere
-                  relevante Informationen und sorge für eine effiziente
-                  Verarbeitung. Mein Fokus liegt darauf, Daten sinnvoll nutzbar
-                  zu machen – präzise, skalierbar und an diverse Anforderungen
-                  angepasst.
+                  Effiziente Datenverarbeitung ist entscheidend für die Analyse,
+                  Transformation und Nutzung großer Datenmengen. Durch
+                  optimierte Algorithmen und skalierbare Architekturen lassen
+                  sich Daten extrahieren, bereinigen und strukturiert für
+                  weiterführende Analysen oder automatisierte Prozesse
+                  aufbereiten. Dies bildet die Grundlage für fundierte
+                  Entscheidungen und leistungsfähige Softwarelösungen.
                 </p>
               </div>
               <div className="flex flex-col items-center justify-end p-4 w-full">
@@ -119,7 +124,7 @@ export default function Software() {
 
           <div className="flex flex-col" id={"robotik"}>
             <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
-              <div className="mt-[80px] m-8 order-1 md:order-2">
+              <div className="mt-[70px] m-8 order-1 md:order-2">
                 <p className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   02
                 </p>
@@ -133,14 +138,14 @@ export default function Software() {
                 </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
-                  Komplexe Informationen werden erst durch die richtige
-                  Darstellung wirklich greifbar. Ich erstelle maßgeschneiderte
-                  Visualisierungen und Grafiken, die Daten anschaulich
-                  präsentieren und Zusammenhänge klar machen. Ob interaktive
-                  Diagramme, statistische Auswertungen oder individuell
-                  gestaltete Infografiken – mit den passenden Tools und Methoden
-                  sorge ich dafür, dass Zahlen und Daten verständlich und
-                  aussagekräftig aufbereitet werden.
+                  Die Visualisierung von Daten erleichtert die Interpretation
+                  komplexer Zusammenhänge und unterstützt fundierte
+                  Entscheidungsprozesse. Durch den Einsatz geeigneter Diagramme,
+                  interaktiver Dashboards und spezialisierter
+                  Visualisierungstechniken lassen sich Muster, Trends und
+                  Korrelationen effizient erkennen. Eine gut gestaltete
+                  Visualisierung steigert die Verständlichkeit und ermöglicht
+                  eine intuitive Datenanalyse.
                 </p>
               </div>
 
@@ -165,10 +170,60 @@ export default function Software() {
           </div>
 
           <div className="flex flex-col">
-            <div className="mt-[80px] grid grid-cols-1 md:grid-cols-2 md:m-8">
+            <div className="mt-[50px] grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8">
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   03
+                </div>
+                <ScrollAnimation
+                  animateOnce={true}
+                  animateIn="animate-fade-left"
+                >
+                  <h1 className="text-blue md:text-left mb-8 md:text-4xl">
+                    Bibliotheken
+                  </h1>
+                </ScrollAnimation>
+                <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
+                <p>
+                  Die Entwicklung spezialisierter Softwarebibliotheken
+                  ermöglicht die Wiederverwendung, Modularität und Effizienz in
+                  der Programmierung. Durch gut strukturierte Schnittstellen und
+                  optimierte Algorithmen lassen sich komplexe Funktionen
+                  abstrahieren und flexibel in verschiedene Systeme integrieren.
+                  Dies reduziert Redundanzen, verbessert die Wartbarkeit und
+                  steigert die Performance von Softwareprojekten.
+                </p>
+              </div>
+              <div className="flex flex-col items-center justify-center p-4 w-full ">
+                <img
+                  src="svg/programmierung/library-book.svg"
+                  alt="workflow SVG"
+                  className="w-[150px] md:w-[250px] p-4 shadow-md shadow-blue bg-slate-300 bg-opacity-20"
+                />
+                <TypeAnimation
+                  sequence={[
+                    // Same substring at the start will only be typed out once, initially
+                    "class MyLibrary:",
+                    1000,
+                    "def __init__(self):",
+                    1000,
+                    "self.destroy()",
+                    1000,
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  className="font-mono text-[15px] text-black pt-8"
+                  repeat={Infinity}
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col">
+            <div className="mt-[40px] grid grid-cols-1 md:grid-cols-2 md:m-8">
+              <div className="m-8 order-1 md:order-2">
+                <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
+                  04
                 </div>
                 <ScrollAnimation
                   animateOnce={true}
@@ -180,15 +235,17 @@ export default function Software() {
                 </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
-                  Wiederkehrende Aufgaben kosten Zeit – mit individuell
-                  entwickelten Skripten lassen sie sich effizient
-                  automatisieren. Ich erstelle maßgeschneiderte Lösungen, die
-                  Abläufe optimieren, Daten verarbeiten oder Schnittstellen
-                  miteinander verbinden. Egal, ob es um die Automatisierung von
-                  Workflows oder die Vereinfachung alltäglicher Prozesse geht.
+                  Skripte automatisieren wiederkehrende Prozesse, optimieren
+                  Workflows und erleichtern die Verarbeitung großer Datenmengen.
+                  Durch maßgeschneiderte Skriptlösungen lassen sich Aufgaben wie
+                  Datenextraktion, Formatkonvertierung oder Systemsteuerung
+                  effizient und fehlerfrei ausführen. Die Entwicklung erfolgt
+                  unter Berücksichtigung von Performance, Wartbarkeit und
+                  Skalierbarkeit, um eine nachhaltige Automatisierung zu
+                  gewährleisten.
                 </p>
               </div>
-              <div className="flex flex-col items-center justify-center p-4 w-full">
+              <div className="flex flex-col items-center justify-center p-4 w-full order-2 md:order-1">
                 <img
                   src="svg/programmierung/workflow.svg"
                   alt="workflow SVG"
