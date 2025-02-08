@@ -382,7 +382,7 @@ export default function Lehre() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/preise"
-                className="py-2 px-3 bg-rose-700 rounded md:text-2xl text-white transition ease-in hover:scale-110"
+                className="py-2 px-3 bg-rose-700 rounded md:text-xl text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>

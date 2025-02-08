@@ -70,17 +70,17 @@ export default function Programmierung() {
         </section>
       </div>
       <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
-        <div className="h-[5px] mt-[40px] mb-[60px] md:mb-[80px] md:m-[80px] bg-blue shadow-md shadow-blue"></div>
+        <div className="h-[5px] m-[60px] bg-blue shadow-md shadow-blue"></div>
       </ScrollAnimation>
-      <h1 className="pt-0 font-alfa md:pt-8 text-3xl md:text-5xl text-blue underline underline-offset-4">
+      <h1 className="pt-0 font-alfa md:pt-4 text-3xl md:text-5xl text-blue underline underline-offset-4">
         Bereiche
       </h1>
 
       <section className="flex items-center justify-center">
         <div className="max-w-[1300px]">
           <div className="flex flex-col">
-            <div className="grid grid-cols-1 md:grid-cols-2 md:m-8">
-              <div className="mt-[80px] m-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:m-4">
+              <div className="mt-[60px] m-8">
                 <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
                   01
                 </div>
@@ -304,7 +304,7 @@ export default function Programmierung() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/kontakt"
-                className="py-2 px-3 bg-blue rounded md:text-2xl text-white transition ease-in hover:scale-110"
+                className="py-2 px-3 bg-blue rounded md:text-xl text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>

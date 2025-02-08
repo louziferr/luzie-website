@@ -321,7 +321,7 @@ export default function Webentwicklung() {
             <div className="m-8 flex flex-col items-center justify-center">
               <Link
                 href="/kontakt"
-                className="py-2 px-3 bg-green rounded md:text-2xl border-black text-white transition ease-in hover:scale-110"
+                className="py-2 px-3 bg-green rounded md:text-xl border-black text-white transition ease-in hover:scale-110"
               >
                 Kontakt
               </Link>
