@@ -1,4 +1,13 @@
 "use client";
+import ContactForm from "@/components/contact_form";
+import { sendMail } from "@/lib/mail";
+import { useState } from "react";
+
+interface FormData {
+  name: string;
+  email: string;
+  message: string;
+}
 
 export default function Kontakt() {
   return (
@@ -11,7 +20,7 @@ export default function Kontakt() {
             </h1>
             <p className="text-white">
               Ob du bereits eine konkrete Idee hast oder noch nach der richtigen
-              Lösung suchst – schreib&#39; mir gerne eine Mail.
+              Lösung suchst – kontaktiere mich gerne.
               <br />
               <br />
               <br />
@@ -26,6 +35,8 @@ export default function Kontakt() {
               <p className="md:text-lg text-white">luzie.ahrens@gmail.com</p>
             </div>
           </div>
+
+          <ContactForm />
         </div>
       </div>
     </>
