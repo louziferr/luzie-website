@@ -27,7 +27,7 @@ export default function Programmierung() {
                   Auslandsaufenthalt in Dänemark habe ich begonnen, im Rahmen
                   von Programmen zur Frauenförderung Kurse zur Programmierung zu
                   geben. An Schulen, Unis und Ausbildungsinstituten habe ich
-                  seitdem diversen Zielgruppen die Informatik näher gebracht.
+                  seitdem diversen Zielgruppen die Informatik nähergebracht.
                   <br />
                   <br />
                   Seit 2024 bin ich freiberuflich im Bereich der Informatik
