@@ -74,7 +74,7 @@ export default function Programmierung() {
         </section>
       </div>
       <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
-        <div className="h-[5px] m-[60px] bg-blue shadow-md shadow-blue"></div>
+        <div className="h-[5px] mb-[40px] md:m-[80px] bg-blue shadow-md shadow-blue"></div>
       </ScrollAnimation>
       <h1 className="pt-0 font-alfa md:pt-4 text-3xl md:text-5xl text-blue underline underline-offset-4">
         Bereiche

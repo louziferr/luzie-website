@@ -18,7 +18,6 @@ export async function sendMail({name, email, message}: mailData) {
     },
   });
 
-  // Define the email options
   const mailOptions = {
     from: process.env.GMAIL_USER, // Sender address
     to: process.env.GMAIL_USER, // Send to yourself
@@ -26,9 +25,17 @@ export async function sendMail({name, email, message}: mailData) {
     text:`E-Mail: ${email}\n\n${message}`, // Plain text body
   };
 
+  const mailOptionsRequester = {
+    from: process.env.GMAIL_USER,
+    to: email,
+    subject: `Deine Kontaktanfrage`, 
+    text:`Hallo ${name},\n\nVielen Dank für deine Nachricht. Ich werde mich so schnell wie möglich zurückmelden.\n\nIhre Nachricht:\n${message}`, 
+  };
+
   try {
     // Send the email
     await transporter.sendMail(mailOptions);
+    await transporter.sendMail(mailOptionsRequester);
     return true;
   } catch (error) {
     console.error('Error sending email:', error);
