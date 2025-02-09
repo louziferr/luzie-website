@@ -9,7 +9,21 @@ export default function Impressum() {
             <h1 className="text-left py-8 text-3xl md:text-6xl text-white">
               Impressum
             </h1>
-            <p className="text-white">Luzie Ahrens</p>
+            <p className="text-white">
+              Luzie Ahrens
+              <br />
+              Brandvorkwerstraße 78
+              <br />
+              04275 Leipzig
+              <br />
+              Deutschland
+              <br />
+              <br />
+              Kontakt:
+              <br />
+              E-Mail: luzie.ahrens@gmail.com
+              <br />
+            </p>
           </div>
         </div>
       </div>
