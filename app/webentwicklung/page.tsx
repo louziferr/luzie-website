@@ -134,7 +134,7 @@ export default function Webentwicklung() {
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
                   Ich arbeite ohne Baukastensysteme oder generische Vorlagen.
-                  Jedes Pixel, jede Codezeile entsteht mit Sorgfalt und
+                  Jeder Pixel, jede Codezeile entsteht mit Sorgfalt und
                   Fachwissen, genau auf die Bedürfnisse zugeschnitten. Das
                   schafft nicht nur eine unverwechselbare Identität, sondern
                   auch eine technisch saubere, wartungsfreundliche Lösung.

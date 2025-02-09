@@ -49,7 +49,10 @@ export default function ContactForm() {
           </div>
         )}
       </div>
-      <form onSubmit={handleSubmit} className="p-2">
+      <form
+        onSubmit={handleSubmit}
+        className="p-2 animate-fade-up animate-delay-200"
+      >
         <div className="flex flex-col font-mono mb-4">
           <label htmlFor="name" className="text-white">
             Name
@@ -61,7 +64,7 @@ export default function ContactForm() {
             value={formData.name}
             onChange={handleInputChange}
             required
-            className="p-2"
+            className="p-2 font-saira rounded shadow-inner shadow-darkBlue"
           />
         </div>
         <div className="flex flex-col font-mono mb-4">
@@ -75,7 +78,7 @@ export default function ContactForm() {
             value={formData.email}
             onChange={handleInputChange}
             required
-            className="p-2"
+            className="p-2 font-saira rounded shadow-inner shadow-darkBlue"
           />
         </div>
         <div className="flex flex-col font-mono mb-8">
@@ -89,13 +92,13 @@ export default function ContactForm() {
             onChange={handleInputChange}
             rows={4}
             required
-            className="p-2"
+            className="p-2 font-saira rounded shadow-inner shadow-darkBlue"
           ></textarea>
         </div>
         <div className="flex items-center justify-center">
           <button
             type="submit"
-            className="bg-sky-400 p-2 w-1/2 rounded text-white font-mono"
+            className="bg-blue p-2 w-1/2 rounded text-white font-mono border-2 border-white animate-pulse"
           >
             Absenden
           </button>

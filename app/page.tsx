@@ -50,7 +50,7 @@ export default function Home() {
               <br />
               <br />
               Derzeit konzentriere ich mich insbesondere auf drei Schwerpunkte:
-              Die <b>Lehre</b>, die <b>Webentwicklung</b> und die allgemeine{" "}
+              die <b>Lehre</b>, die <b>Webentwicklung</b> und die allgemeine{" "}
               <b>Programmierung</b>.
               <br />
               <br />
@@ -146,7 +146,7 @@ export default function Home() {
               <SkillsCard
                 headline="Web-Entwicklung"
                 subheadline="Deine Website"
-                keywords={["Individuell.", "Elegant.", "Responsiv."]}
+                keywords={["Individuell", "Modern", "Responsiv"]}
                 color="#3B8986"
                 image="svg/imac.svg"
                 link="/webentwicklung"
@@ -158,7 +158,7 @@ export default function Home() {
               <SkillsCard
                 headline="Lehre"
                 subheadline="Dein Format"
-                keywords={["Kurse.", "Workshops.", "Seminare."]}
+                keywords={["Praxisnah", "Professionell", "Verständlich"]}
                 color="#C1666B"
                 image="svg/pencil.svg"
                 link="/lehre"
@@ -171,11 +171,7 @@ export default function Home() {
               <SkillsCard
                 headline="Programmierung"
                 subheadline="Deine Lösung"
-                keywords={[
-                  "Datenverarbeitung.",
-                  "Machine Learning.",
-                  "Visualisierung.",
-                ]}
+                keywords={["Effizient", "Skalierbar", "Flexibel"]}
                 color="#4281A4"
                 image="svg/chart-pie.svg"
                 link="/programmierung"
@@ -186,7 +182,7 @@ export default function Home() {
       </div>
 
       <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
-        <div className="h-[5px] bg-blue shadow-md shadow-blue mt-[40px] mb-[40px] md:m-[80px]"></div>
+        <div className="h-[5px] bg-blue shadow-md shadow-blue mt-[40px] mb-[40px] md:m-[60px]"></div>
       </ScrollAnimation>
       <section className="flex items-center justify-center">
         <div className="max-w-[1300px]">
@@ -210,7 +206,7 @@ export default function Home() {
               <div className="m-8 flex flex-col items-center justify-center">
                 <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
                   <img
-                    className="h-[80px] w-full animate-wiggle object-scale-down"
+                    className="h-[60px] md:h-[100px] w-full animate-wiggle object-scale-down"
                     src="svg/hand-shake.svg"
                     alt="hand shake"
                   />

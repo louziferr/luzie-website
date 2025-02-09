@@ -30,8 +30,8 @@ export default function Lehre() {
             <div className="relative grid grid-cols-1 md:grid-cols-2 md:pt-8">
               <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
                 <p className="text-center md:text-justify leading-relaxed max-w-[400px]">
-                  Ob die erste Zeile Code geschrieben oder eine komplexe
-                  Softwarearchitekturen optimiert werden soll: ich biete
+                  Ob die erste Zeile Code geschrieben oder komplexe
+                  Softwarearchitekturen optimiert werden sollen: Ich biete
                   Informatik-Unterricht auf allen Niveaus an.
                   <br />
                   <br />
@@ -165,7 +165,7 @@ export default function Lehre() {
                   <br />
                   <br />
                   Ich biete maßgeschneiderte Kurse zu unterschiedlichen
-                  Programmiersprachen an. Den Inhalt wird ich auf eine
+                  Programmiersprachen an. Der Inhalt wird auf eine
                   praxisorientierte und verständliche Weise vermittelt. Je nach
                   Bedarf kann der Fokus auf dem Erlernen von einfachen
                   Programmierkenntnissen oder auf dem Anwenden von
@@ -251,7 +251,7 @@ export default function Lehre() {
                 </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
-                  In meinen Kursen zur Webentwicklung vermittle ich – entweder
+                  In meinen Kursen zur Webentwicklung vermittle ich - entweder
                   mit Flask oder mit React - Grundlagenwissen für dynamische
                   Webseiten und moderne Webanwendungen. Je nach Vorwissen wird
                   auf die Grundbegriffe des Internets und der Webentwicklung
@@ -288,13 +288,13 @@ export default function Lehre() {
                 </ScrollAnimation>
                 <div className="w-full h-[5px] bg-gray-500 mb-4"></div>
                 <p>
-                  Die theoretischen Informatik beschäftigt sich mit den
+                  Die theoretische Informatik beschäftigt sich mit den
                   essenziellen Konzepten, die hinter der Programmierung stehen.
                   Im Rahmen meines Unterrichtes werden Algorithmen und
                   Datenstrukturen behandelt und es wird die Grundlage für
                   effizientes Programmieren gelegt. Durch die Arbeit mit
                   Pseudocode werden komplexe Probleme analysiert und
-                  Lösungsansätze entwickelt, bevor sie in Code umsetzt werden.
+                  Lösungsansätze entwickelt, bevor sie in Code umgesetzt werden.
                   Diese theoretischen Konzepte sind entscheidend, um die
                   Struktur und Effizienz von Programmen zu verstehen und zu
                   optimieren.
@@ -372,7 +372,7 @@ export default function Lehre() {
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[80px] md:h-[150px] w-full animate-wiggle object-scale-down"
+                  className="h-[60px] md:h-[100px] w-full animate-wiggle object-scale-down"
                   src="svg/hand-shake.svg"
                   alt="iconImage"
                 />

@@ -19,10 +19,14 @@ export default function Programmierung() {
           ]}
           wrapper="span"
           speed={30}
-          className="text-white font-anta text-3xl md:text-4xl animate-delay-200 mb-4"
+          className="text-white font-anta text-2xl md:text-3xl animate-delay-200 mb-4"
           repeat={Infinity}
         />
         <div className="w-full h-[5px] bg-white animate-jump-in animate-delay-200"></div>
+
+        <h1 className="font-saira text-white md:text-2xl pt-4 animate-fade-up animate-delay-500">
+          Effizient & Skalierbar.
+        </h1>
       </div>
 
       <div className="mb-0 m-8 md:p-8">
@@ -294,7 +298,7 @@ export default function Programmierung() {
               </div>
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
-                  className="h-[80px] md:h-[150px] w-full animate-wiggle object-scale-down"
+                  className="h-[60px] md:h-[100px] w-full animate-wiggle object-scale-down"
                   src="svg/hand-shake.svg"
                   alt="hand shake"
                 />

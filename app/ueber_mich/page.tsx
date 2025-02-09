@@ -24,7 +24,7 @@ export default function Programmierung() {
                   -technologie. Durch diverse Nebenjobs während des Studiums
                   lernte ich, das theoretische Wissen der Informatik anzuwenden
                   und effizienten Code zu schreiben. Nach einem längeren
-                  Auslandsaufenthalt in Dänemark, habe ich begonnen, im Rahmen
+                  Auslandsaufenthalt in Dänemark habe ich begonnen, im Rahmen
                   von Programmen zur Frauenförderung Kurse zur Programmierung zu
                   geben. An Schulen, Unis und Ausbildungsinstituten habe ich
                   seitdem diversen Zielgruppen die Informatik näher gebracht.
