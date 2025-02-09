@@ -157,6 +157,15 @@ export default function Programmierung() {
                   <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
+                  2018 - Auslandssemester an der University of Minnesota, USA
+                </p>
+              </li>
+
+              <li className="p-1 flex items-center">
+                <div className="relative flex">
+                  <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                </div>
+                <p className="text-white">
                   2017 - 2019 - studentische Hilfskraft an der Uni Potsdam
                 </p>
               </li>
