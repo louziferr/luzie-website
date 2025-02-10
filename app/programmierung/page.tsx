@@ -25,7 +25,7 @@ export default function Programmierung() {
         <div className="w-full h-[5px] bg-white animate-jump-in animate-delay-200"></div>
 
         <h1 className="font-saira text-white md:text-2xl pt-4 animate-fade-up animate-delay-500">
-          Effizient & Skalierbar.
+          Effizient & Skalierbar
         </h1>
       </div>
 
@@ -227,14 +227,14 @@ export default function Programmierung() {
           <div className="flex flex-col">
             <div className="mt-[40px] grid grid-cols-1 md:grid-cols-2 md:m-8">
               <div className="m-8 order-1 md:order-2">
-                <div className="text-gray-700 text-center text-4xl md:text-left md:text-6xl font-alfa mr-3">
+                <div className="text-gray-700 text-center text-4xl md:text-right md:text-6xl font-alfa mr-3">
                   04
                 </div>
                 <ScrollAnimation
                   animateOnce={true}
-                  animateIn="animate-fade-left"
+                  animateIn="animate-fade-right"
                 >
-                  <h1 className="text-blue md:text-left mb-8 md:text-4xl">
+                  <h1 className="text-blue md:text-right mb-8 md:text-4xl">
                     Skripte
                   </h1>
                 </ScrollAnimation>
