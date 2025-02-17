@@ -11,12 +11,15 @@ import "@fontsource/anta";
 import "@fontsource/jockey-one";
 import "@fontsource/noto-sans-jp";
 import "@fontsource/zen-dots";
+import { usePathname } from "next/navigation";
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const pathname = usePathname();
+  const condition = pathname !== "/wortwahl";
   return (
     <html lang="de">
       <head>
@@ -26,10 +29,10 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-primary w-full">
-        <Header />
+        {condition && <Header />}
 
         <div className="w-full">{children}</div>
-        <Footer />
+        {condition && <Footer />}
       </body>
     </html>
   );
