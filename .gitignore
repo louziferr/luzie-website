@@ -14,7 +14,6 @@
 /coverage
 
 # next.js
-/.next/
 
 # misc
 .DS_Store
