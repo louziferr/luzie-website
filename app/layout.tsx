@@ -27,6 +27,7 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
         />
+        <title>Luzie Ahrens</title>
       </head>
       <body className="bg-primary w-full">
         {condition && <Header />}
