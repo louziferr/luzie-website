@@ -12,11 +12,11 @@ export default function Impressum() {
             <p className="text-white">
               Luzie Ahrens
               <br />
-              Brandvorkwerstraße 78
+              c/o IP-Management #4429
               <br />
-              04275 Leipzig
+              Ludwig-Erhard-Str. 18
               <br />
-              Deutschland
+              20459 Hamburg
               <br />
               <br />
               Kontakt:

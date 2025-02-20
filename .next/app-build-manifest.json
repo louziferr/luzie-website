@@ -32,14 +32,7 @@
       "static/chunks/4bd1b696-28b46160b6bde21e.js",
       "static/chunks/517-069c3a0da13ec81d.js",
       "static/chunks/main-app-17c62b8b513b124b.js",
-      "static/chunks/app/impressum/page-a84c36dc2611adec.js"
-    ],
-    "/kontakt/page": [
-      "static/chunks/webpack-544a93ad2075614b.js",
-      "static/chunks/4bd1b696-28b46160b6bde21e.js",
-      "static/chunks/517-069c3a0da13ec81d.js",
-      "static/chunks/main-app-17c62b8b513b124b.js",
-      "static/chunks/app/kontakt/page-34377a6fb0f3df1e.js"
+      "static/chunks/app/impressum/page-a3fd9313e69a5daa.js"
     ],
     "/programmierung/page": [
       "static/chunks/webpack-544a93ad2075614b.js",
@@ -69,6 +62,22 @@
       "static/chunks/390-6a71d2bc940ea3ec.js",
       "static/chunks/app/page-cd3b56b8f703eaf3.js"
     ],
+    "/wortwahl/page": [
+      "static/chunks/webpack-544a93ad2075614b.js",
+      "static/chunks/4bd1b696-28b46160b6bde21e.js",
+      "static/chunks/517-069c3a0da13ec81d.js",
+      "static/chunks/main-app-17c62b8b513b124b.js",
+      "static/css/5294872624d1fc24.css",
+      "static/chunks/255-15b217ca4db8188f.js",
+      "static/chunks/app/wortwahl/page-850b7b81a3931b04.js"
+    ],
+    "/kontakt/page": [
+      "static/chunks/webpack-544a93ad2075614b.js",
+      "static/chunks/4bd1b696-28b46160b6bde21e.js",
+      "static/chunks/517-069c3a0da13ec81d.js",
+      "static/chunks/main-app-17c62b8b513b124b.js",
+      "static/chunks/app/kontakt/page-34377a6fb0f3df1e.js"
+    ],
     "/ueber_mich/page": [
       "static/chunks/webpack-544a93ad2075614b.js",
       "static/chunks/4bd1b696-28b46160b6bde21e.js",
@@ -84,15 +93,6 @@
       "static/chunks/173-3e32931aa5a48fa2.js",
       "static/chunks/390-6a71d2bc940ea3ec.js",
       "static/chunks/app/webentwicklung/page-b661ddc690687473.js"
-    ],
-    "/wortwahl/page": [
-      "static/chunks/webpack-544a93ad2075614b.js",
-      "static/chunks/4bd1b696-28b46160b6bde21e.js",
-      "static/chunks/517-069c3a0da13ec81d.js",
-      "static/chunks/main-app-17c62b8b513b124b.js",
-      "static/css/5294872624d1fc24.css",
-      "static/chunks/255-15b217ca4db8188f.js",
-      "static/chunks/app/wortwahl/page-850b7b81a3931b04.js"
     ]
   }
 }
