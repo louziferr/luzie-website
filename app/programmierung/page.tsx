@@ -63,7 +63,7 @@ export default function Programmierung() {
                   animateIn="animate-fade-left"
                 >
                   <img
-                    src="svg/programmierung/code-opt.svg"
+                    src="/svg/programmierung/code-opt.svg"
                     alt="code SVG"
                     className="w-[200px] md:w-[300px]"
                   />
@@ -201,7 +201,7 @@ export default function Programmierung() {
               </div>
               <div className="flex flex-col items-center justify-center p-4 w-full">
                 <img
-                  src="svg/programmierung/library-book.svg"
+                  src="/svg/programmierung/library-book.svg"
                   alt="workflow SVG"
                   className="w-[170px] md:w-[260px] p-4 shadow-md shadow-blue rounded-3xl bg-opacity-20"
                 />
@@ -252,7 +252,7 @@ export default function Programmierung() {
               </div>
               <div className="flex flex-col items-center justify-center p-4 w-full order-2 md:order-1">
                 <img
-                  src="svg/programmierung/workflow.svg"
+                  src="/svg/programmierung/workflow.svg"
                   alt="workflow SVG"
                   className="w-[170px] md:w-[300px]"
                 />
@@ -299,7 +299,7 @@ export default function Programmierung() {
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
                   className="h-[60px] md:h-[100px] w-full animate-wiggle object-scale-down"
-                  src="svg/hand-shake.svg"
+                  src="/svg/hand-shake.svg"
                   alt="hand shake"
                 />
               </div>

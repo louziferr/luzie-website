@@ -1,12 +1,3 @@
-{
-  "/api/send-mail/route": "app/api/send-mail/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/impressum/page": "app/impressum/page.js",
-  "/programmierung/page": "app/programmierung/page.js",
-  "/lehre/page": "app/lehre/page.js",
-  "/page": "app/page.js",
-  "/wortwahl/page": "app/wortwahl/page.js",
-  "/kontakt/page": "app/kontakt/page.js",
-  "/ueber_mich/page": "app/ueber_mich/page.js",
-  "/webentwicklung/page": "app/webentwicklung/page.js"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1585cec0bce2b9202dfedabd5156b822f22de309b7801e6c3d4d16d4a6ffd465
+size 524

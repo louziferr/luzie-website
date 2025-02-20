@@ -63,7 +63,7 @@ export default function Webentwicklung() {
                       repeat={Infinity}
                     />
                     <div className="w-[150px] md:w-[200px]">
-                      <img src="svg/programming.svg" alt="programming SVG" />
+                      <img src="/svg/programming.svg" alt="programming SVG" />
                     </div>
                   </div>
                 </ScrollAnimation>
@@ -110,7 +110,7 @@ export default function Webentwicklung() {
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
                   className="h-[100px] md:h-[150px] w-full animate-spin object-scale-down"
-                  src="svg/settings.svg"
+                  src="/svg/settings.svg"
                   alt="iconImage"
                 />
               </div>
@@ -143,7 +143,7 @@ export default function Webentwicklung() {
               <div className="m-8 flex flex-col items-center justify-center order-2 md:order-1">
                 <img
                   className="h-[100px] md:h-[150px] w-full animate-wiggle object-scale-down"
-                  src="svg/hand-shake.svg"
+                  src="/svg/hand-shake.svg"
                   alt="iconImage"
                 />
               </div>
@@ -177,7 +177,7 @@ export default function Webentwicklung() {
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
                   className="h-[100px] md:h-[150px] w-full object-scale-down"
-                  src="svg/calendar.svg"
+                  src="/svg/calendar.svg"
                   alt="iconImage"
                 />
               </div>
@@ -210,7 +210,7 @@ export default function Webentwicklung() {
               <div className="m-8 flex flex-col items-center justify-center  order-2 md:order-1">
                 <img
                   className="h-[100px] md:h-[150px] w-full object-scale-down"
-                  src="svg/sketch.svg"
+                  src="/svg/sketch.svg"
                   alt="iconImage"
                 />
               </div>
@@ -269,18 +269,18 @@ export default function Webentwicklung() {
               <div className="m-8 flex flex-row md:flex-col items-center justify-between">
                 <img
                   className="h-[60px] md:h-[150px] w-full object-scale-down"
-                  src="svg/react.svg"
+                  src="/svg/react.svg"
                   alt="iconImage"
                 />
 
                 <img
                   className="h-[60px] md:h-[150px] w-full object-scale-down"
-                  src="svg/tailwind.svg"
+                  src="/svg/tailwind.svg"
                   alt="iconImage"
                 />
                 <img
                   className="h-[60px] md:h-[150px] w-full object-scale-down"
-                  src="svg/prisma.svg"
+                  src="/svg/prisma.svg"
                   alt="iconImage"
                 />
               </div>
@@ -312,7 +312,7 @@ export default function Webentwicklung() {
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
                   className="h-[60px] md:h-[100px] w-full animate-wiggle object-scale-down"
-                  src="svg/pricetag2.svg"
+                  src="/svg/pricetag2.svg"
                   alt="iconImage"
                 />
               </div>

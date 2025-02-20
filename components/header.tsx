@@ -8,9 +8,14 @@ import { usePathname } from "next/navigation";
 export default function Header() {
   const [sideBarVisible, setsideBarVisible] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
+  const [showDropdownProjekte, setShowDropdownProjekte] = useState(false);
 
   function toggleDropdown() {
     setShowDropdown(!showDropdown);
+  }
+
+  function toggleDropdownProjekte() {
+    setShowDropdownProjekte(!showDropdownProjekte);
   }
 
   function showSideBar() {
@@ -20,7 +25,6 @@ export default function Header() {
   function hideSideBar() {
     setsideBarVisible(false);
     setShowDropdown(false);
-    console.log("HIDING");
   }
 
   const location = usePathname();
@@ -28,6 +32,7 @@ export default function Header() {
   useEffect(() => {
     setsideBarVisible(false);
     setShowDropdown(false);
+    setShowDropdownProjekte(false);
   }, [location]);
 
   function handleClick() {
@@ -81,6 +86,9 @@ export default function Header() {
           if (showDropdown) {
             toggleDropdown();
           }
+          if (showDropdownProjekte) {
+            toggleDropdownProjekte();
+          }
         }
       }
 
@@ -120,6 +128,15 @@ export default function Header() {
                 { title: "Lehre", url: "/lehre" },
                 { title: "Programmierung", url: "/programmierung" },
               ]}
+            />
+          </div>
+
+          <div className="border-r-2 border-gray-400">
+            <SingleLevelDropdownMenu
+              buttonLabel="Projekte"
+              showDropdown={showDropdownProjekte}
+              toggleDropdown={toggleDropdownProjekte}
+              items={[{ title: "Wortwahl", url: "/projekte/wortwahl" }]}
             />
           </div>
 
@@ -179,6 +196,13 @@ export default function Header() {
                 { title: "Lehre", url: "/lehre" },
                 { title: "Programmierung", url: "/programmierung" },
               ]}
+            />
+
+            <SideBarDropDown
+              buttonLabel="Projekte"
+              showDropdown={showDropdownProjekte}
+              toggleDropdown={toggleDropdownProjekte}
+              items={[{ title: "Wortwahl", url: "/projekte/wortwahl" }]}
             />
 
             {headerItems.map((item, itemIndex) => (

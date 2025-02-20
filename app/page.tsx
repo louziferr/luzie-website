@@ -60,7 +60,7 @@ export default function Home() {
             <div className="flex items-center justify-center w-full order-2 md:order-1">
               <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
                 <div className="animate-grow-little flex items-center justify-center w-[80px] h-[80px] m-4 bg-red rounded p-4 shadow-lg shadow-red">
-                  <img src="svg/pencil.svg" alt="pencil" />
+                  <img src="/svg/pencil.svg" alt="pencil" />
                 </div>
               </ScrollAnimation>
             </div>
@@ -83,7 +83,7 @@ export default function Home() {
             <div className="flex items-center justify-center w-full order-4 md:order-3">
               <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
                 <div className="animate-grow-little flex items-center justify-center w-[80px] h-[80px] m-4 bg-green rounded p-4 shadow-lg shadow-green">
-                  <img src="svg/imac.svg" alt="pencil" />
+                  <img src="/svg/imac.svg" alt="pencil" />
                 </div>
               </ScrollAnimation>
             </div>
@@ -107,7 +107,7 @@ export default function Home() {
             <div className="flex items-center justify-center w-full order-6 md:order-5">
               <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
                 <div className="animate-grow-little flex items-center justify-center w-[80px] h-[80px] m-4 bg-blue rounded p-4  shadow-lg shadow-blue">
-                  <img src="svg/chart-pie.svg" alt="pencil" />
+                  <img src="/svg/chart-pie.svg" alt="pencil" />
                 </div>
               </ScrollAnimation>
             </div>
@@ -148,7 +148,7 @@ export default function Home() {
                 subheadline="Deine Website"
                 keywords={["Individuell", "Modern", "Responsiv"]}
                 color="#3B8986"
-                image="svg/imac.svg"
+                image="/svg/imac.svg"
                 link="/webentwicklung"
               />
             </ScrollAnimation>
@@ -160,7 +160,7 @@ export default function Home() {
                 subheadline="Dein Format"
                 keywords={["Praxisnah", "Professionell", "Verständlich"]}
                 color="#C1666B"
-                image="svg/pencil.svg"
+                image="/svg/pencil.svg"
                 link="/lehre"
               />
             </ScrollAnimation>
@@ -173,7 +173,7 @@ export default function Home() {
                 subheadline="Deine Lösung"
                 keywords={["Effizient", "Skalierbar", "Flexibel"]}
                 color="#4281A4"
-                image="svg/chart-pie.svg"
+                image="/svg/chart-pie.svg"
                 link="/programmierung"
               />
             </ScrollAnimation>
@@ -197,7 +197,7 @@ export default function Home() {
                   <p>
                     Wenn du meine Unterstützung in Anspruch nehmen möchtest oder
                     Fragen hast, melde dich gerne bei mir. Gemeinsam finden wir
-                    die passende Lösung für dein Anliegen – sei es
+                    die passende Lösung für dein Anliegen - sei es
                     Webentwicklung, Softwarelösungen oder Informatik-Unterricht.
                     Ich freue mich auf deine Nachricht!
                   </p>
@@ -207,7 +207,7 @@ export default function Home() {
                 <ScrollAnimation animateOnce={true} animateIn="animate-fade-up">
                   <img
                     className="h-[60px] md:h-[100px] w-full animate-wiggle object-scale-down"
-                    src="svg/hand-shake.svg"
+                    src="/svg/hand-shake.svg"
                     alt="hand shake"
                   />
                 </ScrollAnimation>

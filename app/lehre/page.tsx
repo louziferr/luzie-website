@@ -56,7 +56,7 @@ export default function Lehre() {
                   <span className="relative flex">
                     <div className="bg-rose-700 rounded-full p-4 border-2">
                       <img
-                        src="svg/school.svg"
+                        src="/svg/school.svg"
                         alt="school SVG"
                         className="w-[100px] md:w-[250px]"
                       />
@@ -191,7 +191,7 @@ export default function Lehre() {
                   />
                 </div>
                 <img
-                  src="svg/lehre/keyboard.svg"
+                  src="/svg/lehre/keyboard.svg"
                   alt="keyboard SVG"
                   className="w-[150px] md:w-[300px]"
                 />
@@ -228,7 +228,7 @@ export default function Lehre() {
               <div className="m-8 mt-0 md:mt-8 flex flex-col items-center justify-center order-2 md:order-1">
                 <img
                   className="h-[150px] md:h-[300px] w-full animate-wiggle object-scale-down"
-                  src="svg/lehre/robot.svg"
+                  src="/svg/lehre/robot.svg"
                   alt="iconImage"
                 />
               </div>
@@ -265,7 +265,7 @@ export default function Lehre() {
               <div className="mt-0 mb-4 md:m-8 flex flex-col items-center justify-center">
                 <img
                   className="h-[100px] md:h-[200px] w-full object-scale-down"
-                  src="svg/lehre/web-design.svg"
+                  src="/svg/lehre/web-design.svg"
                   alt="iconImage"
                 />
               </div>
@@ -303,7 +303,7 @@ export default function Lehre() {
               <div className="md:m-8 flex flex-col items-center justify-center  order-2 md:order-1">
                 <img
                   className="h-[100px] md:h-[250px] w-full object-scale-down animate-grow-little"
-                  src="svg/lehre/find-path.svg"
+                  src="/svg/lehre/find-path.svg"
                   alt="iconImage"
                 />
               </div>
@@ -341,7 +341,7 @@ export default function Lehre() {
               <div className="md:m-8 flex flex-col items-center justify-center">
                 <img
                   className="h-[100px] md:h-[250px] w-full object-scale-down"
-                  src="svg/lehre/robot-ai.svg"
+                  src="/svg/lehre/robot-ai.svg"
                   alt="iconImage"
                 />
               </div>
@@ -373,7 +373,7 @@ export default function Lehre() {
               <div className="m-8 flex flex-col items-center justify-center">
                 <img
                   className="h-[60px] md:h-[100px] w-full animate-wiggle object-scale-down"
-                  src="svg/hand-shake.svg"
+                  src="/svg/hand-shake.svg"
                   alt="iconImage"
                 />
               </div>

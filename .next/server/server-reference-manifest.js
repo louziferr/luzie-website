@@ -1,1 +1,3 @@
-self.__RSC_SERVER_MANIFEST="{\"node\":{\"40165fa9ddd973ec65213ba619cc4ce6cc51c3d3f5\":{\"workers\":{\"app/kontakt/page\":{\"moduleId\":\"6062\",\"async\":false}},\"layer\":{\"app/kontakt/page\":\"action-browser\"}}},\"edge\":{},\"encryptionKey\":\"process.env.NEXT_SERVER_ACTIONS_ENCRYPTION_KEY\"}"
+version https://git-lfs.github.com/spec/v1
+oid sha256:04ad8814b6a80d0683fccd38536186e62c8eaeb6dda49bd5ba561c1de735e74a
+size 298
