@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:19b2299b1bb425ef7ac7b5db2f1107bc64753447d5f9505908e8cc5779afac05
-size 182
+{
+  "headers": {
+    "x-nextjs-stale-time": "4294967294",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/lehre/layout,_N_T_/lehre/page,_N_T_/lehre"
+  }
+}

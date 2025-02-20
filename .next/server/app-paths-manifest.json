@@ -1,4 +1,13 @@
 {
+  "/api/send-mail/route": "app/api/send-mail/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/impressum/page": "app/impressum/page.js",
   "/page": "app/page.js",
-  "/projekte/wortwahl/page": "app/projekte/wortwahl/page.js"
+  "/projekte/wortwahl/page": "app/projekte/wortwahl/page.js",
+  "/lehre/page": "app/lehre/page.js",
+  "/kontakt/page": "app/kontakt/page.js",
+  "/ueber_mich/page": "app/ueber_mich/page.js",
+  "/webentwicklung/page": "app/webentwicklung/page.js",
+  "/programmierung/page": "app/programmierung/page.js",
+  "/wortwahl/page": "app/wortwahl/page.js"
 }

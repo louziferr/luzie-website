@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0c19aeb19f544a80e392e0d1277ffd53f73fabc063bfae1fc03184021ba2aae5
-size 188
+{
+  "headers": {
+    "x-nextjs-stale-time": "4294967294",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/kontakt/layout,_N_T_/kontakt/page,_N_T_/kontakt"
+  }
+}
