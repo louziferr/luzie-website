@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:81f9d86c1736e6428ef355cb59f43990261d8d84b3ab832daedbe1825a3a89dc
-size 241
+{
+  "node": {},
+  "edge": {},
+  "encryptionKey": "oQCMMRoCr5Vg6eo/N5qFBcD5cBtQNvkOCxlZGCHv7+0="
+}

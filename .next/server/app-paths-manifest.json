@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1585cec0bce2b9202dfedabd5156b822f22de309b7801e6c3d4d16d4a6ffd465
-size 524
+{
+  "/page": "app/page.js",
+  "/projekte/wortwahl/page": "app/projekte/wortwahl/page.js"
+}
