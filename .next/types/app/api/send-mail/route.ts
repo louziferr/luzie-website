@@ -1,4 +1,4 @@
-// File: /Users/luzieahrens/Arbeit/Websiten/SofteWare/softe-ware/app/api/send-mail/route.ts
+// File: /Users/luzieahrens/Arbeit/Web Entwicklung/SofteWare/softe-ware/app/api/send-mail/route.ts
 import * as entry from '../../../../../app/api/send-mail/route.js'
 import type { NextRequest } from 'next/server.js'
 

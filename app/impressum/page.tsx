@@ -21,7 +21,7 @@ export default function Impressum() {
               <br />
               Kontakt:
               <br />
-              E-Mail: luzie.ahrens@gmail.com
+              E-Mail: kontakt@luzie-ahrens.de
               <br />
             </p>
           </div>

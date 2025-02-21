@@ -1,4 +1,4 @@
-// File: /Users/luzieahrens/Arbeit/Websiten/SofteWare/softe-ware/app/lehre/page.tsx
+// File: /Users/luzieahrens/Arbeit/Web Entwicklung/SofteWare/softe-ware/app/lehre/page.tsx
 import * as entry from '../../../../app/lehre/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
