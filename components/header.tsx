@@ -29,12 +29,6 @@ export default function Header() {
 
   const location = usePathname();
 
-  useEffect(() => {
-    setsideBarVisible(false);
-    setShowDropdown(false);
-    setShowDropdownProjekte(false);
-  }, [location]);
-
   function handleClick() {
     showSideBar();
   }
@@ -51,6 +45,14 @@ export default function Header() {
 
   const [atTop, setAtTop] = useState(false);
   const [atBottom, setAtBottom] = useState(false);
+
+  useEffect(() => {
+    setsideBarVisible(false);
+    setShowDropdown(false);
+    setShowDropdownProjekte(false);
+    setTopShift(0);
+    setTopShiftString(`-0px`);
+  }, [location]);
 
   useEffect(() => {
     const handleScroll = () => {
