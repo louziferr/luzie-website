@@ -1,7 +1,3 @@
-{
-  "headers": {
-    "x-nextjs-stale-time": "4294967294",
-    "x-nextjs-prerender": "1",
-    "x-next-cache-tags": "_N_T_/layout,_N_T_/ueber_mich/layout,_N_T_/ueber_mich/page,_N_T_/ueber_mich"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c161c1c75d26f49c5bb0417e36f654d046b70124ac655e5b83d00475545ec7b
+size 197

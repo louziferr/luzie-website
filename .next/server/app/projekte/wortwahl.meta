@@ -1,7 +1,3 @@
-{
-  "headers": {
-    "x-nextjs-stale-time": "4294967294",
-    "x-nextjs-prerender": "1",
-    "x-next-cache-tags": "_N_T_/layout,_N_T_/projekte/layout,_N_T_/projekte/wortwahl/layout,_N_T_/projekte/wortwahl/page,_N_T_/projekte/wortwahl"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c4b50be04ee5300bfc5ca960d3cd32b1488d281a08622931de4c52bee9a17fc
+size 240
