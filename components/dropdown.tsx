@@ -20,7 +20,7 @@ export const SingleLevelDropdownMenu = ({
   items,
 }: SingleLevelDropdownMenuProps) => {
   return (
-    <div className="relative px-8">
+    <div className="relative px-4">
       <button
         type="button"
         className="inline-flex text-[18px] font-saira navlink items-center justify-center"

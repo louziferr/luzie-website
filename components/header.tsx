@@ -133,7 +133,7 @@ export default function Header() {
             />
           </div>
 
-          <div className="border-r-2 border-gray-400">
+          <div>
             <SingleLevelDropdownMenu
               buttonLabel="Projekte"
               showDropdown={showDropdownProjekte}
@@ -143,7 +143,11 @@ export default function Header() {
           </div>
 
           {headerItems.map((item, itemIndex) => (
-            <Link key={itemIndex} href={item[1]} className="nav-link">
+            <Link
+              key={itemIndex}
+              href={item[1]}
+              className="nav-link border-l-2 border-gray-400"
+            >
               {item[0]}
             </Link>
           ))}

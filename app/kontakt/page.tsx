@@ -12,7 +12,7 @@ interface FormData {
 export default function Kontakt() {
   return (
     <>
-      <div className="pt-[40px] min-h-screen md:pt-[90px] bg-computer md:p-4 flex items-start justify-start flex-col">
+      <div className="pt-[40px] min-h-screen md:pt-[90px] bg-computer md:p-4 flex items-start md:items-center justify-start flex-col">
         <div className="p-4 max-w-[600px]">
           <div>
             <h1 className="text-left py-8 text-3xl md:text-6xl text-white">
