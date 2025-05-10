@@ -138,7 +138,13 @@ export default function Header() {
               buttonLabel="Projekte"
               showDropdown={showDropdownProjekte}
               toggleDropdown={toggleDropdownProjekte}
-              items={[{ title: "Wortwahl", url: "/projekte/wortwahl" }]}
+              items={[
+                { title: "Wortwahl", url: "/projekte/wortwahl" },
+                {
+                  title: "Skatespace ↗️",
+                  url: "http://skatespace.vercel.app",
+                },
+              ]}
             />
           </div>
 

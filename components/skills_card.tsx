@@ -20,12 +20,10 @@ export default function SkillsCard({
 }: SkillsCardProps) {
   return (
     <>
-      <div className="bg-white pb-8">
+      <div className="pb-8 m-8 rounded-md" style={{ backgroundColor: color }}>
         <Link href={link}>
           <div className="md:mt-[50px] py-4 m-4 text-center flex flex-col items-center">
-            <h1 className="mb-8 font-anta text-3xl" style={{ color: color }}>
-              {headline}
-            </h1>
+            <h1 className="mb-8 font-anta text-3xl text-white">{headline}</h1>
             <div
               className="m-2 p-5 rounded-lg shadow-lg"
               style={{
@@ -35,26 +33,14 @@ export default function SkillsCard({
             >
               <img src={image} alt="image" className="w-[120px]" />
             </div>
-            <p className="text-2xl mt-10 font-anta" style={{ color: color }}>
-              {subheadline}
-            </p>
-            <div
-              className="mt-2 h-[5px] rounded animate-[grow_5s_ease-in-out_infinite]"
-              style={{ backgroundColor: color }}
-            ></div>
+            <p className="text-2xl mt-10 font-anta text-white">{subheadline}</p>
+            <div className="mt-2 h-[5px] bg-white rounded animate-[grow_5s_ease-in-out_infinite]"></div>
             {keywords.map((item, itemIndex) => (
-              <p
-                key={itemIndex}
-                className="text-xl mt-4"
-                style={{ color: color }}
-              >
+              <p key={itemIndex} className="text-xl mt-4 text-white">
                 {item}
               </p>
             ))}
-            <button
-              className="mt-8 px-4 py-2 rounded text-white text-xl transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-              style={{ backgroundColor: color }}
-            >
+            <button className="mt-8 px-4 py-2 rounded text-white text-xl border-2 border-white transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
               Mehr
             </button>
           </div>
