@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e86231a6df18d270f29f2761d20480955ad4a5e8db334dec16ad310da58f349a
-size 97
+{"node":{"40e241b35a599e6d1e5882ddbffac125bfc643d0ff":{"workers":{"app/kontakt/page":{"moduleId":"2623","async":false}},"layer":{"app/kontakt/page":"action-browser"}}},"edge":{},"encryptionKey":"bwV2Q86UZLAuHfVnthhMazyVb2yt5yqZ2dvpPoQEZ84="}
