@@ -10,6 +10,7 @@ interface SingleLevelDropdownMenuProps {
     url?: string;
     icon?: Element;
     action?: () => void;
+    newTab?: boolean;
   }[];
 }
 
@@ -39,7 +40,9 @@ export const SingleLevelDropdownMenu = ({
                 key={index}
                 className={`relative flex p-2 items-center gap-4 animate-fade font-saira text-[18px] hover:bg-gray-300 hover:cursor-pointer rounded-md`}
               >
-                <Link href={item.url!}>{item.title}</Link>
+                <Link href={item.url!} target={item.newTab ? "_blank" : ""}>
+                  {item.title}
+                </Link>
               </li>
             ))}
           </ul>

@@ -138,7 +138,14 @@ export default function Header() {
               buttonLabel="Projekte"
               showDropdown={showDropdownProjekte}
               toggleDropdown={toggleDropdownProjekte}
-              items={[{ title: "Wortwahl", url: "/projekte/wortwahl" }]}
+              items={[
+                { title: "Wortwahl 💬", url: "/projekte/wortwahl" },
+                {
+                  title: "Skatespace 🖥",
+                  url: "http://skatespace.vercel.app",
+                  newTab: true,
+                },
+              ]}
             />
           </div>
 
@@ -208,7 +215,18 @@ export default function Header() {
               buttonLabel="Projekte"
               showDropdown={showDropdownProjekte}
               toggleDropdown={toggleDropdownProjekte}
-              items={[{ title: "Wortwahl", url: "/projekte/wortwahl" }]}
+              items={[
+                {
+                  title: "Wortwahl 💬",
+                  url: "/projekte/wortwahl",
+                  newTab: false,
+                },
+                {
+                  title: "Skatespace 🖥",
+                  url: "http://skatespace.vercel.app",
+                  newTab: true,
+                },
+              ]}
             />
 
             {headerItems.map((item, itemIndex) => (

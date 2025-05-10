@@ -10,6 +10,7 @@ interface SideBarDropDownProps {
     url?: string;
     icon?: Element;
     action?: () => void;
+    newTab?: boolean;
   }[];
 }
 
@@ -39,7 +40,9 @@ export const SideBarDropDown = ({
                 key={index}
                 className={`relative flex text-md animate-delay-150 animate-fade items-center gap-4 font-saira p-2 m-2`}
               >
-                <Link href={item.url!}>{item.title}</Link>
+                <Link href={item.url!} target={item.newTab ? "_blank" : ""}>
+                  {item.title}
+                </Link>
               </li>
             ))}
           </ul>
