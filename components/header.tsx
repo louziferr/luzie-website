@@ -55,7 +55,7 @@ export default function Header() {
   }, [location]);
 
   useEffect(() => {
-    const handleScroll = () => {
+    function handleScroll() {
       const currentScrollY = window.scrollY;
       const windowHeight = window.innerHeight;
       const fullHeight = document.documentElement.scrollHeight;
@@ -95,7 +95,7 @@ export default function Header() {
       }
 
       setTopShiftString(`-${topShift}px`);
-    };
+    }
 
     window.addEventListener("scroll", handleScroll);
 
