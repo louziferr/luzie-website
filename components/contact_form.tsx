@@ -11,7 +11,7 @@ interface ContactFormProps {
   english: boolean;
 }
 
-export default function ContactForm({ english = false }: ContactFormProps) {
+export default function ContactForm({ english }: ContactFormProps) {
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",

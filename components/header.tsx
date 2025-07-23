@@ -173,11 +173,22 @@ export default function Header({ english }: HeaderProps) {
             <Link
               key={itemIndex}
               href={item[1]}
-              className="nav-link border-l-2 border-gray-400"
+              className="nav-link border-gray-400"
             >
               {item[0]}
             </Link>
           ))}
+
+          <Link
+            href={english ? "/" : "/eng"}
+            className="flex items-center justify-center ml-3 mr-3 w-10 h-10 cursor-pointer"
+          >
+            <img
+              className="w-6 h-6 rounded-full border-black border-2"
+              src={english ? "/german.png" : "/english.jpg"}
+              alt="language"
+            />
+          </Link>
         </nav>
 
         <button
@@ -268,6 +279,17 @@ export default function Header({ english }: HeaderProps) {
                 {item[0]}
               </Link>
             ))}
+
+            <Link
+              href={english ? "/" : "/eng"}
+              className="flex items-center justify-center ml-3 mr-3 w-10 h-10 cursor-pointer"
+            >
+              <img
+                className="w-6 h-6 rounded-full border-black border-2"
+                src={english ? "/german.png" : "/english.jpg"}
+                alt="language"
+              />
+            </Link>
           </div>
         </div>
       )}

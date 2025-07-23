@@ -36,7 +36,7 @@ export default function Kontakt() {
             </div>
           </div>
 
-          <ContactForm />
+          <ContactForm english={false} />
         </div>
       </div>
     </>

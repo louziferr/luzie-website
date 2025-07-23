@@ -34,7 +34,7 @@ export default function RootLayout({
         {condition && <Header english={english_path} />}
 
         <div className="w-full">{children}</div>
-        {condition && <Footer />}
+        {condition && <Footer english={english_path} />}
       </body>
     </html>
   );

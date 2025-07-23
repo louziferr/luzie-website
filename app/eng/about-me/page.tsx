@@ -1,6 +1,6 @@
 "use client";
 
-export default function Programmierung() {
+export default function AboutMe() {
   return (
     <>
       <div className="pt-[40px] md:pt-[90px] bg-computer p-4 flex items-center justify-center flex-col">
@@ -38,8 +38,8 @@ export default function Programmierung() {
                 </p>
                 <div className="pt-0 p-4 flex items-start justify-center order-1 lg:order-2">
                   <img
-                    src="new_me.png"
-                    alt="ME"
+                    src="/new_me.png"
+                    alt="Luzie Ahrens"
                     className="h-[250px] p-4 md:h-[400px] lg:h-[550px] animate-delay-100 animate-fade shadow-md shadow-black bg-white"
                   />
                 </div>

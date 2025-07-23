@@ -1,17 +1,1 @@
-{
-  "node": {
-    "40f2c1f7731459f4c674c28d20aaa2f851f28f634b": {
-      "workers": {
-        "app/eng/contact/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fluzieahrens%2FArbeit%2FWeb%20Entwicklung%2FSofteWare%2Fsofte-ware%2Flib%2Fmail.ts%22%2C%5B%5B%2240f2c1f7731459f4c674c28d20aaa2f851f28f634b%22%2C%22sendMail%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/eng/contact/page": "action-browser"
-      }
-    }
-  },
-  "edge": {},
-  "encryptionKey": "uWT4DN9Eewb0OrURFLXlbQF6D3vvgbckAyzeEUwmwUQ="
-}
+{"node":{"40f2c1f7731459f4c674c28d20aaa2f851f28f634b":{"workers":{"app/eng/contact/page":{"moduleId":"4070","async":false},"app/kontakt/page":{"moduleId":"4070","async":false}},"layer":{"app/eng/contact/page":"action-browser","app/kontakt/page":"action-browser"}}},"edge":{},"encryptionKey":"uWT4DN9Eewb0OrURFLXlbQF6D3vvgbckAyzeEUwmwUQ="}
