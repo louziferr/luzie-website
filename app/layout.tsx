@@ -20,6 +20,7 @@ export default function RootLayout({
 }) {
   const pathname = usePathname();
   const condition = pathname !== "/wortwahl";
+  const english_path = pathname.includes("/eng");
   return (
     <html lang="de">
       <head>
@@ -30,7 +31,7 @@ export default function RootLayout({
         <title>Luzie Ahrens</title>
       </head>
       <body className="bg-primary w-full">
-        {condition && <Header />}
+        {condition && <Header english={english_path} />}
 
         <div className="w-full">{children}</div>
         {condition && <Footer />}

@@ -5,7 +5,10 @@ import { SingleLevelDropdownMenu } from "./dropdown";
 import { SideBarDropDown } from "./sidebar_dropdown";
 import { usePathname } from "next/navigation";
 
-export default function Header() {
+interface HeaderProps {
+  english: boolean;
+}
+export default function Header({ english }: HeaderProps) {
   const [sideBarVisible, setsideBarVisible] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const [showDropdownProjekte, setShowDropdownProjekte] = useState(false);
@@ -34,10 +37,18 @@ export default function Header() {
   }
 
   const headerHeight = 90;
-  const headerItems: string[][] = [
+
+  let headerItems: string[][] = [
     ["Über mich", "/ueber_mich"],
     ["Kontakt", "/kontakt"],
   ];
+
+  if (english) {
+    headerItems = [
+      ["About me", "/eng/about-me"],
+      ["Contact", "/eng/contact"],
+    ];
+  }
 
   const [lastScrollY, setLastScrollY] = useState(0); // Track the last scroll position
   const [topShiftString, setTopShiftString] = useState("-0px");
@@ -116,38 +127,47 @@ export default function Header() {
 
         <nav className="hidden md:flex items-center gap-1">
           <div>
-            <Link href="/" className="nav-link">
-              Startseite
+            <Link href={english ? "/eng" : "/"} className="nav-link">
+              {english ? "Home" : "Startseite"}
             </Link>
           </div>
           <div className="border-r-2 border-l-2 border-gray-400">
             <SingleLevelDropdownMenu
-              buttonLabel="Leistungen"
+              buttonLabel={english ? "Services" : "Leistungen"}
               showDropdown={showDropdown}
               toggleDropdown={toggleDropdown}
-              items={[
-                { title: "Web-Entwicklung", url: "/webentwicklung" },
-                { title: "Lehre", url: "/lehre" },
-                { title: "Programmierung", url: "/programmierung" },
-              ]}
+              items={
+                english
+                  ? [
+                      { title: "Web-Development", url: "/eng/web-development" },
+                      { title: "Teaching", url: "/eng/teaching" },
+                      { title: "Programming", url: "/eng/programming" },
+                    ]
+                  : [
+                      { title: "Web-Entwicklung", url: "/webentwicklung" },
+                      { title: "Lehre", url: "/lehre" },
+                      { title: "Programmierung", url: "/programmierung" },
+                    ]
+              }
             />
           </div>
-
-          <div>
-            <SingleLevelDropdownMenu
-              buttonLabel="Projekte"
-              showDropdown={showDropdownProjekte}
-              toggleDropdown={toggleDropdownProjekte}
-              items={[
-                { title: "Wortwahl 💬", url: "/projekte/wortwahl" },
-                {
-                  title: "Skatespace 🖥",
-                  url: "http://skatespace.vercel.app",
-                  newTab: true,
-                },
-              ]}
-            />
-          </div>
+          {!english && (
+            <div>
+              <SingleLevelDropdownMenu
+                buttonLabel={english ? "Projects" : "Projekte"}
+                showDropdown={showDropdownProjekte}
+                toggleDropdown={toggleDropdownProjekte}
+                items={[
+                  { title: "Wortwahl 💬", url: "/projekte/wortwahl" },
+                  {
+                    title: "Skatespace 🖥",
+                    url: "http://skatespace.vercel.app",
+                    newTab: true,
+                  },
+                ]}
+              />
+            </div>
+          )}
 
           {headerItems.map((item, itemIndex) => (
             <Link
@@ -195,39 +215,49 @@ export default function Header() {
           >
             <p className="text-4xl ml-4 mt-4 text-darkBlue font-anta">LA</p>
             <Link
-              href="/"
+              href={english ? "/eng" : "/"}
               className="nav-link text-xl mt-4 border-b-2 pb-2 border-gray-300"
             >
-              Startseite
+              {english ? "Home" : "Startseite"}
             </Link>
             <SideBarDropDown
-              buttonLabel="Leistungen"
+              buttonLabel={english ? "Services" : "Leistungen"}
               showDropdown={showDropdown}
               toggleDropdown={toggleDropdown}
-              items={[
-                { title: "Web-Entwicklung", url: "/webentwicklung" },
-                { title: "Lehre", url: "/lehre" },
-                { title: "Programmierung", url: "/programmierung" },
-              ]}
+              items={
+                english
+                  ? [
+                      { title: "Web-Development", url: "/eng/web-development" },
+                      { title: "Teaching", url: "/eng/teaching" },
+                      { title: "Programming", url: "/eng/programming" },
+                    ]
+                  : [
+                      { title: "Web-Entwicklung", url: "/webentwicklung" },
+                      { title: "Lehre", url: "/lehre" },
+                      { title: "Programmierung", url: "/programmierung" },
+                    ]
+              }
             />
 
-            <SideBarDropDown
-              buttonLabel="Projekte"
-              showDropdown={showDropdownProjekte}
-              toggleDropdown={toggleDropdownProjekte}
-              items={[
-                {
-                  title: "Wortwahl 💬",
-                  url: "/projekte/wortwahl",
-                  newTab: false,
-                },
-                {
-                  title: "Skatespace 🖥",
-                  url: "http://skatespace.vercel.app",
-                  newTab: true,
-                },
-              ]}
-            />
+            {!english && (
+              <SideBarDropDown
+                buttonLabel={english ? "Projects" : "Projekte"}
+                showDropdown={showDropdownProjekte}
+                toggleDropdown={toggleDropdownProjekte}
+                items={[
+                  {
+                    title: "Wortwahl 💬",
+                    url: "/projekte/wortwahl",
+                    newTab: false,
+                  },
+                  {
+                    title: "Skatespace 🖥",
+                    url: "http://skatespace.vercel.app",
+                    newTab: true,
+                  },
+                ]}
+              />
+            )}
 
             {headerItems.map((item, itemIndex) => (
               <Link

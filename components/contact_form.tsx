@@ -7,7 +7,11 @@ interface FormData {
   message: string;
 }
 
-export default function ContactForm() {
+interface ContactFormProps {
+  english: boolean;
+}
+
+export default function ContactForm({ english = false }: ContactFormProps) {
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
@@ -41,11 +45,17 @@ export default function ContactForm() {
 
   return (
     <div className="mt-8 p-2">
-      <h1 className="text-white text-left">Kontaktformular</h1>
+      <h1 className="text-white text-left">
+        {english ? "Contact form" : "Kontakformular"}
+      </h1>
       <div className="p-2">
         {success && (
           <div className="bg-teal-500 p-4 rounded mt-2 shadow-md shadow-black">
-            <p className="text-white">Nachricht wurde erfolgreich versendet!</p>
+            <p className="text-white">
+              {english
+                ? "Message was send successfully!"
+                : "Nachricht wurde erfolgreich versendet!"}
+            </p>
           </div>
         )}
       </div>
@@ -83,7 +93,7 @@ export default function ContactForm() {
         </div>
         <div className="flex flex-col font-mono mb-8">
           <label htmlFor="nachricht" className="text-white">
-            Nachricht
+            {english ? "Message" : "Nachricht"}
           </label>
           <textarea
             id="message"
@@ -100,7 +110,7 @@ export default function ContactForm() {
             type="submit"
             className="bg-blue p-2 w-1/2 rounded text-white font-mono border-2 border-white animate-pulse"
           >
-            Absenden
+            {english ? "Send" : "Absenden"}
           </button>
         </div>
       </form>
