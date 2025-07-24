@@ -1,19 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/send-mail/route": "app/api/send-mail/route.js",
-  "/eng/page": "app/eng/page.js",
-  "/eng/about-me/page": "app/eng/about-me/page.js",
-  "/eng/contact/page": "app/eng/contact/page.js",
-  "/eng/teaching/page": "app/eng/teaching/page.js",
-  "/eng/web-development/page": "app/eng/web-development/page.js",
-  "/lehre/page": "app/lehre/page.js",
-  "/programmierung/page": "app/programmierung/page.js",
-  "/kontakt/page": "app/kontakt/page.js",
   "/page": "app/page.js",
-  "/projekte/wortwahl/page": "app/projekte/wortwahl/page.js",
-  "/ueber_mich/page": "app/ueber_mich/page.js",
-  "/eng/programming/page": "app/eng/programming/page.js",
-  "/impressum/page": "app/impressum/page.js",
-  "/wortwahl/page": "app/wortwahl/page.js",
-  "/webentwicklung/page": "app/webentwicklung/page.js"
+  "/eng/page": "app/eng/page.js"
 }

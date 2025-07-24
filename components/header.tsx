@@ -178,17 +178,6 @@ export default function Header({ english }: HeaderProps) {
               {item[0]}
             </Link>
           ))}
-
-          <Link
-            href={english ? "/" : "/eng"}
-            className="flex items-center justify-center ml-3 mr-3 w-10 h-10 cursor-pointer"
-          >
-            <img
-              className="w-6 h-6 rounded-full border-black border-2"
-              src={english ? "/german.png" : "/english.jpg"}
-              alt="language"
-            />
-          </Link>
         </nav>
 
         <button
@@ -280,16 +269,30 @@ export default function Header({ english }: HeaderProps) {
               </Link>
             ))}
 
-            <Link
-              href={english ? "/" : "/eng"}
-              className="flex items-center justify-center ml-3 mr-3 w-10 h-10 cursor-pointer"
-            >
-              <img
-                className="w-6 h-6 rounded-full border-black border-2"
-                src={english ? "/german.png" : "/english.jpg"}
-                alt="language"
-              />
-            </Link>
+            <div className="flex justify-around border-2 rounded-md p-1 text-[12px]">
+              <Link href="/" className="cursor-pointer">
+                <p
+                  className={
+                    english
+                      ? "font-thin pr-1 text-sm"
+                      : "font-extrabold pr-1 text-sm"
+                  }
+                >
+                  DE
+                </p>
+              </Link>
+              <Link href="/eng" className="cursor-pointer">
+                <p
+                  className={
+                    english
+                      ? "font-bold pl-2 text-sm"
+                      : "font-thin pl-2 text-sm"
+                  }
+                >
+                  ENG
+                </p>
+              </Link>
+            </div>
           </div>
         </div>
       )}
