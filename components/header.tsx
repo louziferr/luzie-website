@@ -178,6 +178,29 @@ export default function Header({ english }: HeaderProps) {
               {item[0]}
             </Link>
           ))}
+
+          <div className="flex justify-around border-2 rounded-md p-1 text-[12px]">
+            <Link href="/" className="cursor-pointer">
+              <p
+                className={
+                  english
+                    ? "font-thin pr-1 text-sm"
+                    : "font-extrabold pr-1 text-sm"
+                }
+              >
+                DE
+              </p>
+            </Link>
+            <Link href="/eng" className="cursor-pointer">
+              <p
+                className={
+                  english ? "font-bold pl-2 text-sm" : "font-thin pl-2 text-sm"
+                }
+              >
+                ENG
+              </p>
+            </Link>
+          </div>
         </nav>
 
         <button
