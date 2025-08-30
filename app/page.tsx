@@ -225,6 +225,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <img src="new_me.png" alt="ME" className="hidden" />
     </>
   );
 }
