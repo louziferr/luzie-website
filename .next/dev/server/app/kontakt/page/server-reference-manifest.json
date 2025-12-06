@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40afea3b0eda2e38ed1018b7450b5e963a41bcda6c": {
+      "workers": {
+        "app/kontakt/page": {
+          "moduleId": "[project]/.next-internal/server/app/kontakt/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/mail.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "sendMail",
+          "filename": "lib/mail.ts"
+        }
+      },
+      "layer": {
+        "app/kontakt/page": "action-browser"
+      },
+      "exportedName": "sendMail",
+      "filename": "lib/mail.ts"
+    }
+  },
+  "edge": {}
+}

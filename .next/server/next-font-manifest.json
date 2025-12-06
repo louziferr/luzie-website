@@ -1,1 +1,23 @@
-{"pages":{},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}
+{
+  "app": {
+    "[project]/app/_not-found/page": [],
+    "[project]/app/eng/about-me/page": [],
+    "[project]/app/eng/contact/page": [],
+    "[project]/app/eng/page": [],
+    "[project]/app/eng/programming/page": [],
+    "[project]/app/eng/teaching/page": [],
+    "[project]/app/eng/web-development/page": [],
+    "[project]/app/impressum/page": [],
+    "[project]/app/kontakt/page": [],
+    "[project]/app/lehre/page": [],
+    "[project]/app/page": [],
+    "[project]/app/programmierung/page": [],
+    "[project]/app/projekte/wortwahl/page": [],
+    "[project]/app/ueber_mich/page": [],
+    "[project]/app/webentwicklung/page": [],
+    "[project]/app/wortwahl/page": []
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

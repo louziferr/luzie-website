@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40c9ffd8e75584f8853e52d9be288b3a06974f0bb9": {
+      "workers": {
+        "app/kontakt/page": {
+          "moduleId": 97313,
+          "async": false,
+          "exportedName": "sendMail",
+          "filename": "lib/mail.ts"
+        }
+      },
+      "layer": {
+        "app/kontakt/page": "action-browser"
+      },
+      "exportedName": "sendMail",
+      "filename": "lib/mail.ts"
+    }
+  },
+  "edge": {}
+}

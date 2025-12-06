@@ -1,1 +1,20 @@
-{"/api/send-mail/route":"/api/send-mail","/_not-found/page":"/_not-found","/eng/page":"/eng","/kontakt/page":"/kontakt","/eng/web-development/page":"/eng/web-development","/eng/teaching/page":"/eng/teaching","/eng/contact/page":"/eng/contact","/impressum/page":"/impressum","/projekte/wortwahl/page":"/projekte/wortwahl","/lehre/page":"/lehre","/page":"/","/programmierung/page":"/programmierung","/ueber_mich/page":"/ueber_mich","/eng/about-me/page":"/eng/about-me","/webentwicklung/page":"/webentwicklung","/eng/programming/page":"/eng/programming","/wortwahl/page":"/wortwahl"}
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/send-mail/route": "/api/send-mail",
+  "/eng/about-me/page": "/eng/about-me",
+  "/eng/contact/page": "/eng/contact",
+  "/eng/page": "/eng",
+  "/eng/programming/page": "/eng/programming",
+  "/eng/teaching/page": "/eng/teaching",
+  "/eng/web-development/page": "/eng/web-development",
+  "/impressum/page": "/impressum",
+  "/kontakt/page": "/kontakt",
+  "/lehre/page": "/lehre",
+  "/page": "/",
+  "/programmierung/page": "/programmierung",
+  "/projekte/wortwahl/page": "/projekte/wortwahl",
+  "/ueber_mich/page": "/ueber_mich",
+  "/webentwicklung/page": "/webentwicklung",
+  "/wortwahl/page": "/wortwahl"
+}

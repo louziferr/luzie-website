@@ -1,7 +1,16 @@
 {
   "headers": {
-    "x-nextjs-stale-time": "4294967294",
+    "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/projekte/layout,_N_T_/projekte/wortwahl/layout,_N_T_/projekte/wortwahl/page,_N_T_/projekte/wortwahl"
-  }
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/projekte/wortwahl/__PAGE__",
+    "/projekte/wortwahl",
+    "/projekte",
+    "/_index",
+    "/_head"
+  ]
 }

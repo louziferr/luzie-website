@@ -1,0 +1,12 @@
+{
+  "app": {
+    "[project]/app/eng/page": [],
+    "[project]/app/kontakt/page": [],
+    "[project]/app/page": [],
+    "[project]/app/projekte/wortwahl/page": [],
+    "[project]/app/webentwicklung/page": []
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

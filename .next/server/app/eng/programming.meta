@@ -1,7 +1,16 @@
 {
   "headers": {
-    "x-nextjs-stale-time": "4294967294",
+    "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/eng/layout,_N_T_/eng/programming/layout,_N_T_/eng/programming/page,_N_T_/eng/programming"
-  }
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/eng/programming/__PAGE__",
+    "/eng/programming",
+    "/eng",
+    "/_index",
+    "/_head"
+  ]
 }
