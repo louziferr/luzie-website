@@ -6,6 +6,6 @@ ${d}`},g={from:process.env.GMAIL_USER,to:b,subject:"Deine Kontaktanfrage",text:`
 Vielen Dank f\xfcr deine Nachricht. Ich werde mich so schnell wie m\xf6glich zur\xfcckmelden.
 
 Ihre Nachricht:
-${d}`};try{return await e.sendMail(f),await e.sendMail(g),!0}catch(a){return console.error("Error sending email:",a),!1}}(0,a.i(13095).ensureServerEntryExports)([d]),(0,b.registerServerReference)(d,"40c9ffd8e75584f8853e52d9be288b3a06974f0bb9",null),a.s(["sendMail",()=>d])}];
+${d}`};try{return await e.sendMail(f),await e.sendMail(g),!0}catch(a){return console.error("Error sending email:",a),!1}}(0,a.i(13095).ensureServerEntryExports)([d]),(0,b.registerServerReference)(d,"40b251e1efc5e9df829da3552bce9d712a8f177246",null),a.s(["sendMail",()=>d])}];
 
 //# sourceMappingURL=_ccb98ce5._.js.map
