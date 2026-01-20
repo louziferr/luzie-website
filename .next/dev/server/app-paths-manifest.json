@@ -1,7 +1,6 @@
 {
+  "/eng/about-me/page": "app/eng/about-me/page.js",
   "/eng/page": "app/eng/page.js",
-  "/kontakt/page": "app/kontakt/page.js",
   "/page": "app/page.js",
-  "/projekte/wortwahl/page": "app/projekte/wortwahl/page.js",
-  "/webentwicklung/page": "app/webentwicklung/page.js"
+  "/ueber_mich/page": "app/ueber_mich/page.js"
 }

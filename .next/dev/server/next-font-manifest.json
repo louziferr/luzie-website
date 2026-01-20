@@ -1,10 +1,9 @@
 {
   "app": {
+    "[project]/app/eng/about-me/page": [],
     "[project]/app/eng/page": [],
-    "[project]/app/kontakt/page": [],
     "[project]/app/page": [],
-    "[project]/app/projekte/wortwahl/page": [],
-    "[project]/app/webentwicklung/page": []
+    "[project]/app/ueber_mich/page": []
   },
   "appUsingSizeAdjust": true,
   "pages": {},

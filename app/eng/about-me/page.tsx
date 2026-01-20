@@ -70,6 +70,15 @@ export default function AboutMe() {
                   <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
+                  since 2026 - Software Developer for XRwise gUG
+                </p>
+              </li>
+
+              <li className="p-1 flex items-center">
+                <div className="relative flex">
+                  <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                </div>
+                <p className="text-white">
                   since 2024 - Lecturer for Computer Science at IBB Institut für
                   berufliche Bildung AG
                 </p>

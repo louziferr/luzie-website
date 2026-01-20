@@ -71,6 +71,15 @@ export default function Programmierung() {
                   <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
                 </div>
                 <p className="text-white">
+                  seit 2026 - Software Entwicklerin für XRwise gUG
+                </p>
+              </li>
+
+              <li className="p-1 flex items-center">
+                <div className="relative flex">
+                  <div className="bg-sky-500 text-xl md:text-3xl font-alfa mr-3 rounded-full w-[10px] h-[10px]"></div>
+                </div>
+                <p className="text-white">
                   seit 2024 - Dozentin für Informatik bei IBB Institut für
                   berufliche Bildung AG
                 </p>
