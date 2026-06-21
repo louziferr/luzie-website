@@ -46,6 +46,12 @@
       "namedRegex": "^/api/send\\-mail(?:/)?$"
     },
     {
+      "page": "/app-entwicklung",
+      "regex": "^/app\\-entwicklung(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/app\\-entwicklung(?:/)?$"
+    },
+    {
       "page": "/eng",
       "regex": "^/eng(?:/)?$",
       "routeKeys": {},
@@ -56,6 +62,12 @@
       "regex": "^/eng/about\\-me(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/eng/about\\-me(?:/)?$"
+    },
+    {
+      "page": "/eng/app-development",
+      "regex": "^/eng/app\\-development(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/eng/app\\-development(?:/)?$"
     },
     {
       "page": "/eng/contact",

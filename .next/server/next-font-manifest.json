@@ -1,7 +1,9 @@
 {
   "app": {
     "[project]/app/_not-found/page": [],
+    "[project]/app/app-entwicklung/page": [],
     "[project]/app/eng/about-me/page": [],
+    "[project]/app/eng/app-development/page": [],
     "[project]/app/eng/contact/page": [],
     "[project]/app/eng/page": [],
     "[project]/app/eng/programming/page": [],

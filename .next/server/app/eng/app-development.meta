@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/eng/layout,_N_T_/eng/app-development/layout,_N_T_/eng/app-development/page,_N_T_/eng/app-development"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/eng/app-development/__PAGE__",
+    "/eng/app-development",
+    "/eng",
+    "/_index",
+    "/_head"
+  ]
+}
