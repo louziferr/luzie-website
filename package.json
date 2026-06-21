@@ -52,6 +52,7 @@
     "@types/react": "^19",
     "@types/react-animate-on-scroll": "^2.1.8",
     "@types/react-dom": "^19",
+    "baseline-browser-mapping": "^2.10.38",
     "eslint-config-next": "^16.0.7",
     "eslint-plugin-react": "^7.37.4",
     "globals": "^15.14.0",

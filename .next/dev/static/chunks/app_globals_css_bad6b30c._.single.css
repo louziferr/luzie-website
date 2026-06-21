@@ -692,7 +692,7 @@ p {
   max-width: 1280px;
 }
 
-.flex-grow {
+.flex-grow, .grow {
   flex-grow: 1;
 }
 

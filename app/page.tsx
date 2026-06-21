@@ -83,7 +83,7 @@ export default function Home() {
             <div className="flex items-center justify-center w-full order-4 md:order-3">
               <ScrollAnimation animateOnce={true} animateIn="animate-jump-in">
                 <div className="animate-grow-little flex items-center justify-center w-[80px] h-[80px] m-4 bg-green rounded p-4 shadow-lg shadow-green">
-                  <img src="/svg/imac.svg" alt="pencil" />
+                  <img src="/svg/programming.svg" alt="program" />
                 </div>
               </ScrollAnimation>
             </div>

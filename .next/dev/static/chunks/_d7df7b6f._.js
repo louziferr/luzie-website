@@ -366,6 +366,10 @@ function Header({ english }) {
                                             url: "/eng/web-development"
                                         },
                                         {
+                                            title: "App-Development",
+                                            url: "/eng/app-development"
+                                        },
+                                        {
                                             title: "Teaching",
                                             url: "/eng/teaching"
                                         },
@@ -377,6 +381,10 @@ function Header({ english }) {
                                         {
                                             title: "Web-Entwicklung",
                                             url: "/webentwicklung"
+                                        },
+                                        {
+                                            title: "App-Entwicklung",
+                                            url: "/app-entwicklung"
                                         },
                                         {
                                             title: "Lehre",
@@ -406,21 +414,16 @@ function Header({ english }) {
                                         {
                                             title: "Wortwahl 💬",
                                             url: "/projekte/wortwahl"
-                                        },
-                                        {
-                                            title: "Skatespace 🖥",
-                                            url: "http://skatespace.vercel.app",
-                                            newTab: true
                                         }
                                     ]
                                 }, void 0, false, {
                                     fileName: "[project]/components/header.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 158,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/header.tsx",
-                                lineNumber: 155,
+                                lineNumber: 157,
                                 columnNumber: 13
                             }, this),
                             headerItems.map((item, itemIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -429,7 +432,7 @@ function Header({ english }) {
                                     children: item[0]
                                 }, itemIndex, false, {
                                     fileName: "[project]/components/header.tsx",
-                                    lineNumber: 173,
+                                    lineNumber: 170,
                                     columnNumber: 13
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -443,12 +446,12 @@ function Header({ english }) {
                                             children: "DE"
                                         }, void 0, false, {
                                             fileName: "[project]/components/header.tsx",
-                                            lineNumber: 184,
+                                            lineNumber: 181,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header.tsx",
-                                        lineNumber: 183,
+                                        lineNumber: 180,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -459,18 +462,18 @@ function Header({ english }) {
                                             children: "ENG"
                                         }, void 0, false, {
                                             fileName: "[project]/components/header.tsx",
-                                            lineNumber: 195,
+                                            lineNumber: 192,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header.tsx",
-                                        lineNumber: 194,
+                                        lineNumber: 191,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/header.tsx",
-                                lineNumber: 182,
+                                lineNumber: 179,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -496,17 +499,17 @@ function Header({ english }) {
                                 d: "M4 6h16M4 12h16m-7 6h7"
                             }, void 0, false, {
                                 fileName: "[project]/components/header.tsx",
-                                lineNumber: 218,
+                                lineNumber: 215,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header.tsx",
-                            lineNumber: 211,
+                            lineNumber: 208,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/header.tsx",
-                        lineNumber: 206,
+                        lineNumber: 203,
                         columnNumber: 9
                     }, this)
                 ]
@@ -523,7 +526,7 @@ function Header({ english }) {
                         onClick: hideSideBar
                     }, void 0, false, {
                         fileName: "[project]/components/header.tsx",
-                        lineNumber: 230,
+                        lineNumber: 227,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -535,7 +538,7 @@ function Header({ english }) {
                                 children: "LA"
                             }, void 0, false, {
                                 fileName: "[project]/components/header.tsx",
-                                lineNumber: 239,
+                                lineNumber: 236,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -544,7 +547,7 @@ function Header({ english }) {
                                 children: english ? "Home" : "Startseite"
                             }, void 0, false, {
                                 fileName: "[project]/components/header.tsx",
-                                lineNumber: 240,
+                                lineNumber: 237,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$sidebar_dropdown$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SideBarDropDown"], {
@@ -555,6 +558,10 @@ function Header({ english }) {
                                     {
                                         title: "Web-Development",
                                         url: "/eng/web-development"
+                                    },
+                                    {
+                                        title: "App-Development",
+                                        url: "/eng/app-development"
                                     },
                                     {
                                         title: "Teaching",
@@ -570,6 +577,10 @@ function Header({ english }) {
                                         url: "/webentwicklung"
                                     },
                                     {
+                                        title: "App-Entwicklung",
+                                        url: "/app-entwicklung"
+                                    },
+                                    {
                                         title: "Lehre",
                                         url: "/lehre"
                                     },
@@ -580,7 +591,7 @@ function Header({ english }) {
                                 ]
                             }, void 0, false, {
                                 fileName: "[project]/components/header.tsx",
-                                lineNumber: 246,
+                                lineNumber: 243,
                                 columnNumber: 13
                             }, this),
                             !english && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$sidebar_dropdown$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SideBarDropDown"], {
@@ -592,16 +603,11 @@ function Header({ english }) {
                                         title: "Wortwahl 💬",
                                         url: "/projekte/wortwahl",
                                         newTab: false
-                                    },
-                                    {
-                                        title: "Skatespace 🖥",
-                                        url: "http://skatespace.vercel.app",
-                                        newTab: true
                                     }
                                 ]
                             }, void 0, false, {
                                 fileName: "[project]/components/header.tsx",
-                                lineNumber: 266,
+                                lineNumber: 265,
                                 columnNumber: 15
                             }, this),
                             headerItems.map((item, itemIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -610,7 +616,7 @@ function Header({ english }) {
                                     children: item[0]
                                 }, itemIndex, false, {
                                     fileName: "[project]/components/header.tsx",
-                                    lineNumber: 286,
+                                    lineNumber: 280,
                                     columnNumber: 15
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -624,12 +630,12 @@ function Header({ english }) {
                                             children: "DE"
                                         }, void 0, false, {
                                             fileName: "[project]/components/header.tsx",
-                                            lineNumber: 297,
+                                            lineNumber: 291,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 290,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -640,30 +646,30 @@ function Header({ english }) {
                                             children: "ENG"
                                         }, void 0, false, {
                                             fileName: "[project]/components/header.tsx",
-                                            lineNumber: 308,
+                                            lineNumber: 302,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header.tsx",
-                                        lineNumber: 307,
+                                        lineNumber: 301,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/header.tsx",
-                                lineNumber: 295,
+                                lineNumber: 289,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/header.tsx",
-                        lineNumber: 234,
+                        lineNumber: 231,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/header.tsx",
-                lineNumber: 229,
+                lineNumber: 226,
                 columnNumber: 9
             }, this)
         ]

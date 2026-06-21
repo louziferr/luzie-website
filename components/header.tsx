@@ -140,11 +140,13 @@ export default function Header({ english }: HeaderProps) {
                 english
                   ? [
                       { title: "Web-Development", url: "/eng/web-development" },
+                      { title: "App-Development", url: "/eng/app-development" },
                       { title: "Teaching", url: "/eng/teaching" },
                       { title: "Programming", url: "/eng/programming" },
                     ]
                   : [
                       { title: "Web-Entwicklung", url: "/webentwicklung" },
+                      { title: "App-Entwicklung", url: "/app-entwicklung" },
                       { title: "Lehre", url: "/lehre" },
                       { title: "Programmierung", url: "/programmierung" },
                     ]
@@ -159,11 +161,6 @@ export default function Header({ english }: HeaderProps) {
                 toggleDropdown={toggleDropdownProjekte}
                 items={[
                   { title: "Wortwahl 💬", url: "/projekte/wortwahl" },
-                  {
-                    title: "Skatespace 🖥",
-                    url: "http://skatespace.vercel.app",
-                    newTab: true,
-                  },
                 ]}
               />
             </div>
@@ -251,11 +248,13 @@ export default function Header({ english }: HeaderProps) {
                 english
                   ? [
                       { title: "Web-Development", url: "/eng/web-development" },
+                      { title: "App-Development", url: "/eng/app-development" },
                       { title: "Teaching", url: "/eng/teaching" },
                       { title: "Programming", url: "/eng/programming" },
                     ]
                   : [
                       { title: "Web-Entwicklung", url: "/webentwicklung" },
+                      { title: "App-Entwicklung", url: "/app-entwicklung" },
                       { title: "Lehre", url: "/lehre" },
                       { title: "Programmierung", url: "/programmierung" },
                     ]
@@ -272,11 +271,6 @@ export default function Header({ english }: HeaderProps) {
                     title: "Wortwahl 💬",
                     url: "/projekte/wortwahl",
                     newTab: false,
-                  },
-                  {
-                    title: "Skatespace 🖥",
-                    url: "http://skatespace.vercel.app",
-                    newTab: true,
                   },
                 ]}
               />

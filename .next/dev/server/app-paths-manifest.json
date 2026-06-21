@@ -1,6 +1,11 @@
 {
-  "/eng/about-me/page": "app/eng/about-me/page.js",
+  "/app-entwicklung/page": "app/app-entwicklung/page.js",
+  "/eng/app-development/page": "app/eng/app-development/page.js",
   "/eng/page": "app/eng/page.js",
+  "/lehre/page": "app/lehre/page.js",
   "/page": "app/page.js",
-  "/ueber_mich/page": "app/ueber_mich/page.js"
+  "/programmierung/page": "app/programmierung/page.js",
+  "/projekte/wortwahl/page": "app/projekte/wortwahl/page.js",
+  "/ueber_mich/page": "app/ueber_mich/page.js",
+  "/webentwicklung/page": "app/webentwicklung/page.js"
 }
